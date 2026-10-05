@@ -1,0 +1,18 @@
+# Files Cloudflare must NOT upload as website assets (gitignore syntax).
+# Without this, `wrangler deploy` with assets.directory "." also uploads
+# node_modules (wrangler/workerd is 128 MiB) and fails the 25 MiB limit.
+node_modules
+.git
+.wrangler
+.claude
+.vscode
+.vexp
+**/.DS_Store
+.gitignore
+.assetsignore
+package.json
+package-lock.json
+wrangler.json
+wrangler.jsonc
+wrangler.toml
+README.md
