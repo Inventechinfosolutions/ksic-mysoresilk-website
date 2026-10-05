@@ -13,7 +13,6 @@
    "swatch": "#25335c",
    "price": 56102,
    "image": "assets/images/web/products/84-550-6-gandaberunda.webp",
-   "imageFull": "assets/images/products/84-550-6-gandaberunda.jpg",
    "url": "https://www.ksicsilk.com/product/getArticle/84",
    "designs": [
     {
@@ -39,7 +38,6 @@
    "swatch": "#c4161c",
    "price": 3772,
    "image": "assets/images/web/products/80-tie-pocket-sq-gift-set-box.webp",
-   "imageFull": "assets/images/products/80-tie-pocket-sq-gift-set-box.jpg",
    "url": "https://www.ksicsilk.com/product/getDetails/80",
    "designs": [],
    "type": "gift-set",
@@ -57,7 +55,6 @@
    "swatch": "#2253b8",
    "price": 3772,
    "image": "assets/images/web/products/78-tie-pocket-sq-gift-set-box.webp",
-   "imageFull": "assets/images/products/78-tie-pocket-sq-gift-set-box.jpg",
    "url": "https://www.ksicsilk.com/product/getDetails/78",
    "designs": [],
    "type": "gift-set",
@@ -75,7 +72,6 @@
    "swatch": "#c4161c",
    "price": 3772,
    "image": "assets/images/web/products/77-tie-pocket-sq-gift-set-box.webp",
-   "imageFull": "assets/images/products/77-tie-pocket-sq-gift-set-box.jpg",
    "url": "https://www.ksicsilk.com/product/getDetails/77",
    "designs": [],
    "type": "gift-set",
@@ -93,7 +89,6 @@
    "swatch": "#2c3133",
    "price": 6342,
    "image": "assets/images/web/products/76-silk-kurta.webp",
-   "imageFull": "assets/images/products/76-silk-kurta.jpg",
    "url": "https://www.ksicsilk.com/product/getDetails/76",
    "designs": [],
    "type": "kurta",
@@ -111,7 +106,6 @@
    "swatch": "#f2b6c2",
    "price": 6342,
    "image": "assets/images/web/products/75-silk-kurta.webp",
-   "imageFull": "assets/images/products/75-silk-kurta.jpg",
    "url": "https://www.ksicsilk.com/product/getDetails/75",
    "designs": [],
    "type": "kurta",
@@ -129,7 +123,6 @@
    "swatch": "#cdeceb",
    "price": 6342,
    "image": "assets/images/web/products/74-silk-kurta.webp",
-   "imageFull": "assets/images/products/74-silk-kurta.jpg",
    "url": "https://www.ksicsilk.com/product/getDetails/74",
    "designs": [],
    "type": "kurta",
@@ -147,7 +140,6 @@
    "swatch": "#7d1840",
    "price": 6342,
    "image": "assets/images/web/products/73-silk-kurta.webp",
-   "imageFull": "assets/images/products/73-silk-kurta.jpg",
    "url": "https://www.ksicsilk.com/product/getDetails/73",
    "designs": [],
    "type": "kurta",
@@ -165,7 +157,6 @@
    "swatch": "#7d1840",
    "price": 6342,
    "image": "assets/images/web/products/72-silk-kurta.webp",
-   "imageFull": "assets/images/products/72-silk-kurta.jpg",
    "url": "https://www.ksicsilk.com/product/getDetails/72",
    "designs": [],
    "type": "kurta",
@@ -183,7 +174,6 @@
    "swatch": "#2c3133",
    "price": 5001,
    "image": "assets/images/web/products/71-colour-silk-shirts.webp",
-   "imageFull": "assets/images/products/71-colour-silk-shirts.jpg",
    "url": "https://www.ksicsilk.com/product/getDetails/71",
    "designs": [],
    "type": "shirt",
@@ -201,7 +191,6 @@
    "swatch": "#127a4c",
    "price": 5001,
    "image": "assets/images/web/products/70-colour-silk-shirts.webp",
-   "imageFull": "assets/images/products/70-colour-silk-shirts.jpg",
    "url": "https://www.ksicsilk.com/product/getDetails/70",
    "designs": [],
    "type": "shirt",
@@ -219,7 +208,6 @@
    "swatch": "#7a1730",
    "price": 2570,
    "image": "assets/images/web/products/69-tie.webp",
-   "imageFull": "assets/images/products/69-tie.jpg",
    "url": "https://www.ksicsilk.com/product/getDetails/69",
    "designs": [],
    "type": "tie",
@@ -237,7 +225,6 @@
    "swatch": "#141a33",
    "price": 2570,
    "image": "assets/images/web/products/68-tie.webp",
-   "imageFull": "assets/images/products/68-tie.jpg",
    "url": "https://www.ksicsilk.com/product/getDetails/68",
    "designs": [],
    "type": "tie",
@@ -255,7 +242,6 @@
    "swatch": "#7a7f86",
    "price": 2570,
    "image": "assets/images/web/products/67-tie.webp",
-   "imageFull": "assets/images/products/67-tie.jpg",
    "url": "https://www.ksicsilk.com/product/getDetails/67",
    "designs": [],
    "type": "tie",
@@ -273,7 +259,6 @@
    "swatch": "#b0122a",
    "price": 2570,
    "image": "assets/images/web/products/66-tie.webp",
-   "imageFull": "assets/images/products/66-tie.jpg",
    "url": "https://www.ksicsilk.com/product/getDetails/66",
    "designs": [],
    "type": "tie",
@@ -291,7 +276,6 @@
    "swatch": "#262046",
    "price": 2570,
    "image": "assets/images/web/products/63-tie.webp",
-   "imageFull": "assets/images/products/63-tie.jpg",
    "url": "https://www.ksicsilk.com/product/getDetails/63",
    "designs": [],
    "type": "tie",
@@ -309,7 +293,6 @@
    "swatch": "#145c2c",
    "price": 153877,
    "image": "assets/images/web/products/62-550-8k8-uni.webp",
-   "imageFull": "assets/images/products/62-550-8k8-uni.jpg",
    "url": "https://www.ksicsilk.com/product/getArticle/62",
    "designs": [
     {
@@ -335,7 +318,6 @@
    "swatch": "#d9a521",
    "price": 5001,
    "image": "assets/images/web/products/58-colour-silk-shirts.webp",
-   "imageFull": "assets/images/products/58-colour-silk-shirts.jpg",
    "url": "https://www.ksicsilk.com/product/getDetails/58",
    "designs": [],
    "type": "shirt",
@@ -353,7 +335,6 @@
    "swatch": "#1aa79c",
    "price": 62568,
    "image": "assets/images/web/products/52-2550-2g1018-uni-georgette-saree.webp",
-   "imageFull": "assets/images/products/52-2550-2g1018-uni-georgette-saree.jpg",
    "url": "https://www.ksicsilk.com/product/getArticle/52",
    "designs": [
     {
@@ -379,7 +360,6 @@
    "swatch": "#3a4a78",
    "price": 28326,
    "image": "assets/images/web/products/51-560-2-uni.webp",
-   "imageFull": "assets/images/products/51-560-2-uni.jpg",
    "url": "https://www.ksicsilk.com/product/getArticle/51",
    "designs": [
     {
@@ -416,7 +396,6 @@
    "swatch": "#1c2559",
    "price": 56102,
    "image": "assets/images/web/products/49-550-6-uni.webp",
-   "imageFull": "assets/images/products/49-550-6-uni.jpg",
    "url": "https://www.ksicsilk.com/product/getArticle/49",
    "designs": [
     {
@@ -441,7 +420,6 @@
    "swatch": "#d53a8c",
    "price": 128726,
    "image": "assets/images/web/products/48-550-6-k3-uni.webp",
-   "imageFull": "assets/images/products/48-550-6-k3-uni.jpg",
    "url": "https://www.ksicsilk.com/product/getArticle/48",
    "designs": [
     {
@@ -467,7 +445,6 @@
    "swatch": "#ece2c4",
    "price": 144412,
    "image": "assets/images/web/products/47-550-6-k2-uni.webp",
-   "imageFull": "assets/images/products/47-550-6-k2-uni.jpg",
    "url": "https://www.ksicsilk.com/product/getArticle/47",
    "designs": [
     {
@@ -493,7 +470,6 @@
    "swatch": "#ea5a10",
    "price": 59304,
    "image": "assets/images/web/products/46-550-6-cd.webp",
-   "imageFull": "assets/images/products/46-550-6-cd.jpg",
    "url": "https://www.ksicsilk.com/product/getArticle/46",
    "designs": [
     {
@@ -518,7 +494,6 @@
    "swatch": "#4d1a8a",
    "price": 64152,
    "image": "assets/images/web/products/45-550-4g-1018-uni.webp",
-   "imageFull": "assets/images/products/45-550-4g-1018-uni.jpg",
    "url": "https://www.ksicsilk.com/product/getArticle/45",
    "designs": [
     {
@@ -555,7 +530,6 @@
    "swatch": "#2b3fbf",
    "price": 67395,
    "image": "assets/images/web/products/44-550-4g-1018-cd.webp",
-   "imageFull": "assets/images/products/44-550-4g-1018-cd.jpg",
    "url": "https://www.ksicsilk.com/product/getArticle/44",
    "designs": [
     {
@@ -580,7 +554,6 @@
    "swatch": "#c2177e",
    "price": 54130,
    "image": "assets/images/web/products/43-550-4b-uni.webp",
-   "imageFull": "assets/images/products/43-550-4b-uni.jpg",
    "url": "https://www.ksicsilk.com/product/getArticle/43",
    "designs": [
     {
@@ -605,7 +578,6 @@
    "swatch": "#d4161f",
    "price": 40307,
    "image": "assets/images/web/products/42-550-4-uni.webp",
-   "imageFull": "assets/images/products/42-550-4-uni.jpg",
    "url": "https://www.ksicsilk.com/product/getArticle/42",
    "designs": [
     {
@@ -642,7 +614,6 @@
    "swatch": "#efe7d6",
    "price": 44278,
    "image": "assets/images/web/products/40-550-4-cd.webp",
-   "imageFull": "assets/images/products/40-550-4-cd.jpg",
    "url": "https://www.ksicsilk.com/product/getArticle/40",
    "designs": [
     {
@@ -667,7 +638,6 @@
    "swatch": "#e0337a",
    "price": 57360,
    "image": "assets/images/web/products/39-550-2g-1018.webp",
-   "imageFull": "assets/images/products/39-550-2g-1018.jpg",
    "url": "https://www.ksicsilk.com/product/getArticle/39",
    "designs": [
     {
@@ -705,7 +675,6 @@
    "swatch": "#22308f",
    "price": 60412,
    "image": "assets/images/web/products/38-550-2-8-cd.webp",
-   "imageFull": "assets/images/products/38-550-2-8-cd.jpg",
    "url": "https://www.ksicsilk.com/product/getArticle/38",
    "designs": [
     {
@@ -748,7 +717,6 @@
    "swatch": "#6f8f2a",
    "price": 31134,
    "image": "assets/images/web/products/35-550-2-uni.webp",
-   "imageFull": "assets/images/products/35-550-2-uni.jpg",
    "url": "https://www.ksicsilk.com/product/getArticle/35",
    "designs": [
     {
@@ -773,7 +741,6 @@
    "swatch": "#2a3fd6",
    "price": 63459,
    "image": "assets/images/web/products/34-550-2-spc-uni.webp",
-   "imageFull": "assets/images/products/34-550-2-spc-uni.jpg",
    "url": "https://www.ksicsilk.com/product/getArticle/34",
    "designs": [
     {
@@ -798,7 +765,6 @@
    "swatch": "#1b1716",
    "price": 66647,
    "image": "assets/images/web/products/33-550-2-spc-cd.webp",
-   "imageFull": "assets/images/products/33-550-2-spc-cd.jpg",
    "url": "https://www.ksicsilk.com/product/getArticle/33",
    "designs": [
     {
@@ -829,7 +795,6 @@
    "swatch": "#0f8b8d",
    "price": 30958,
    "image": "assets/images/web/products/29-550-2-ap-uni.webp",
-   "imageFull": "assets/images/products/29-550-2-ap-uni.jpg",
    "url": "https://www.ksicsilk.com/product/getArticle/29",
    "designs": [
     {

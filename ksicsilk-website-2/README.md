@@ -33,8 +33,8 @@ assets/js/cart.js        bag + wishlist pages
 assets/js/showrooms.js   store locator
 data/products.json       35 products, 31 design variants (from ksicsilk.com)
 data/showrooms.json      15 showrooms
-assets/video/            hero banner video: ksic-banner.webm / .mp4 (muted, web-optimised), poster image, and the untouched original
-assets/images/           originals; assets/images/web/ holds the optimised WebP copies the site uses
+assets/video/            hero banner video: ksic-banner.webm / .mp4 (muted, web-optimised) + poster
+assets/images/web/       optimised WebP images the site uses (full-size originals are kept outside this repo to stay under hosting size limits)
 ```
 
 The header and footer are rendered by `core.js`, so menu changes are made in one place (`NAV`, `megaHTML`, `PRICE_MENU`, `RTI_MENU`). Price bands (0–15,000 / 15,001–30,000 / 30,001–40,000 / above 40,000 INR) match the ksicsilk.com Categories menu. The RTI menu links to the existing ksicsilk.com pages and PDFs.
