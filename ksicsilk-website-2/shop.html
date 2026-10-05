@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop Mysore Silk — KSIC</title>
+  <meta name="description" content="Shop pure Mysore silk sarees, silk menswear and gift sets from KSIC. Filter by weave, price and colour.">
+  <meta name="theme-color" content="#0e0a06">
+  <link rel="icon" href="assets/images/web/site/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Jost:wght@400;500;600&family=Noto+Serif+Kannada:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="shop">
+  <div id="site-header"></div>
+
+  <main>
+    <section class="pagehead">
+      <div class="container pagehead__in">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><i>/</i><span aria-current="page" id="crumb">Shop</span></nav>
+        <p class="kicker" id="shopKicker">KSIC Mysore Silk</p>
+        <h1 class="h-display" id="shopTitle">Shop</h1>
+        <p class="lead" id="shopLead"></p>
+      </div>
+    </section>
+
+    <div class="container shop">
+      <div class="filters__scrim" id="filterScrim"></div>
+      <aside class="filters" id="filters" aria-label="Filters">
+        <div class="filters__head">
+          <h3>Filters</h3>
+          <div style="display:flex;gap:10px;align-items:center">
+            <button class="filters__clear" id="clearAll">Clear all</button>
+            <button class="icon-btn filters__close" id="filterClose" aria-label="Close filters"><svg class="ico" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+          </div>
+        </div>
+        <div id="filterBody"></div>
+      </aside>
+
+      <div>
+        <div class="toolbar">
+          <button class="btn btn--line btn--sm filter-toggle" id="filterOpen"><svg class="ico" viewBox="0 0 24 24" style="width:16px;height:16px"><path d="M4 6h16M7 12h10M10 18h4"/></svg>Filters</button>
+          <p class="toolbar__count" id="count" aria-live="polite"></p>
+          <div class="toolbar__right">
+            <label class="select">
+              <span class="sr-only">Sort by</span>
+              <select id="sort">
+                <option value="featured">Sort: Featured</option>
+                <option value="new">Newest first</option>
+                <option value="price-asc">Price: Low to High</option>
+                <option value="price-desc">Price: High to Low</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="chips-active" id="activeChips"></div>
+        <div class="grid grid--3" id="grid" data-anim="wipe"></div>
+        <nav class="pager" id="pager" aria-label="Pagination"></nav>
+      </div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/js/core.js"></script>
+  <script src="assets/js/shop.js"></script>
+</body>
+</html>

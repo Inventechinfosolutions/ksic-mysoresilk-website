@@ -1,0 +1,9 @@
+{
+  "name": "ksic-website-previews",
+  "version": "1.0.0",
+  "private": true,
+  "description": "KSIC Mysore Silk — index page linking both website versions",
+  "scripts": {
+    "start": "python3 -m http.server 5200"
+  }
+}

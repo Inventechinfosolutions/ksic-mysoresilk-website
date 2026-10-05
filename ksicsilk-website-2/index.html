@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KSIC Mysore Silk — Pure Silk Sarees with Pure Gold Zari, Since 1912</title>
+  <meta name="description" content="Shop 100% pure Mysore silk sarees woven with pure gold zari by KSIC, a Government of Karnataka enterprise since 1912. Silk menswear, gift sets and 15 showrooms.">
+  <meta name="theme-color" content="#0e0a06">
+  <link rel="icon" href="assets/images/web/site/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Jost:wght@400;500;600&family=Noto+Serif+Kannada:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="home" data-preload>
+  <div id="site-header"></div>
+
+  <main>
+    <!-- Hero banner carousel (fades, no horizontal scrolling) -->
+    <section class="hero" id="hero" aria-roledescription="carousel" aria-label="Featured collections">
+      <div class="hero__slides">
+        <div class="slide slide--video is-active" data-video style="--pos: 62% 50%">
+          <video class="slide__bg slide__video" id="heroVideo" muted playsinline loop preload="auto" poster="assets/video/ksic-banner-poster.webp" aria-label="KSIC Mysore Silk — Timeless Elegance in Every Thread. Models in Mysore silk sarees before Mysore Palace as a silk pallu flows across.">
+            <source src="assets/video/ksic-banner.webm" type="video/webm">
+            <source src="assets/video/ksic-banner.mp4" type="video/mp4">
+          </video>
+          <div class="slide__copy slide__copy--video"><div class="container">
+            <h1 class="sr-only">KSIC Mysore Silk — Timeless Elegance in Every Thread</h1>
+            <div class="video-copy" aria-hidden="true">
+              <p class="kicker">Mysore Silk · Since 1912</p>
+              <p class="h-display">Timeless elegance in <em>every thread</em></p>
+            </div>
+            <div class="slide__ctas">
+              <a class="btn btn--gold" href="shop.html?cat=sarees">Shop sarees</a>
+              <a class="btn btn--line" href="shop.html?cat=all&sort=new">New arrivals</a>
+            </div>
+          </div></div>
+        </div>
+
+        <div class="slide slide--festive" style="--pos: 47% 30%">
+          <picture>
+            <source media="(max-width: 960px)" srcset="assets/images/web/site/hero-festive-sm.webp">
+            <img class="slide__bg" src="assets/images/web/site/hero-festive.webp" alt="Model in an ivory and gold Mysore silk saree by the lake at Mysore Palace, beside panels of rani pink, royal blue, emerald and peach silk sarees" loading="lazy">
+          </picture>
+          <div class="slide__copy slide__copy--festive"><div class="container">
+            <p class="kicker anim-kicker">The Festive Edit</p>
+            <h2 class="h-display anim-title" data-split>Every colour of <em>celebration</em></h2>
+            <p class="lead anim-lead">From ivory and gold to rani pink, royal blue and emerald — pure Mysore silk, woven with pure gold zari for every occasion.</p>
+            <div class="slide__ctas anim-ctas">
+              <a class="btn btn--dark" href="shop.html?cat=sarees">Shop the collection</a>
+              <a class="btn btn--line" href="shop.html?cat=sarees&price=above40">Heirloom weaves</a>
+            </div>
+          </div></div>
+        </div>
+
+        <div class="slide slide--colours" data-duration="10000">
+          <svg class="cs__mandala" viewBox="0 0 200 200" aria-hidden="true">
+            <defs><path id="csPetal" d="M100 100C90 78 90 46 100 18C110 46 110 78 100 100Z"/></defs>
+            <circle cx="100" cy="100" r="96"/><circle cx="100" cy="100" r="84"/><circle cx="100" cy="100" r="30"/>
+            <g><use href="#csPetal"/><use href="#csPetal" transform="rotate(30 100 100)"/><use href="#csPetal" transform="rotate(60 100 100)"/><use href="#csPetal" transform="rotate(90 100 100)"/><use href="#csPetal" transform="rotate(120 100 100)"/><use href="#csPetal" transform="rotate(150 100 100)"/><use href="#csPetal" transform="rotate(180 100 100)"/><use href="#csPetal" transform="rotate(210 100 100)"/><use href="#csPetal" transform="rotate(240 100 100)"/><use href="#csPetal" transform="rotate(270 100 100)"/><use href="#csPetal" transform="rotate(300 100 100)"/><use href="#csPetal" transform="rotate(330 100 100)"/></g>
+          </svg>
+          <div class="cs__dust" id="csDust" aria-hidden="true"></div>
+          <div class="slide__copy slide__copy--colours"><div class="container">
+            <p class="kicker anim-kicker">Just off the looms</p>
+            <h2 class="h-display anim-title" data-split>New season <em>colours</em></h2>
+            <p class="lead anim-lead">Rani pink, saffron, peacock teal and midnight navy — crepe silk in the shades Mysore is known for.</p>
+            <div class="cs__swatches anim-ctas" id="csSwatches" role="tablist" aria-label="Choose a colour"></div>
+            <div class="slide__ctas anim-ctas cs__ctas">
+              <a class="btn btn--gold" href="shop.html?cat=sarees&sort=new">Shop new arrivals</a>
+              <a class="btn btn--line" id="csView" href="shop.html?cat=sarees">View this saree</a>
+            </div>
+          </div></div>
+          <div class="cs__stage" id="csStage" aria-live="polite"></div>
+        </div>
+      </div>
+
+      <div class="hero__ctrl"><div class="container">
+        <div class="dots" id="heroDots" role="tablist"></div>
+        <button class="hero__play" id="heroPlay" aria-label="Pause video" aria-pressed="false" hidden>
+          <svg class="ico ico-pause" viewBox="0 0 24 24"><path d="M9 6v12M15 6v12"/></svg>
+          <svg class="ico ico-play" viewBox="0 0 24 24"><path d="M8 5l11 7-11 7Z"/></svg>
+        </button>
+        <div class="hero__arrows">
+          <button id="heroPrev" aria-label="Previous slide"><svg class="ico" viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button>
+          <button id="heroNext" aria-label="Next slide"><svg class="ico" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>
+        </div>
+      </div></div>
+    </section>
+
+    <!-- Ornate category menu -->
+    <section class="sec" style="padding-bottom:clamp(36px,4vw,56px)">
+      <div class="container">
+        <div class="sec__head sec__head--center reveal" data-anim="head">
+          <p class="kicker">Shop by category</p>
+          <h2 class="h-section">Find your <em>weave</em></h2>
+        </div>
+        <nav class="frames" id="frames" data-anim="flip" aria-label="Shop by category"></nav>
+      </div>
+    </section>
+
+    <!-- Trust strip -->
+    <section class="usp" aria-label="Why KSIC" style="border-top:1px solid var(--line)">
+      <div class="container usp__in" id="usp" data-anim="slide"></div>
+    </section>
+
+    <!-- New arrivals with tabs -->
+    <section class="sec sec--tint">
+      <div class="container">
+        <div class="sec__head reveal" data-anim="head">
+          <div>
+            <p class="kicker">New arrivals</p>
+            <h2 class="h-section">Latest from <em>the looms</em></h2>
+          </div>
+          <div class="tabs" id="newTabs" role="tablist">
+            <button class="is-active" data-tab="sarees" role="tab" aria-selected="true">Sarees</button>
+            <button data-tab="menswear" role="tab" aria-selected="false">Menswear</button>
+            <button data-tab="gifting" role="tab" aria-selected="false">Gifting</button>
+          </div>
+        </div>
+        <div class="grid" id="newGrid" data-anim="wipe"></div>
+        <div style="text-align:center;margin-top:40px"><a class="btn btn--line" id="newAll" href="shop.html?cat=sarees">View all sarees</a></div>
+      </div>
+    </section>
+
+    <!-- Price categories (bento) -->
+    <section class="sec">
+      <div class="container">
+        <div class="sec__head reveal" data-anim="head">
+          <div>
+            <p class="kicker">Shop by price</p>
+            <h2 class="h-section">A Mysore silk for <em>every budget</em></h2>
+          </div>
+          <a class="link-more" href="shop.html?cat=all">Show all <svg class="ico" style="width:16px;height:16px" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+        <div class="bento" id="priceBento" data-anim="assemble"></div>
+      </div>
+    </section>
+
+    <!-- Editorial split -->
+    <section class="sec" style="padding-top:0">
+      <div class="container">
+        <div class="split" data-anim="split">
+          <div class="split__img split__img--fit"><img src="assets/images/web/site/model-royal-blue.webp" alt="Model in a royal blue Mysore silk saree with a broad gold zari border and pallu" loading="lazy" width="482" height="1035"></div>
+          <div class="split__copy">
+            <p class="kicker">Weddings &amp; festivals</p>
+            <h2 class="h-display">Silk for every <em>ceremony</em></h2>
+            <p class="lead">From muhurtham mornings to Dasara evenings — sarees that hold their colour and drape for decades, with KSIC's assurance of pure silk.</p>
+            <a class="btn btn--gold" href="shop.html?cat=sarees">Explore the collection</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Heirloom -->
+    <section class="sec sec--tint">
+      <div class="container">
+        <div class="sec__head reveal" data-anim="head">
+          <div>
+            <p class="kicker">Most coveted</p>
+            <h2 class="h-section">Heirloom &amp; <em>signature</em> sarees</h2>
+          </div>
+          <a class="link-more" href="shop.html?cat=sarees&sort=price-desc">View all <svg class="ico" viewBox="0 0 24 24" style="width:16px;height:16px"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+        <div class="grid" id="heirloomGrid" data-anim="zoom"></div>
+      </div>
+    </section>
+
+    <!-- Menswear / gifting promos -->
+    <section class="sec">
+      <div class="container duo" data-anim="tilt">
+        <a class="promo promo--gold reveal" href="shop.html?cat=menswear">
+          <div>
+            <p class="kicker" style="color:var(--ink)">Menswear</p>
+            <h3>Pure silk kurtas &amp; shirts</h3>
+            <p class="lead">Breathable, light and made for the festive season.</p>
+            <span class="btn btn--dark btn--sm">Shop menswear</span>
+          </div>
+          <div class="promo__img"><img src="assets/images/web/products/73-silk-kurta.webp" alt="Wine silk kurta" loading="lazy"></div>
+        </a>
+        <a class="promo promo--ink reveal" style="--d:.1s" href="shop.html?cat=gifting">
+          <div>
+            <p class="kicker">Gifting</p>
+            <h3>Silk tie &amp; pocket square sets</h3>
+            <p class="lead">Boxed in the KSIC keepsake case — <span id="giftFrom">from ₹3,772</span>.</p>
+            <span class="btn btn--gold btn--sm">Shop gifts</span>
+          </div>
+          <div class="promo__img"><img src="assets/images/web/products/78-tie-pocket-sq-gift-set-box.webp" alt="Royal blue silk tie and pocket square in gift box" loading="lazy"></div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Designs -->
+    <section class="sec sec--tint">
+      <div class="container">
+        <div class="sec__head reveal" data-anim="head">
+          <div>
+            <p class="kicker">Explore by design</p>
+            <h2 class="h-section"><span id="designCount">31</span> designs on <em>our looms</em></h2>
+            <p class="lead">Each article is woven in several designs. Pick one to see the full saree.</p>
+          </div>
+          <a class="link-more" href="shop.html?cat=sarees">Browse sarees <svg class="ico" viewBox="0 0 24 24" style="width:16px;height:16px"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+        <div class="designs" id="designs" data-anim="mosaic"></div>
+      </div>
+    </section>
+
+    <!-- Heritage (bento) -->
+    <section class="sec" id="heritage" style="scroll-margin-top:140px">
+      <div class="container">
+        <div class="sec__head sec__head--center reveal" data-anim="head">
+          <p class="kicker">Our heritage</p>
+          <h2 class="h-section">The house of <em>Mysore Silk</em></h2>
+        </div>
+        <div class="bento" data-anim="iris">
+          <div class="b-2x2 b-pad b-ink reveal">
+            <p class="kicker">Since 1912</p>
+            <h3 class="b-title" style="font-size:clamp(30px,3.4vw,46px)">A royal loom, <em style="color:var(--gold)">still weaving</em></h3>
+            <p>In 1912, Maharaja Krishnaraja Wadiyar IV of Mysore set up a silk weaving factory to supply the royal household. It grew into Karnataka Silk Industries Corporation — KSIC — a Government of Karnataka enterprise that still weaves every Mysore Silk saree it sells.</p>
+            <p style="margin-top:12px">Every saree is pure mulberry silk with pure gold zari. Mysore Silk is protected by a Geographical Indication, so the name can only be used for silk woven to this standard.</p>
+            <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:auto;padding-top:24px">
+              <a class="btn btn--gold" href="shop.html?cat=sarees">Shop Mysore silk</a>
+              <a class="btn btn--line" href="https://www.ksicsilk.com/Home/About" target="_blank" rel="noopener">Full story</a>
+            </div>
+          </div>
+          <div class="b-1x2 b-img reveal" style="--d:.06s"><img src="assets/images/web/site/model-ivory.webp" alt="Model in an ivory silk saree with a gold border" loading="lazy"></div>
+          <div class="b-pad b-gold reveal" style="--d:.12s"><span class="b-num" data-count="1912" data-from="1800">1912</span><p class="b-push" style="color:var(--ink-2)">Founded in Mysore under the Maharaja's patronage</p></div>
+          <div class="b-pad b-cream reveal" style="--d:.18s"><span class="b-num">GI 11</span><p class="b-push">Geographical Indication for Mysore Silk</p></div>
+          <div class="b-pad reveal"><span class="usp__icon"><svg class="ico" viewBox="0 0 24 24"><path d="M4 18c3-8 13-8 16 0"/><path d="M6 14c2-5 10-5 12 0"/><path d="M8 10c1.5-3 6.5-3 8 0"/></svg></span><h3 class="b-title">Pure mulberry silk</h3><p>Warp and weft are both pure silk — never art silk or blends.</p></div>
+          <div class="b-pad reveal" style="--d:.06s"><span class="usp__icon"><svg class="ico" viewBox="0 0 24 24"><path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5Z"/></svg></span><h3 class="b-title">Pure gold zari</h3><p>Borders and pallus finished with genuine gold zari.</p></div>
+          <div class="b-pad reveal" style="--d:.12s"><span class="usp__icon"><svg class="ico" viewBox="0 0 24 24"><path d="M3 8l4 4 5-7 5 7 4-4-2 11H5L3 8Z"/></svg></span><h3 class="b-title">Government owned</h3><p>Woven and sold by a Government of Karnataka enterprise.</p></div>
+          <a class="b-pad b-ink reveal" style="--d:.18s" href="showrooms.html"><span class="b-num" data-count="15">15</span><p class="b-push">KSIC showrooms in Karnataka &amp; Hyderabad</p><span class="link-more" style="color:var(--gold-soft);margin-top:10px;align-self:flex-start">Find a showroom</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Silk care (bento) -->
+    <section class="sec sec--tint" id="silk-care" style="scroll-margin-top:140px">
+      <div class="container">
+        <div class="sec__head sec__head--center reveal" data-anim="head">
+          <p class="kicker">Silk guide</p>
+          <h2 class="h-section">Know it. <em>Keep it.</em></h2>
+          <p class="lead">How to tell pure silk from imitation, and how to care for it so it lasts a lifetime.</p>
+        </div>
+        <div class="bento" data-anim="unfold">
+          <div class="b-2x2 b-pad b-ink reveal">
+            <span class="b-flame"><svg class="ico" viewBox="0 0 24 24"><path d="M12 21c-4 0-6.5-2.6-6.5-6 0-4 3.5-6 4.5-10 2.5 2 3 4 3 6 1-1 1.5-2 1.5-3 2 1.5 4 4.5 4 7 0 3.4-2.5 6-6.5 6Z"/></svg></span>
+            <p class="kicker">Identify pure silk</p>
+            <h3 class="b-title" style="font-size:clamp(28px,3vw,40px)">The burning test</h3>
+            <p style="max-width:460px">Not everything that shines is silk — "art silk" and other glamorous names are not natural silk. 100% silk means both warp and weft are pure silk yarn. You can test it anywhere:</p>
+            <ol class="b-steps">
+              <li><b>Pull a thread</b>From both the warp and the weft.</li>
+              <li><b>Burn it</b>Pure silk smells of burning hair.</li>
+              <li><b>Check the ash</b>A black residue that crushes to powder.</li>
+            </ol>
+          </div>
+          <div class="b-1x2 b-img reveal" style="--d:.06s"><img src="assets/images/web/designs/111-design-no-376.webp" alt="Golden yellow Mysore silk saree with magenta border" loading="lazy"></div>
+          <div class="b-1x2 b-pad reveal" style="--d:.12s"><span class="usp__icon"><svg class="ico" viewBox="0 0 24 24"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11Z"/></svg></span><h3 class="b-title">Washing</h3><ul class="b-list">
+            <li>Wash in soft, lukewarm water with a neutral soap. Add a pinch of borax if the water is hard.</li>
+            <li>Knead and squeeze gently; rinse 2–3 times in warm water.</li>
+            <li>Add a few drops of citric or acetic acid to the final cold rinse.</li>
+            <li>Squeeze lightly by hand. Always dry flat, in shade.</li></ul></div>
+          <div class="b-pad reveal"><span class="usp__icon"><svg class="ico" viewBox="0 0 24 24"><path d="M3 17h16a2 2 0 0 0 2-2c0-4-3-7-8-7H8"/><path d="M3 17l2-6h8"/></svg></span><h3 class="b-title">Ironing</h3><ul class="b-list">
+            <li>Low to medium heat.</li><li>Never spray water on silk — it spots.</li><li>Iron damp silk on the reverse side.</li></ul></div>
+          <div class="b-2x1 b-pad b-cream reveal" style="--d:.06s"><span class="usp__icon"><svg class="ico" viewBox="0 0 24 24"><path d="M3 7l9-4 9 4v10l-9 4-9-4V7Z"/><path d="m3 7 9 4 9-4M12 11v10"/></svg></span><h3 class="b-title">Storing</h3><ul class="b-list">
+            <li>Keep clean and dry; air and brush periodically during long storage.</li>
+            <li>Protect from insects, dust, moisture and light, and avoid direct contact with wood.</li>
+            <li>Wrap zari sarees in cotton cloth and keep silica sachets in the rack.</li></ul></div>
+          <a class="b-pad b-gold reveal" style="--d:.12s" href="tel:+918025586402"><p class="kicker" style="color:var(--ink)">Need help?</p><h3 class="b-title">Ask a KSIC silk expert</h3><p class="b-push" style="color:var(--ink-2);font-weight:500">+91 80 2558 6402</p></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recently viewed -->
+    <section class="sec sec--tint" id="recentSec" hidden>
+      <div class="container">
+        <div class="sec__head" data-anim="head"><div><p class="kicker">For you</p><h2 class="h-section">Recently <em>viewed</em></h2></div></div>
+        <div class="grid" id="recentGrid" data-anim="wipe"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/js/core.js"></script>
+  <script src="assets/js/home.js"></script>
+</body>
+</html>

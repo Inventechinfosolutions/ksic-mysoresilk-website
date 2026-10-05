@@ -1,0 +1,847 @@
+{
+ "brand": "KSIC Mysore Silk",
+ "updated": "2026-10-01",
+ "products": [
+  {
+   "id": 84,
+   "sku": "550/6 (Gandaberunda)",
+   "name": "Mysore Crepe Silk Saree",
+   "article": "550/6 (Gandaberunda)",
+   "category": "saree",
+   "gender": "women",
+   "color": "Navy Gandaberunda",
+   "swatch": "#25335c",
+   "price": 56102,
+   "image": "assets/images/web/products/84-550-6-gandaberunda.webp",
+   "imageFull": "assets/images/products/84-550-6-gandaberunda.jpg",
+   "url": "https://www.ksicsilk.com/product/getArticle/84",
+   "designs": [
+    {
+     "id": 114,
+     "code": "Gandaberunda",
+     "image": "assets/images/web/designs/114-design-no-gandaberunda.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/114"
+    }
+   ],
+   "tag": "Signature",
+   "type": "crepe",
+   "family": "blue",
+   "description": "A pure Mysore crepe silk saree in navy gandaberunda, woven by KSIC on the looms that have made Mysore Silk since 1912. The fabric has the soft, fluid drape and quiet lustre Mysore silk is known for, finished with pure gold zari."
+  },
+  {
+   "id": 80,
+   "sku": "KSIC-80",
+   "name": "Tie & Pocket Square Gift Box",
+   "article": null,
+   "category": "gift-set",
+   "gender": "men",
+   "color": "Ruby Paisley Gift Set",
+   "swatch": "#c4161c",
+   "price": 3772,
+   "image": "assets/images/web/products/80-tie-pocket-sq-gift-set-box.webp",
+   "imageFull": "assets/images/products/80-tie-pocket-sq-gift-set-box.jpg",
+   "url": "https://www.ksicsilk.com/product/getDetails/80",
+   "designs": [],
+   "type": "gift-set",
+   "family": "red",
+   "description": "A pure silk tie with a matching pocket square, presented in the KSIC Mysore Silk keepsake box — ready to give."
+  },
+  {
+   "id": 78,
+   "sku": "KSIC-78",
+   "name": "Tie & Pocket Square Gift Box",
+   "article": null,
+   "category": "gift-set",
+   "gender": "men",
+   "color": "Royal Blue Gift Set",
+   "swatch": "#2253b8",
+   "price": 3772,
+   "image": "assets/images/web/products/78-tie-pocket-sq-gift-set-box.webp",
+   "imageFull": "assets/images/products/78-tie-pocket-sq-gift-set-box.jpg",
+   "url": "https://www.ksicsilk.com/product/getDetails/78",
+   "designs": [],
+   "type": "gift-set",
+   "family": "blue",
+   "description": "A pure silk tie with a matching pocket square, presented in the KSIC Mysore Silk keepsake box — ready to give."
+  },
+  {
+   "id": 77,
+   "sku": "KSIC-77",
+   "name": "Tie & Pocket Square Gift Box",
+   "article": null,
+   "category": "gift-set",
+   "gender": "men",
+   "color": "Ruby Gift Set",
+   "swatch": "#c4161c",
+   "price": 3772,
+   "image": "assets/images/web/products/77-tie-pocket-sq-gift-set-box.webp",
+   "imageFull": "assets/images/products/77-tie-pocket-sq-gift-set-box.jpg",
+   "url": "https://www.ksicsilk.com/product/getDetails/77",
+   "designs": [],
+   "type": "gift-set",
+   "family": "red",
+   "description": "A pure silk tie with a matching pocket square, presented in the KSIC Mysore Silk keepsake box — ready to give."
+  },
+  {
+   "id": 76,
+   "sku": "KSIC-76",
+   "name": "Pure Silk Kurta",
+   "article": null,
+   "category": "kurta",
+   "gender": "men",
+   "color": "Charcoal",
+   "swatch": "#2c3133",
+   "price": 6342,
+   "image": "assets/images/web/products/76-silk-kurta.webp",
+   "imageFull": "assets/images/products/76-silk-kurta.jpg",
+   "url": "https://www.ksicsilk.com/product/getDetails/76",
+   "designs": [],
+   "type": "kurta",
+   "family": "grey",
+   "description": "A pure silk kurta in charcoal with a band collar and button placket. Cut in a relaxed straight fit that works for festivals, weddings and pujas."
+  },
+  {
+   "id": 75,
+   "sku": "KSIC-75",
+   "name": "Pure Silk Kurta",
+   "article": null,
+   "category": "kurta",
+   "gender": "men",
+   "color": "Blush Pink",
+   "swatch": "#f2b6c2",
+   "price": 6342,
+   "image": "assets/images/web/products/75-silk-kurta.webp",
+   "imageFull": "assets/images/products/75-silk-kurta.jpg",
+   "url": "https://www.ksicsilk.com/product/getDetails/75",
+   "designs": [],
+   "type": "kurta",
+   "family": "pink",
+   "description": "A pure silk kurta in blush pink with a band collar and button placket. Cut in a relaxed straight fit that works for festivals, weddings and pujas."
+  },
+  {
+   "id": 74,
+   "sku": "KSIC-74",
+   "name": "Pure Silk Kurta",
+   "article": null,
+   "category": "kurta",
+   "gender": "men",
+   "color": "Aqua Mist",
+   "swatch": "#cdeceb",
+   "price": 6342,
+   "image": "assets/images/web/products/74-silk-kurta.webp",
+   "imageFull": "assets/images/products/74-silk-kurta.jpg",
+   "url": "https://www.ksicsilk.com/product/getDetails/74",
+   "designs": [],
+   "type": "kurta",
+   "family": "blue",
+   "description": "A pure silk kurta in aqua mist with a band collar and button placket. Cut in a relaxed straight fit that works for festivals, weddings and pujas."
+  },
+  {
+   "id": 73,
+   "sku": "KSIC-73",
+   "name": "Pure Silk Kurta",
+   "article": null,
+   "category": "kurta",
+   "gender": "men",
+   "color": "Wine",
+   "swatch": "#7d1840",
+   "price": 6342,
+   "image": "assets/images/web/products/73-silk-kurta.webp",
+   "imageFull": "assets/images/products/73-silk-kurta.jpg",
+   "url": "https://www.ksicsilk.com/product/getDetails/73",
+   "designs": [],
+   "type": "kurta",
+   "family": "maroon",
+   "description": "A pure silk kurta in wine with a band collar and button placket. Cut in a relaxed straight fit that works for festivals, weddings and pujas."
+  },
+  {
+   "id": 72,
+   "sku": "KSIC-72",
+   "name": "Pure Silk Kurta",
+   "article": null,
+   "category": "kurta",
+   "gender": "men",
+   "color": "Wine",
+   "swatch": "#7d1840",
+   "price": 6342,
+   "image": "assets/images/web/products/72-silk-kurta.webp",
+   "imageFull": "assets/images/products/72-silk-kurta.jpg",
+   "url": "https://www.ksicsilk.com/product/getDetails/72",
+   "designs": [],
+   "type": "kurta",
+   "family": "maroon",
+   "description": "A pure silk kurta in wine with a band collar and button placket. Cut in a relaxed straight fit that works for festivals, weddings and pujas."
+  },
+  {
+   "id": 71,
+   "sku": "KSIC-71",
+   "name": "Pure Silk Shirt",
+   "article": null,
+   "category": "shirt",
+   "gender": "men",
+   "color": "Charcoal",
+   "swatch": "#2c3133",
+   "price": 5001,
+   "image": "assets/images/web/products/71-colour-silk-shirts.webp",
+   "imageFull": "assets/images/products/71-colour-silk-shirts.jpg",
+   "url": "https://www.ksicsilk.com/product/getDetails/71",
+   "designs": [],
+   "type": "shirt",
+   "family": "grey",
+   "description": "A pure silk shirt in charcoal with a classic collar. Breathable, light and naturally lustrous — dress it up for an occasion or wear it untucked."
+  },
+  {
+   "id": 70,
+   "sku": "KSIC-70",
+   "name": "Pure Silk Shirt",
+   "article": null,
+   "category": "shirt",
+   "gender": "men",
+   "color": "Bottle Green",
+   "swatch": "#127a4c",
+   "price": 5001,
+   "image": "assets/images/web/products/70-colour-silk-shirts.webp",
+   "imageFull": "assets/images/products/70-colour-silk-shirts.jpg",
+   "url": "https://www.ksicsilk.com/product/getDetails/70",
+   "designs": [],
+   "type": "shirt",
+   "family": "green",
+   "description": "A pure silk shirt in bottle green with a classic collar. Breathable, light and naturally lustrous — dress it up for an occasion or wear it untucked."
+  },
+  {
+   "id": 69,
+   "sku": "KSIC-69",
+   "name": "Pure Silk Tie",
+   "article": null,
+   "category": "tie",
+   "gender": "men",
+   "color": "Maroon",
+   "swatch": "#7a1730",
+   "price": 2570,
+   "image": "assets/images/web/products/69-tie.webp",
+   "imageFull": "assets/images/products/69-tie.jpg",
+   "url": "https://www.ksicsilk.com/product/getDetails/69",
+   "designs": [],
+   "type": "tie",
+   "family": "maroon",
+   "description": "A pure silk tie in maroon, woven by KSIC. Holds a clean knot and keeps its shape wear after wear."
+  },
+  {
+   "id": 68,
+   "sku": "KSIC-68",
+   "name": "Pure Silk Tie",
+   "article": null,
+   "category": "tie",
+   "gender": "men",
+   "color": "Navy & Gold Stripe",
+   "swatch": "#141a33",
+   "price": 2570,
+   "image": "assets/images/web/products/68-tie.webp",
+   "imageFull": "assets/images/products/68-tie.jpg",
+   "url": "https://www.ksicsilk.com/product/getDetails/68",
+   "designs": [],
+   "type": "tie",
+   "family": "blue",
+   "description": "A pure silk tie in navy & gold stripe, woven by KSIC. Holds a clean knot and keeps its shape wear after wear."
+  },
+  {
+   "id": 67,
+   "sku": "KSIC-67",
+   "name": "Pure Silk Tie",
+   "article": null,
+   "category": "tie",
+   "gender": "men",
+   "color": "Grey Stripe",
+   "swatch": "#7a7f86",
+   "price": 2570,
+   "image": "assets/images/web/products/67-tie.webp",
+   "imageFull": "assets/images/products/67-tie.jpg",
+   "url": "https://www.ksicsilk.com/product/getDetails/67",
+   "designs": [],
+   "type": "tie",
+   "family": "grey",
+   "description": "A pure silk tie in grey stripe, woven by KSIC. Holds a clean knot and keeps its shape wear after wear."
+  },
+  {
+   "id": 66,
+   "sku": "KSIC-66",
+   "name": "Pure Silk Tie",
+   "article": null,
+   "category": "tie",
+   "gender": "men",
+   "color": "Crimson",
+   "swatch": "#b0122a",
+   "price": 2570,
+   "image": "assets/images/web/products/66-tie.webp",
+   "imageFull": "assets/images/products/66-tie.jpg",
+   "url": "https://www.ksicsilk.com/product/getDetails/66",
+   "designs": [],
+   "type": "tie",
+   "family": "red",
+   "description": "A pure silk tie in crimson, woven by KSIC. Holds a clean knot and keeps its shape wear after wear."
+  },
+  {
+   "id": 63,
+   "sku": "KSIC-63",
+   "name": "Pure Silk Tie",
+   "article": null,
+   "category": "tie",
+   "gender": "men",
+   "color": "Navy Micro",
+   "swatch": "#262046",
+   "price": 2570,
+   "image": "assets/images/web/products/63-tie.webp",
+   "imageFull": "assets/images/products/63-tie.jpg",
+   "url": "https://www.ksicsilk.com/product/getDetails/63",
+   "designs": [],
+   "type": "tie",
+   "family": "blue",
+   "description": "A pure silk tie in navy micro, woven by KSIC. Holds a clean knot and keeps its shape wear after wear."
+  },
+  {
+   "id": 62,
+   "sku": "550/8K8 UNI",
+   "name": "Mysore Crepe Silk Saree",
+   "article": "550/8K8 UNI",
+   "category": "saree",
+   "gender": "women",
+   "color": "Emerald Checks",
+   "swatch": "#145c2c",
+   "price": 153877,
+   "image": "assets/images/web/products/62-550-8k8-uni.webp",
+   "imageFull": "assets/images/products/62-550-8k8-uni.jpg",
+   "url": "https://www.ksicsilk.com/product/getArticle/62",
+   "designs": [
+    {
+     "id": 107,
+     "code": "529",
+     "image": "assets/images/web/designs/107-design-no-529.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/107"
+    }
+   ],
+   "tag": "Heirloom",
+   "type": "crepe",
+   "family": "green",
+   "description": "A pure Mysore crepe silk saree in emerald checks, woven by KSIC on the looms that have made Mysore Silk since 1912. The fabric has the soft, fluid drape and quiet lustre Mysore silk is known for, finished with pure gold zari."
+  },
+  {
+   "id": 58,
+   "sku": "KSIC-58",
+   "name": "Pure Silk Shirt",
+   "article": null,
+   "category": "shirt",
+   "gender": "men",
+   "color": "Mustard",
+   "swatch": "#d9a521",
+   "price": 5001,
+   "image": "assets/images/web/products/58-colour-silk-shirts.webp",
+   "imageFull": "assets/images/products/58-colour-silk-shirts.jpg",
+   "url": "https://www.ksicsilk.com/product/getDetails/58",
+   "designs": [],
+   "type": "shirt",
+   "family": "yellow",
+   "description": "A pure silk shirt in mustard with a classic collar. Breathable, light and naturally lustrous — dress it up for an occasion or wear it untucked."
+  },
+  {
+   "id": 52,
+   "sku": "2550/2G1018 UNI",
+   "name": "Pure Silk Georgette Saree",
+   "article": "2550/2G1018 UNI",
+   "category": "saree",
+   "gender": "women",
+   "color": "Sea Teal",
+   "swatch": "#1aa79c",
+   "price": 62568,
+   "image": "assets/images/web/products/52-2550-2g1018-uni-georgette-saree.webp",
+   "imageFull": "assets/images/products/52-2550-2g1018-uni-georgette-saree.jpg",
+   "url": "https://www.ksicsilk.com/product/getArticle/52",
+   "designs": [
+    {
+     "id": 86,
+     "code": "381",
+     "image": "assets/images/web/designs/86-design-no-381.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/86"
+    }
+   ],
+   "tag": "New",
+   "type": "georgette",
+   "family": "green",
+   "description": "A pure silk georgette saree in sea teal. Lighter and more flowing than crepe, it keeps the sheen of Mysore silk while being easy to drape for long days and evening occasions."
+  },
+  {
+   "id": 51,
+   "sku": "560/2 UNI",
+   "name": "Mysore Crepe Silk Saree",
+   "article": "560/2 UNI",
+   "category": "saree",
+   "gender": "women",
+   "color": "Slate Blue",
+   "swatch": "#3a4a78",
+   "price": 28326,
+   "image": "assets/images/web/products/51-560-2-uni.webp",
+   "imageFull": "assets/images/products/51-560-2-uni.jpg",
+   "url": "https://www.ksicsilk.com/product/getArticle/51",
+   "designs": [
+    {
+     "id": 82,
+     "code": "281",
+     "image": "assets/images/web/designs/82-design-no-281.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/82"
+    },
+    {
+     "id": 81,
+     "code": "214",
+     "image": "assets/images/web/designs/81-design-no-214.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/81"
+    },
+    {
+     "id": 80,
+     "code": "354",
+     "image": "assets/images/web/designs/80-design-no-354.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/80"
+    }
+   ],
+   "type": "crepe",
+   "family": "blue",
+   "description": "A pure Mysore crepe silk saree in slate blue, woven by KSIC on the looms that have made Mysore Silk since 1912. The fabric has the soft, fluid drape and quiet lustre Mysore silk is known for, finished with pure gold zari."
+  },
+  {
+   "id": 49,
+   "sku": "550/6 UNI",
+   "name": "Mysore Crepe Silk Saree",
+   "article": "550/6 UNI",
+   "category": "saree",
+   "gender": "women",
+   "color": "Midnight Navy",
+   "swatch": "#1c2559",
+   "price": 56102,
+   "image": "assets/images/web/products/49-550-6-uni.webp",
+   "imageFull": "assets/images/products/49-550-6-uni.jpg",
+   "url": "https://www.ksicsilk.com/product/getArticle/49",
+   "designs": [
+    {
+     "id": 71,
+     "code": "423",
+     "image": "assets/images/web/designs/71-design-no-423.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/71"
+    }
+   ],
+   "type": "crepe",
+   "family": "blue",
+   "description": "A pure Mysore crepe silk saree in midnight navy, woven by KSIC on the looms that have made Mysore Silk since 1912. The fabric has the soft, fluid drape and quiet lustre Mysore silk is known for, finished with pure gold zari."
+  },
+  {
+   "id": 48,
+   "sku": "550/6 K3 UNI",
+   "name": "Mysore Crepe Silk Saree",
+   "article": "550/6 K3 UNI",
+   "category": "saree",
+   "gender": "women",
+   "color": "Pink Gold",
+   "swatch": "#d53a8c",
+   "price": 128726,
+   "image": "assets/images/web/products/48-550-6-k3-uni.webp",
+   "imageFull": "assets/images/products/48-550-6-k3-uni.jpg",
+   "url": "https://www.ksicsilk.com/product/getArticle/48",
+   "designs": [
+    {
+     "id": 73,
+     "code": "399",
+     "image": "assets/images/web/designs/73-design-no-399.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/73"
+    }
+   ],
+   "tag": "Heirloom",
+   "type": "crepe",
+   "family": "pink",
+   "description": "A pure Mysore crepe silk saree in pink gold, woven by KSIC on the looms that have made Mysore Silk since 1912. The fabric has the soft, fluid drape and quiet lustre Mysore silk is known for, finished with pure gold zari."
+  },
+  {
+   "id": 47,
+   "sku": "550/6 K2 UNI",
+   "name": "Mysore Crepe Silk Saree",
+   "article": "550/6 K2 UNI",
+   "category": "saree",
+   "gender": "women",
+   "color": "Cream Gold",
+   "swatch": "#ece2c4",
+   "price": 144412,
+   "image": "assets/images/web/products/47-550-6-k2-uni.webp",
+   "imageFull": "assets/images/products/47-550-6-k2-uni.jpg",
+   "url": "https://www.ksicsilk.com/product/getArticle/47",
+   "designs": [
+    {
+     "id": 72,
+     "code": "91",
+     "image": "assets/images/web/designs/72-design-no-91.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/72"
+    }
+   ],
+   "tag": "Heirloom",
+   "type": "crepe",
+   "family": "white",
+   "description": "A pure Mysore crepe silk saree in cream gold, woven by KSIC on the looms that have made Mysore Silk since 1912. The fabric has the soft, fluid drape and quiet lustre Mysore silk is known for, finished with pure gold zari."
+  },
+  {
+   "id": 46,
+   "sku": "550/6 CD",
+   "name": "Mysore Crepe Silk Saree",
+   "article": "550/6 CD",
+   "category": "saree",
+   "gender": "women",
+   "color": "Saffron & Black",
+   "swatch": "#ea5a10",
+   "price": 59304,
+   "image": "assets/images/web/products/46-550-6-cd.webp",
+   "imageFull": "assets/images/products/46-550-6-cd.jpg",
+   "url": "https://www.ksicsilk.com/product/getArticle/46",
+   "designs": [
+    {
+     "id": 68,
+     "code": "447",
+     "image": "assets/images/web/designs/68-design-no-447.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/68"
+    }
+   ],
+   "type": "crepe",
+   "family": "orange",
+   "description": "A pure Mysore crepe silk saree in saffron & black, woven by KSIC on the looms that have made Mysore Silk since 1912. The fabric has the soft, fluid drape and quiet lustre Mysore silk is known for, finished with pure gold zari."
+  },
+  {
+   "id": 45,
+   "sku": "550/4G 1018 UNI",
+   "name": "Mysore Crepe Silk Saree",
+   "article": "550/4G 1018 UNI",
+   "category": "saree",
+   "gender": "women",
+   "color": "Royal Purple",
+   "swatch": "#4d1a8a",
+   "price": 64152,
+   "image": "assets/images/web/products/45-550-4g-1018-uni.webp",
+   "imageFull": "assets/images/products/45-550-4g-1018-uni.jpg",
+   "url": "https://www.ksicsilk.com/product/getArticle/45",
+   "designs": [
+    {
+     "id": 44,
+     "code": "100UNIA",
+     "image": "assets/images/web/designs/44-design-no-100unia.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/44"
+    },
+    {
+     "id": 43,
+     "code": "100UNI",
+     "image": "assets/images/web/designs/43-design-no-100uni.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/43"
+    },
+    {
+     "id": 41,
+     "code": "100UNI",
+     "image": "assets/images/web/designs/41-design-no-100uni.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/41"
+    }
+   ],
+   "type": "crepe",
+   "family": "purple",
+   "description": "A pure Mysore crepe silk saree in royal purple, woven by KSIC on the looms that have made Mysore Silk since 1912. The fabric has the soft, fluid drape and quiet lustre Mysore silk is known for, finished with pure gold zari."
+  },
+  {
+   "id": 44,
+   "sku": "550/4G 1018 CD",
+   "name": "Mysore Crepe Silk Saree",
+   "article": "550/4G 1018 CD",
+   "category": "saree",
+   "gender": "women",
+   "color": "Blue & Red",
+   "swatch": "#2b3fbf",
+   "price": 67395,
+   "image": "assets/images/web/products/44-550-4g-1018-cd.webp",
+   "imageFull": "assets/images/products/44-550-4g-1018-cd.jpg",
+   "url": "https://www.ksicsilk.com/product/getArticle/44",
+   "designs": [
+    {
+     "id": 40,
+     "code": "100",
+     "image": "assets/images/web/designs/40-design-no-100.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/40"
+    }
+   ],
+   "type": "crepe",
+   "family": "blue",
+   "description": "A pure Mysore crepe silk saree in blue & red, woven by KSIC on the looms that have made Mysore Silk since 1912. The fabric has the soft, fluid drape and quiet lustre Mysore silk is known for, finished with pure gold zari."
+  },
+  {
+   "id": 43,
+   "sku": "550/4B UNI",
+   "name": "Mysore Crepe Silk Saree",
+   "article": "550/4B UNI",
+   "category": "saree",
+   "gender": "women",
+   "color": "Magenta",
+   "swatch": "#c2177e",
+   "price": 54130,
+   "image": "assets/images/web/products/43-550-4b-uni.webp",
+   "imageFull": "assets/images/products/43-550-4b-uni.jpg",
+   "url": "https://www.ksicsilk.com/product/getArticle/43",
+   "designs": [
+    {
+     "id": 60,
+     "code": "78",
+     "image": "assets/images/web/designs/60-design-no-78.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/60"
+    }
+   ],
+   "type": "crepe",
+   "family": "pink",
+   "description": "A pure Mysore crepe silk saree in magenta, woven by KSIC on the looms that have made Mysore Silk since 1912. The fabric has the soft, fluid drape and quiet lustre Mysore silk is known for, finished with pure gold zari."
+  },
+  {
+   "id": 42,
+   "sku": "550/4 UNI",
+   "name": "Mysore Crepe Silk Saree",
+   "article": "550/4 UNI",
+   "category": "saree",
+   "gender": "women",
+   "color": "Kumkum Red",
+   "swatch": "#d4161f",
+   "price": 40307,
+   "image": "assets/images/web/products/42-550-4-uni.webp",
+   "imageFull": "assets/images/products/42-550-4-uni.jpg",
+   "url": "https://www.ksicsilk.com/product/getArticle/42",
+   "designs": [
+    {
+     "id": 111,
+     "code": "376",
+     "image": "assets/images/web/designs/111-design-no-376.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/111"
+    },
+    {
+     "id": 62,
+     "code": "174",
+     "image": "assets/images/web/designs/62-design-no-174.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/62"
+    },
+    {
+     "id": 61,
+     "code": "355",
+     "image": "assets/images/web/designs/61-design-no-355.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/61"
+    }
+   ],
+   "type": "crepe",
+   "family": "red",
+   "description": "A pure Mysore crepe silk saree in kumkum red, woven by KSIC on the looms that have made Mysore Silk since 1912. The fabric has the soft, fluid drape and quiet lustre Mysore silk is known for, finished with pure gold zari."
+  },
+  {
+   "id": 40,
+   "sku": "550/4 CD",
+   "name": "Mysore Crepe Silk Saree",
+   "article": "550/4 CD",
+   "category": "saree",
+   "gender": "women",
+   "color": "Ivory & Red",
+   "swatch": "#efe7d6",
+   "price": 44278,
+   "image": "assets/images/web/products/40-550-4-cd.webp",
+   "imageFull": "assets/images/products/40-550-4-cd.jpg",
+   "url": "https://www.ksicsilk.com/product/getArticle/40",
+   "designs": [
+    {
+     "id": 63,
+     "code": "380",
+     "image": "assets/images/web/designs/63-design-no-380.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/63"
+    }
+   ],
+   "type": "crepe",
+   "family": "white",
+   "description": "A pure Mysore crepe silk saree in ivory & red, woven by KSIC on the looms that have made Mysore Silk since 1912. The fabric has the soft, fluid drape and quiet lustre Mysore silk is known for, finished with pure gold zari."
+  },
+  {
+   "id": 39,
+   "sku": "550/2G 1018",
+   "name": "Mysore Crepe Silk Saree",
+   "article": "550/2G 1018",
+   "category": "saree",
+   "gender": "women",
+   "color": "Rani Pink",
+   "swatch": "#e0337a",
+   "price": 57360,
+   "image": "assets/images/web/products/39-550-2g-1018.webp",
+   "imageFull": "assets/images/products/39-550-2g-1018.jpg",
+   "url": "https://www.ksicsilk.com/product/getArticle/39",
+   "designs": [
+    {
+     "id": 58,
+     "code": "162A",
+     "image": "assets/images/web/designs/58-design-no-162a.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/58"
+    },
+    {
+     "id": 57,
+     "code": "108",
+     "image": "assets/images/web/designs/57-design-no-108.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/57"
+    },
+    {
+     "id": 56,
+     "code": "162",
+     "image": "assets/images/web/designs/56-design-no-162.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/56"
+    }
+   ],
+   "tag": "New",
+   "type": "crepe",
+   "family": "pink",
+   "description": "A pure Mysore crepe silk saree in rani pink, woven by KSIC on the looms that have made Mysore Silk since 1912. The fabric has the soft, fluid drape and quiet lustre Mysore silk is known for, finished with pure gold zari."
+  },
+  {
+   "id": 38,
+   "sku": "550/2/8 CD",
+   "name": "Mysore Crepe Silk Saree",
+   "article": "550/2/8 CD",
+   "category": "saree",
+   "gender": "women",
+   "color": "Royal Blue & Maroon",
+   "swatch": "#22308f",
+   "price": 60412,
+   "image": "assets/images/web/products/38-550-2-8-cd.webp",
+   "imageFull": "assets/images/products/38-550-2-8-cd.jpg",
+   "url": "https://www.ksicsilk.com/product/getArticle/38",
+   "designs": [
+    {
+     "id": 51,
+     "code": "116A",
+     "image": "assets/images/web/designs/51-design-no-116a.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/51"
+    },
+    {
+     "id": 50,
+     "code": "433",
+     "image": "assets/images/web/designs/50-design-no-433.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/50"
+    },
+    {
+     "id": 49,
+     "code": "116",
+     "image": "assets/images/web/designs/49-design-no-116.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/49"
+    },
+    {
+     "id": 48,
+     "code": "116",
+     "image": "assets/images/web/designs/48-design-no-116.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/48"
+    }
+   ],
+   "type": "crepe",
+   "family": "blue",
+   "description": "A pure Mysore crepe silk saree in royal blue & maroon, woven by KSIC on the looms that have made Mysore Silk since 1912. The fabric has the soft, fluid drape and quiet lustre Mysore silk is known for, finished with pure gold zari."
+  },
+  {
+   "id": 35,
+   "sku": "550/2 UNI",
+   "name": "Mysore Crepe Silk Saree",
+   "article": "550/2 UNI",
+   "category": "saree",
+   "gender": "women",
+   "color": "Olive Green",
+   "swatch": "#6f8f2a",
+   "price": 31134,
+   "image": "assets/images/web/products/35-550-2-uni.webp",
+   "imageFull": "assets/images/products/35-550-2-uni.jpg",
+   "url": "https://www.ksicsilk.com/product/getArticle/35",
+   "designs": [
+    {
+     "id": 100,
+     "code": "435",
+     "image": "assets/images/web/designs/100-design-no-435.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/100"
+    }
+   ],
+   "type": "crepe",
+   "family": "green",
+   "description": "A pure Mysore crepe silk saree in olive green, woven by KSIC on the looms that have made Mysore Silk since 1912. The fabric has the soft, fluid drape and quiet lustre Mysore silk is known for, finished with pure gold zari."
+  },
+  {
+   "id": 34,
+   "sku": "550/2 SPC UNI",
+   "name": "Mysore Crepe Silk Saree",
+   "article": "550/2 SPC UNI",
+   "category": "saree",
+   "gender": "women",
+   "color": "Royal Blue",
+   "swatch": "#2a3fd6",
+   "price": 63459,
+   "image": "assets/images/web/products/34-550-2-spc-uni.webp",
+   "imageFull": "assets/images/products/34-550-2-spc-uni.jpg",
+   "url": "https://www.ksicsilk.com/product/getArticle/34",
+   "designs": [
+    {
+     "id": 67,
+     "code": "462",
+     "image": "assets/images/web/designs/67-design-no-462.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/67"
+    }
+   ],
+   "type": "crepe",
+   "family": "blue",
+   "description": "A pure Mysore crepe silk saree in royal blue, woven by KSIC on the looms that have made Mysore Silk since 1912. The fabric has the soft, fluid drape and quiet lustre Mysore silk is known for, finished with pure gold zari."
+  },
+  {
+   "id": 33,
+   "sku": "550/2 SPC CD",
+   "name": "Mysore Crepe Silk Saree",
+   "article": "550/2 SPC CD",
+   "category": "saree",
+   "gender": "women",
+   "color": "Black & Ruby",
+   "swatch": "#1b1716",
+   "price": 66647,
+   "image": "assets/images/web/products/33-550-2-spc-cd.webp",
+   "imageFull": "assets/images/products/33-550-2-spc-cd.jpg",
+   "url": "https://www.ksicsilk.com/product/getArticle/33",
+   "designs": [
+    {
+     "id": 66,
+     "code": "441",
+     "image": "assets/images/web/designs/66-design-no-441.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/66"
+    },
+    {
+     "id": 65,
+     "code": "236",
+     "image": "assets/images/web/designs/65-design-no-236.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/65"
+    }
+   ],
+   "type": "crepe",
+   "family": "black",
+   "description": "A pure Mysore crepe silk saree in black & ruby, woven by KSIC on the looms that have made Mysore Silk since 1912. The fabric has the soft, fluid drape and quiet lustre Mysore silk is known for, finished with pure gold zari."
+  },
+  {
+   "id": 29,
+   "sku": "550/2 AP UNI",
+   "name": "Mysore Crepe Silk Saree",
+   "article": "550/2 AP UNI",
+   "category": "saree",
+   "gender": "women",
+   "color": "Peacock Teal",
+   "swatch": "#0f8b8d",
+   "price": 30958,
+   "image": "assets/images/web/products/29-550-2-ap-uni.webp",
+   "imageFull": "assets/images/products/29-550-2-ap-uni.jpg",
+   "url": "https://www.ksicsilk.com/product/getArticle/29",
+   "designs": [
+    {
+     "id": 45,
+     "code": "360",
+     "image": "assets/images/web/designs/45-design-no-360.webp",
+     "url": "https://www.ksicsilk.com/product/getDesign/45"
+    }
+   ],
+   "type": "crepe",
+   "family": "green",
+   "description": "A pure Mysore crepe silk saree in peacock teal, woven by KSIC on the looms that have made Mysore Silk since 1912. The fabric has the soft, fluid drape and quiet lustre Mysore silk is known for, finished with pure gold zari."
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "cities": ["Bengaluru", "Mysuru", "More Cities"],
+ "showrooms": [
+  { "city": "Bengaluru", "name": "Jubilee Showroom, M.G. Road", "address": "No. 44/45, Leo Shopping Complex, Residency Cross Road, M.G. Road, Bengaluru 560 001", "phone": "080 25550473", "hours": "10:00 AM – 07:00 PM", "flagship": true },
+  { "city": "Bengaluru", "name": "Malleshwaram Circle", "address": "No. 25/6, Jyothi Plaza, 5th Cross, Malleshwaram Circle, Bengaluru 560 003", "phone": "080 23465619", "hours": "10:00 AM – 07:00 PM" },
+  { "city": "Bengaluru", "name": "Basaveshwara Nagar", "address": "No. 637, Siddaiah Puranik Road, Opp. Panacea Hospital, 3rd Block, 3rd Stage, Bengaluru 560 079", "phone": "080 29905799", "hours": "10:00 AM – 07:00 PM" },
+  { "city": "Bengaluru", "name": "Jayanagar", "address": "Benaka No. 21/1, 8th 'C' Main Road, 4th Block, Jayanagar, Bengaluru 560 011", "phone": "080 26631405", "hours": "10:00 AM – 07:00 PM" },
+  { "city": "Bengaluru", "name": "K.G. Road, Majestic", "address": "FKCCI Building Premises, K.G. Road, Bengaluru 560 009", "phone": "080 22262077", "hours": "10:00 AM – 07:00 PM" },
+  { "city": "Bengaluru", "name": "Gandhi Bazaar", "address": "No. 198, BSR Arcade, Gandhi Bazaar, Basavanagudi, Bengaluru 560 004", "phone": "080 26604097", "hours": "10:00 AM – 07:00 PM" },
+  { "city": "Bengaluru", "name": "KSIC Kalalokha, Airport T2", "address": "Level 3, Terminal 2 Domestic Departures, Kempegowda International Airport, Devanahalli, Bengaluru 560 300", "phone": "", "hours": "Open 24 hours" },
+  { "city": "Mysuru", "name": "Factory Showroom, Mananthody Road", "address": "Silk Weaving Factory Premises, Manandavadi Road, Mysuru 570 008", "phone": "0821 2480801", "hours": "10:00 AM – 07:00 PM", "flagship": true },
+  { "city": "Mysuru", "name": "K.R. Circle", "address": "Visveshwaraiah Bhavan, K.R. Circle, Mysuru 570 001", "phone": "0821 2422658", "hours": "10:00 AM – 07:00 PM" },
+  { "city": "Mysuru", "name": "J.L.B. Road", "address": "Mayur Yatri Nivas, Jhansi Rani Laxmi Bai Road, Mysuru 570 005", "phone": "0821 2420713", "hours": "10:00 AM – 07:00 PM" },
+  { "city": "Mysuru", "name": "Kalidasa Road", "address": "No. 140, 1st Floor, Near Chandrakala Hospital, Kalidasa Road, Jayalakshmipuram, Mysuru 570 002", "phone": "0821 2001622", "hours": "10:00 AM – 07:00 PM" },
+  { "city": "Mysuru", "name": "Zoo Complex", "address": "No. N-19, Zoo Road, Ittigegudu, Nazarbad Mohalla, Mysuru 570 010", "phone": "0821 2445504", "hours": "10:00 AM – 07:00 PM" },
+  { "city": "More Cities", "name": "Channapatna Factory & Outlet", "address": "Spun Silk Mills Premises, B.M. Road, Channapatna, Ramanagara District", "phone": "080 29552328", "hours": "10:00 AM – 07:00 PM" },
+  { "city": "More Cities", "name": "Davanagere Outlet", "address": "No. 166/1, 3rd Main Road, J.P. Extension, Davanagere 577 002", "phone": "08192 295156", "hours": "10:00 AM – 07:00 PM" },
+  { "city": "More Cities", "name": "Hyderabad Outlet", "address": "Elephant House, No. 12, Ground Floor, Ameerpet Road Cross, Hyderabad 500 016", "phone": "040 23411092", "hours": "10:00 AM – 07:00 PM" }
+ ]
+}

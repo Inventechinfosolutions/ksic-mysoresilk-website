@@ -1,0 +1,719 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#16100e" data-theme-color>
+  <script>
+    /* Apply the saved theme (dark by default) before first paint so there is no flash */
+    (function () {
+      var t; try { t = localStorage.getItem('ksic-theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') t = 'dark'; /* dark is the default look */
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <title>KSIC Mysore Silk — Heritage Weaves since 1912</title>
+  <meta name="description" content="Pure Mysore silk sarees, shirts, kurtas and ties from Karnataka Silk Industries Corporation. GI-registered, woven in Mysore since 1912.">
+  <link rel="icon" href="assets/images/brand/ksiclogo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=13">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+  <!-- Shared gradients for the vertical silk threads (drawn by main.js) -->
+  <svg class="silk-defs" width="0" height="0" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id="silkSide" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0" stop-color="#e6cf98" stop-opacity="0"/>
+        <stop offset=".05" stop-color="#dcc07f"/>
+        <stop offset=".5" stop-color="#e6cf98"/>
+        <stop offset=".95" stop-color="#dcc07f"/>
+        <stop offset="1" stop-color="#e6cf98" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+  </svg>
+
+
+  <!-- Preloader -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <img src="assets/images/brand/ksiclogo.png" alt="" class="loader__logo">
+      <div class="loader__line"><span></span></div>
+      <p class="loader__count"><span data-count>0</span>%</p>
+    </div>
+    <div class="loader__panel loader__panel--top"></div>
+    <div class="loader__panel loader__panel--bottom"></div>
+  </div>
+
+  <!-- Announcement -->
+  <div class="announce">
+    <p>Every zari saree carries a unique code &amp; hologram — your mark of authentic Mysore Silk</p>
+  </div>
+
+  <!-- Header -->
+  <header class="header" data-header>
+    <div class="header__inner container">
+      <button class="icon-btn header__menu-btn" aria-label="Open menu" data-menu-open>
+        <span></span><span></span>
+      </button>
+      <nav class="nav nav--left" aria-label="Primary">
+        <a href="#sarees">Sarees</a>
+        <a href="#menswear">Menswear</a>
+        <a href="#showcase">Craft</a>
+      </nav>
+      <a href="#top" class="header__logo" aria-label="KSIC Mysore Silk home">
+        <img src="assets/images/brand/ksiclogo.png" alt="KSIC Mysore Silk">
+      </a>
+      <nav class="nav nav--right" aria-label="Secondary">
+        <a href="#silk-guide">Silk Guide</a>
+        <a href="#heritage">Heritage</a>
+        <a href="#showrooms">Showrooms</a>
+        <button class="icon-btn theme-btn" type="button" data-theme-toggle aria-pressed="false" aria-label="Switch to dark mode" title="Switch to dark mode">
+          <svg class="theme-btn__moon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>
+          <svg class="theme-btn__sun" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
+        </button>
+        <button class="icon-btn cart-btn" data-cart-open aria-label="Open bag">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+          <span class="cart-btn__count" data-cart-count>0</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" data-menu data-lenis-prevent>
+    <button class="icon-btn mobile-menu__close" data-menu-close aria-label="Close menu">&times;</button>
+    <nav>
+      <a href="#sarees" data-menu-link>Sarees</a>
+      <a href="#menswear" data-menu-link>Menswear</a>
+      <a href="#showcase" data-menu-link>The Craft</a>
+      <a href="#silk-guide" data-menu-link>Silk Guide</a>
+      <a href="#heritage" data-menu-link>Heritage</a>
+      <a href="#showrooms" data-menu-link>Showrooms</a>
+    </nav>
+  </div>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <div class="hero-wrap" data-hero-wrap>
+    <section class="hero" data-hero data-wayfind="Home" data-wayfind-href="#top" aria-roledescription="carousel" aria-label="Featured">
+      <div class="hero__dim" aria-hidden="true"></div>
+
+      <div class="hero__slides">
+        <!-- Slide 1 -->
+        <div class="hero__slide is-active" data-slide="0" role="group" aria-roledescription="slide" aria-label="1 of 2">
+          <div class="hero__media" data-hero-media>
+            <img src="assets/images/brand/hero-banner.jpg" alt="Model in an ivory and gold Mysore silk saree before Mysore Palace, beside panels of magenta, royal blue, green and peach silk sarees" fetchpriority="high" data-hero-img>
+          </div>
+          <div class="hero__veil" aria-hidden="true"></div>
+          <div class="hero__content container">
+            <div class="hero__copy">
+              <div class="hero__ornament" data-hero-reveal aria-hidden="true"><i></i><svg viewBox="0 0 32 20" aria-hidden="true"><path d="M16 2c-3 4-3 9 0 14 3-5 3-10 0-14Z"/><path d="M16 16C12 13 7 12 3 13c3 3 8 4 13 3Z"/><path d="M16 16c4-3 9-4 13-3-3 3-8 4-13 3Z"/><path d="M16 16c-2-4-6-7-10-7 1 4 5 7 10 7Z"/><path d="M16 16c2-4 6-7 10-7-1 4-5 7-10 7Z"/></svg><i></i></div>
+              <p class="hero__kicker" data-hero-reveal>Karnataka Silk Industries Corporation</p>
+              <h1 class="hero__title">
+                <span class="line"><span data-hero-line>Woven in</span></span>
+                <span class="line"><span data-hero-line>Mysore</span></span>
+                <span class="line line--since"><span data-hero-line><em>since 1912</em></span></span>
+              </h1>
+              <p class="hero__tags" data-hero-reveal>Timeless elegance <i aria-hidden="true">|</i> Pure silk <i aria-hidden="true">|</i> Heritage craftsmanship</p>
+              <div class="hero__actions" data-hero-reveal>
+                <a href="#sarees" class="btn btn--maroon">Shop sarees
+                  <svg viewBox="0 0 24 12" width="22" height="12" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M0 6h22M17 1l5 5-5 5"/></svg></a>
+                <a href="#showcase" class="btn btn--outline">Discover the craft</a>
+              </div>
+            </div>
+          </div>
+          <div class="hero__legacy" data-hero-reveal>
+            <div class="hero__ornament" aria-hidden="true"><i></i><svg viewBox="0 0 32 20" aria-hidden="true"><path d="M16 2c-3 4-3 9 0 14 3-5 3-10 0-14Z"/><path d="M16 16C12 13 7 12 3 13c3 3 8 4 13 3Z"/><path d="M16 16c4-3 9-4 13-3-3 3-8 4-13 3Z"/><path d="M16 16c-2-4-6-7-10-7 1 4 5 7 10 7Z"/><path d="M16 16c2-4 6-7 10-7-1 4-5 7-10 7Z"/></svg><i></i></div>
+            <p>Pure silk. Lasting legacy.</p>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="hero__slide hero__slide--loom" data-slide="1" role="group" aria-roledescription="slide" aria-label="2 of 2" aria-hidden="true" inert>
+          <div class="hero__media" data-hero-media>
+            <img src="assets/images/brand/hero-banner-loom.jpg" alt="Model in a wine and gold Mysore silk saree beside a handloom weaving silk with gold zari, Mysore Palace in the distance" loading="lazy" data-hero-img>
+          </div>
+          <div class="hero__veil hero__veil--soft" aria-hidden="true"></div>
+          <div class="hero__content container">
+            <div class="hero__copy">
+              <div class="hero__ornament" data-hero-reveal aria-hidden="true"><i></i><svg viewBox="0 0 32 20" aria-hidden="true"><path d="M16 2c-3 4-3 9 0 14 3-5 3-10 0-14Z"/><path d="M16 16C12 13 7 12 3 13c3 3 8 4 13 3Z"/><path d="M16 16c4-3 9-4 13-3-3 3-8 4-13 3Z"/><path d="M16 16c-2-4-6-7-10-7 1 4 5 7 10 7Z"/><path d="M16 16c2-4 6-7 10-7-1 4-5 7-10 7Z"/></svg><i></i></div>
+              <p class="hero__kicker" data-hero-reveal>From our looms in Mysore</p>
+              <h2 class="hero__title">
+                <span class="line"><span data-hero-line>Crafted on</span></span>
+                <span class="line"><span data-hero-line>the loom</span></span>
+                <span class="line line--since"><span data-hero-line><em>in pure gold zari</em></span></span>
+              </h2>
+              <p class="hero__tags" data-hero-reveal>Reeled <i aria-hidden="true">|</i> Dyed <i aria-hidden="true">|</i> Woven under one roof</p>
+              <div class="hero__actions" data-hero-reveal>
+                <a href="#sarees" class="btn btn--maroon">Explore sarees
+                  <svg viewBox="0 0 24 12" width="22" height="12" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M0 6h22M17 1l5 5-5 5"/></svg></a>
+                <a href="#heritage" class="btn btn--outline">Our heritage</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__dots" data-hero-reveal>
+        <button class="hero__dot is-active" data-slide-dot="0" aria-label="Show slide 1" aria-current="true"><span></span></button>
+        <button class="hero__dot" data-slide-dot="1" aria-label="Show slide 2"><span></span></button>
+        <button class="hero__pause" data-slide-pause aria-label="Pause slideshow">
+          <svg viewBox="0 0 12 12" width="10" height="10" aria-hidden="true"><path d="M2 1h3v10H2zM7 1h3v10H7z" fill="currentColor"/></svg>
+        </button>
+      </div>
+
+      <div class="hero__scroll" data-hero-reveal>
+        <span>Scroll</span><i></i>
+      </div>
+    </section>
+
+    </div>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track" data-marquee>
+        <span>100% Pure Mulberry Silk</span><b>✦</b>
+        <span>Pure Gold Zari</span><b>✦</b>
+        <span>GI Registered · GI-11</span><b>✦</b>
+        <span>Cocoon to Drape, Under One Roof</span><b>✦</b>
+        <span>Unique Code &amp; Hologram</span><b>✦</b>
+      </div>
+    </div>
+
+    <!-- HERITAGE / manifesto -->
+    <div class="heritage-wrap" data-heritage-wrap>
+    <section class="heritage section" id="heritage" data-wayfind="Our Heritage">
+      <div class="heritage__dim" aria-hidden="true"></div>
+      <div class="container heritage__grid">
+        <div class="heritage__label">
+          <p class="eyebrow">Our Heritage</p>
+          <span class="heritage__year" data-parallax="-0.2">1912</span>
+        </div>
+        <div class="heritage__body">
+          <p class="manifesto" data-split-words>
+            Established by Maharaja Nalvadi Krishnaraja Wodeyar with ten Swiss looms, our Mysore weaving factory once dressed the royal court. A century on, every saree is still reeled, dyed and woven by us — from cocoon to drape, under one roof.
+          </p>
+          <div class="stats">
+            <div class="stat"><strong data-countup="1912" data-plain>0</strong><span>Year the royal looms began</span></div>
+            <div class="stat"><strong data-countup="138">0</strong><span>Looms at the Mysore factory</span></div>
+            <div class="stat"><strong data-countup="100" data-suffix="%">0</strong><span>Pure silk, pure gold zari</span></div>
+            <div class="stat"><strong>GI‑11</strong><span>Sole proprietor of “Mysore Silk”</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Heritage timeline: milestones joined by a gold "zari thread" drawn on scroll -->
+      <div class="legacy container" data-legacy>
+        <svg class="legacy__thread" viewBox="0 0 1200 200" preserveAspectRatio="none" aria-hidden="true">
+          <path data-legacy-thread d="M0 120 C 150 20, 250 20, 330 110 S 520 200, 620 100 S 820 0, 920 90 S 1110 190, 1200 80"/>
+        </svg>
+        <ol class="legacy__list">
+          <li class="legacy__item" data-legacy-item style="--tint:#f4e2cf">
+            <span class="legacy__year">1912</span>
+            <figure class="legacy__arch reveal-img"><img src="assets/images/brand/Capture1.png" alt="Model in an orange and red Mysore silk saree" data-parallax-img></figure>
+            <h3>The royal looms</h3>
+            <p>Maharaja Nalvadi Krishnaraja Wodeyar sets up the Mysore weaving factory with ten looms imported from Switzerland.</p>
+          </li>
+          <li class="legacy__item" data-legacy-item style="--tint:#f3d9e4">
+            <span class="legacy__year">1980</span>
+            <figure class="legacy__arch reveal-img"><img src="assets/images/sarees/550-2-8-cd-38-2.jpg" alt="Mysore silk saree, article 550/2/8 CD, design 433" data-parallax-img></figure>
+            <h3>KSIC is formed</h3>
+            <p>The factory passes to Karnataka Silk Industries Corporation, a Government of Karnataka enterprise.</p>
+          </li>
+          <li class="legacy__item" data-legacy-item style="--tint:#ead9ef">
+            <span class="legacy__year">2012</span>
+            <figure class="legacy__arch reveal-img"><img src="assets/images/sarees/560-2-uni-51-2.jpg" alt="Mysore silk saree, article 560/2 UNI" data-parallax-img></figure>
+            <h3>A century of weaving</h3>
+            <p>The first Government industry in Karnataka to celebrate its centenary year.</p>
+          </li>
+          <li class="legacy__item" data-legacy-item style="--tint:#e3ead9">
+            <span class="legacy__year">GI‑11</span>
+            <figure class="legacy__arch reveal-img"><img src="assets/images/sarees/550-6-gandaberunda-84-1.jpg" alt="Mysore silk saree with the Gandaberunda motif" data-parallax-img></figure>
+            <h3>Only one Mysore Silk</h3>
+            <p>Geographical Indication registration makes KSIC the sole proprietor of “Mysore Silk”.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+    </div>
+
+    <!-- PRODUCT SHOWCASE (pinned, Insta360-style) -->
+    <section class="showcase" id="showcase" data-showcase data-wayfind="Signature Weave">
+      <div class="showcase__stage">
+        <div class="showcase__dim" aria-hidden="true"></div>
+        <div class="showcase__glow" aria-hidden="true"></div>
+        <div class="showcase__bg-title" aria-hidden="true">550/2/8 CD</div>
+
+        <div class="showcase__intro">
+          <p class="eyebrow eyebrow--light">Signature Weave</p>
+          <h2>Article 550/2/8 CD</h2>
+          <p>One weave, several designs, 19 contrast-border colourways. Scroll to explore.</p>
+        </div>
+
+        <div class="showcase__frame">
+          <div class="showcase__arch">
+            <img src="assets/images/sarees/550-2-8-cd-38-1.jpg" alt="Article 550/2/8 CD, design 116A" data-showcase-img data-design="116A" data-design-id="51" data-bg="#2a0d12" data-glow="#9c1f2e" class="is-active">
+            <img src="assets/images/sarees/550-2-8-cd-38-2.jpg" alt="Article 550/2/8 CD, design 433" data-showcase-img data-design="433" data-design-id="50" data-bg="#2e0f27" data-glow="#a3297c">
+            <img src="assets/images/sarees/550-2-8-cd-38-4.jpg" alt="Article 550/2/8 CD, design 116" data-showcase-img data-design="116" data-design-id="48" data-bg="#0e1830" data-glow="#2c4f9a">
+            <img src="assets/images/sarees/550-2-8-cd-38-1.jpg" alt="Article 550/2/8 CD, design 116A" data-showcase-img data-design="116A" data-design-id="51" data-bg="#0c2118" data-glow="#2f7a44">
+          </div>
+          <div class="showcase__ring" aria-hidden="true"></div>
+        </div>
+
+        <ol class="showcase__features">
+          <li data-showcase-feature class="is-active">
+            <span class="num">01</span>
+            <h3>Mulberry silk, 26–28 denier</h3>
+            <p>Yarn from cocoons reared in the old Mysore region, high-twist for its signature lustre.</p>
+          </li>
+          <li data-showcase-feature>
+            <span class="num">02</span>
+            <h3>Pure gold zari</h3>
+            <p>Zari that will not tarnish — it stays bright through decades of wear.</p>
+          </li>
+          <li data-showcase-feature>
+            <span class="num">03</span>
+            <h3>Woven in Mysore</h3>
+            <p>Reeled, dyed and woven in our own factories in Mysore district.</p>
+          </li>
+          <li data-showcase-feature>
+            <span class="num">04</span>
+            <h3>Authenticated</h3>
+            <p>A unique code and hologram on every zari saree, backed by GI registration.</p>
+          </li>
+        </ol>
+
+        <div class="showcase__spec">
+          <div><small>Article</small><strong>550/2/8 CD</strong></div>
+          <div><small>Design</small><strong data-showcase-design>116A</strong></div>
+          <div><small>Price</small><strong data-showcase-price>₹60,412</strong></div>
+          <button class="btn btn--gold" data-showcase-open="38">Choose design &amp; colour</button>
+        </div>
+
+        <div class="showcase__progress" aria-hidden="true"><span data-showcase-bar></span></div>
+      </div>
+    </section>
+
+    <!-- SAREE EDIT (horizontal scroll) -->
+    <section class="edit" id="sarees" data-wayfind="The Saree Edit">
+      <div class="edit__head container">
+        <div>
+          <p class="eyebrow">The Saree Edit</p>
+          <h2 class="section-title">Pure Mysore Silk Sarees</h2>
+        </div>
+        <div class="chips" role="tablist" aria-label="Filter by price" data-price-filter>
+          <button class="chip is-active" data-range="0-9999999" role="tab" aria-selected="true">All</button>
+          <button class="chip" data-range="0-40000" role="tab" aria-selected="false">Under ₹40k</button>
+          <button class="chip" data-range="40000-60000" role="tab" aria-selected="false">₹40k – ₹60k</button>
+          <button class="chip" data-range="60000-100000" role="tab" aria-selected="false">₹60k – ₹1L</button>
+          <button class="chip" data-range="100000-9999999" role="tab" aria-selected="false">Above ₹1L</button>
+        </div>
+      </div>
+      <div class="edit__pin" data-edit-pin>
+        <div class="edit__track" data-edit-track></div>
+        <div class="edit__progress container"><span data-edit-bar></span></div>
+      </div>
+    </section>
+
+    <!-- PARALLAX BANNER -->
+    <section class="banner" id="occasions" data-banner data-wayfind="For Every Occasion">
+      <div class="banner__media">
+        <img src="assets/images/brand/slider3.jpg" alt="Model in a maroon Mysore silk saree with a green and gold zari pallu" data-banner-img>
+      </div>
+      <div class="banner__content container">
+        <p class="eyebrow">Crafted for occasions</p>
+        <blockquote data-split-words>A saree that outlives trends — and is passed down, not put away.</blockquote>
+        <a href="#sarees" class="btn btn--dark">Find your saree</a>
+      </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="cats section">
+      <div class="container">
+        <p class="eyebrow">Shop by category</p>
+        <h2 class="section-title">For every occasion</h2>
+        <div class="cats__grid">
+          <a class="cat reveal-img" href="#sarees">
+            <img src="assets/images/sarees/550-6-k2-uni-47-1.jpg" alt="Silk sarees" data-parallax-img>
+            <span class="cat__label">Sarees <i>→</i></span>
+          </a>
+          <a class="cat reveal-img" href="#menswear" data-men-filter="kurtas">
+            <img src="assets/images/mens/silk-kurta-72-1.jpg" alt="Silk kurtas" data-parallax-img>
+            <span class="cat__label">Kurtas <i>→</i></span>
+          </a>
+          <a class="cat reveal-img" href="#menswear" data-men-filter="shirts">
+            <img src="assets/images/mens/colour-silk-shirts-58-1.jpg" alt="Silk shirts" data-parallax-img>
+            <span class="cat__label">Shirts <i>→</i></span>
+          </a>
+          <a class="cat reveal-img" href="#menswear" data-men-filter="gift-sets">
+            <img src="assets/images/mens/tie-pocket-sq-gift-set-box-80-1.jpg" alt="Tie and pocket square gift sets" data-parallax-img>
+            <span class="cat__label">Gifting <i>→</i></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENSWEAR GRID -->
+    <div class="men-wrap" data-men-wrap>
+    <section class="men section" id="menswear" data-wayfind="Menswear">
+      <div class="men__dim" aria-hidden="true"></div>
+      <div class="container">
+        <div class="men__head">
+          <div>
+            <p class="eyebrow">Menswear &amp; Accessories</p>
+            <h2 class="section-title">Silk, tailored</h2>
+          </div>
+          <div class="chips" role="tablist" aria-label="Filter menswear" data-men-tabs>
+            <button class="chip is-active" data-cat="all" role="tab" aria-selected="true">All</button>
+            <button class="chip" data-cat="shirts" role="tab" aria-selected="false">Shirts</button>
+            <button class="chip" data-cat="kurtas" role="tab" aria-selected="false">Kurtas</button>
+            <button class="chip" data-cat="ties" role="tab" aria-selected="false">Ties</button>
+            <button class="chip" data-cat="gift-sets" role="tab" aria-selected="false">Gift sets</button>
+          </div>
+        </div>
+        <div class="grid" data-men-grid></div>
+      </div>
+    </section>
+    </div>
+
+    <!-- SILK GUIDE: identify pure silk (pinned burn test) -->
+    <section class="guide" id="silk-guide" data-wayfind="Identify Pure Silk">
+      <div class="container guide__intro">
+        <p class="eyebrow">Silk Guide · 01</p>
+        <h2 class="section-title">All that shines<br><em>is not silk.</em></h2>
+        <p class="guide__lead" data-split-words>
+          What is commonly sold as “art silk” is not natural silk. Pure silk is natural and eco-friendly — it comes from the silkworm. The market is full of imitations sold under glamorous names: art silk, artificial silk and more. Here is a simple test anyone can do, anywhere, anytime.
+        </p>
+      </div>
+
+      <div class="burn" data-burn>
+        <div class="burn__stage">
+          <div class="burn__dim" aria-hidden="true"></div>
+          <div class="burn__visual">
+            <svg class="burn__svg" viewBox="0 0 600 380" role="img" aria-label="Illustration of the burning test: a thread is pulled from silk fabric, burned, smells like burning hair and leaves a black residue that crushes to powder">
+              <defs>
+                <pattern id="weave" width="12" height="12" patternUnits="userSpaceOnUse">
+                  <rect width="12" height="12" fill="#6e1423"/>
+                  <rect x="0" y="0" width="6" height="12" fill="#b88a3e" opacity=".85"/>
+                  <rect x="0" y="6" width="12" height="3" fill="#8a2233" opacity=".9"/>
+                </pattern>
+                <radialGradient id="flameGrad" cx="50%" cy="70%" r="60%">
+                  <stop offset="0" stop-color="#fff6d5"/>
+                  <stop offset=".45" stop-color="#f6b23c"/>
+                  <stop offset="1" stop-color="#d9462b"/>
+                </radialGradient>
+              </defs>
+
+              <!-- fabric swatch -->
+              <g class="burn__swatch" data-burn-swatch>
+                <rect x="30" y="90" width="170" height="170" rx="4" fill="url(#weave)"/>
+                <rect x="30" y="90" width="170" height="170" rx="4" fill="none" stroke="rgba(28,24,20,.15)"/>
+                <text x="115" y="294" text-anchor="middle" class="burn__caption">Silk fabric</text>
+              </g>
+
+              <!-- pulled thread + burnt overlay -->
+              <path class="burn__thread" data-burn-thread d="M200 175 C 270 162, 330 190, 400 174 S 520 166, 570 175"/>
+              <path class="burn__char" data-burn-char d="M200 175 C 270 162, 330 190, 400 174 S 520 166, 570 175"/>
+
+              <!-- flame -->
+              <g class="burn__flame" data-burn-flame>
+                <path d="M0 0 C -14 -12, -10 -30, 0 -52 C 4 -36, 16 -30, 12 -12 C 10 -4, 6 0, 0 0 Z" fill="url(#flameGrad)"/>
+                <path d="M0 -4 C -5 -10, -4 -20, 0 -30 C 3 -20, 7 -14, 4 -6 Z" fill="#fff6d5" opacity=".9"/>
+              </g>
+
+              <!-- smoke -->
+              <g class="burn__smoke" data-burn-smoke>
+                <path d="M330 150 c -12 -20, 12 -30, 0 -50 s 12 -30, 0 -50"/>
+                <path d="M370 150 c -12 -20, 12 -30, 0 -50 s 12 -30, 0 -50"/>
+                <path d="M410 150 c -12 -20, 12 -30, 0 -50 s 12 -30, 0 -50"/>
+              </g>
+              <g class="burn__tag" data-burn-smell>
+                <rect x="265" y="6" width="230" height="40" rx="20"/>
+                <text x="380" y="31" text-anchor="middle">Smells like burning hair</text>
+              </g>
+
+              <!-- residue + powder -->
+              <g data-burn-residue class="burn__residue">
+                <ellipse cx="385" cy="250" rx="30" ry="12" fill="#1c1814"/>
+                <ellipse cx="372" cy="246" rx="8" ry="4" fill="#3a302a"/>
+              </g>
+              <g data-burn-powder class="burn__powder"></g>
+              <g class="burn__tag" data-burn-powder-tag>
+                <rect x="290" y="296" width="190" height="40" rx="20"/>
+                <text x="385" y="321" text-anchor="middle">Crushes to powder</text>
+              </g>
+            </svg>
+          </div>
+
+          <ol class="burn__steps">
+            <li data-burn-step class="is-active">
+              <span class="num">01</span>
+              <h3>Pull a thread</h3>
+              <p>Take a small thread from both directions — warp and weft. Hundred percent silk means both are made from pure silk yarn.</p>
+            </li>
+            <li data-burn-step>
+              <span class="num">02</span>
+              <h3>Burn it</h3>
+              <p>The layman’s “Burning Test” can be carried out at any place and at any time.</p>
+            </li>
+            <li data-burn-step>
+              <span class="num">03</span>
+              <h3>Smell it</h3>
+              <p>Pure silk gives off the smell of burning hair.</p>
+            </li>
+            <li data-burn-step>
+              <span class="num">04</span>
+              <h3>Crush the residue</h3>
+              <p>It leaves a black residue that is easily crushed to powder between your fingers.</p>
+            </li>
+          </ol>
+          <div class="burn__progress" aria-hidden="true"><span data-burn-bar></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SILK GUIDE: care -->
+    <section class="care section" id="silk-care" data-wayfind="Silk Care">
+      <div class="container">
+        <div class="care__head">
+          <div>
+            <p class="eyebrow">Silk Guide · 02</p>
+            <h2 class="section-title">Taking care<br><em>of silk</em></h2>
+          </div>
+          <p class="care__sub">Treated gently, a silk saree keeps its lustre for generations. Follow these steps for washing and ironing.</p>
+        </div>
+
+        <div class="care__grid">
+          <!-- Washing timeline -->
+          <div class="care__wash">
+            <h3 class="care__title"><span class="care__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11Z"/></svg>
+            </span>Precautions during washing</h3>
+
+            <div class="care__tip" data-care-reveal>
+              <strong>Before you begin</strong>
+              <p>Silk with doubtful colour fastness may be steeped in cold water with a small amount of citric or acetic acid for 1–2 minutes before washing.</p>
+            </div>
+
+            <div class="care__track" data-care-steps>
+            <ol class="care__steps">
+              <li data-care-step>
+                <span class="care__dot"></span>
+                <div><h4>Use soft water</h4><p>Always wash silks in soft water. If the water is hard, add a pinch of borax or ammonia.</p></div>
+                <span class="temp temp--neutral">Soft water</span>
+              </li>
+              <li data-care-step>
+                <span class="care__dot"></span>
+                <div><h4>Choose a neutral soap</h4><p>A good neutral soap as flakes or solution. A light detergent may be used with hard water.</p></div>
+                <span class="temp temp--neutral">Neutral pH</span>
+              </li>
+              <li data-care-step>
+                <span class="care__dot"></span>
+                <div><h4>Wash gently</h4><p>Wash in lukewarm water by kneading and squeezing, or by suction.</p></div>
+                <span class="temp temp--luke">Lukewarm</span>
+              </li>
+              <li data-care-step>
+                <span class="care__dot"></span>
+                <div><h4>Rinse 2–3 times</h4><p>Rinse in warm water two to three times to remove all traces of soap.</p></div>
+                <span class="temp temp--warm">Warm</span>
+              </li>
+              <li data-care-step>
+                <span class="care__dot"></span>
+                <div><h4>Final acid rinse</h4><p>Add a few drops of citric or acetic acid to the final rinse, in cold water.</p></div>
+                <span class="temp temp--cold">Cold</span>
+              </li>
+              <li data-care-step>
+                <span class="care__dot"></span>
+                <div><h4>Squeeze lightly</h4><p>Squeeze lightly by hand to remove excess water.</p></div>
+                <span class="temp temp--neutral">By hand</span>
+              </li>
+              <li data-care-step>
+                <span class="care__dot"></span>
+                <div><h4>Dry flat, in shade</h4><p>Always dry flat and away from direct sunlight.</p></div>
+                <span class="temp temp--neutral">Shade</span>
+              </li>
+            </ol>
+            <span class="care__line" aria-hidden="true"><span data-care-line></span></span>
+            </div>
+          </div>
+
+          <!-- Ironing cards -->
+          <div class="care__iron">
+            <h3 class="care__title"><span class="care__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 17h17v-3a6 6 0 0 0-6-6H8"/><path d="M3 17l2-6h9"/></svg>
+            </span>Precautions during ironing</h3>
+
+            <div class="iron-card iron-card--do" data-care-reveal>
+              <div class="iron-card__art" aria-hidden="true">
+                <svg viewBox="0 0 160 70">
+                  <path class="iron-card__cloth" d="M0 58 Q 40 52 80 58 T 160 58 V70 H0Z"/>
+                  <g class="iron-card__iron">
+                    <path d="M8 46h44v-8a14 14 0 0 0-14-14H22L8 46Z"/>
+                    <path d="M22 24c0-6 6-8 10-8h10" fill="none"/>
+                  </g>
+                  <g class="iron-card__dial"><circle cx="138" cy="24" r="14"/><line data-dial x1="138" y1="24" x2="138" y2="13"/></g>
+                </svg>
+              </div>
+              <span class="iron-card__badge">Do</span>
+              <h4>Low to medium heat</h4>
+              <p>Keep the iron on a low to medium setting.</p>
+            </div>
+
+            <div class="iron-card iron-card--dont" data-care-reveal>
+              <div class="iron-card__art" aria-hidden="true">
+                <svg viewBox="0 0 160 70">
+                  <path class="iron-card__cloth" d="M0 58 Q 40 52 80 58 T 160 58 V70 H0Z"/>
+                  <g class="iron-card__drops">
+                    <path d="M60 14s6 7 6 11a6 6 0 0 1-12 0c0-4 6-11 6-11Z"/>
+                    <path d="M82 22s5 6 5 9a5 5 0 0 1-10 0c0-3 5-9 5-9Z"/>
+                    <path d="M100 12s6 7 6 11a6 6 0 0 1-12 0c0-4 6-11 6-11Z"/>
+                  </g>
+                  <line class="iron-card__strike" x1="44" y1="44" x2="118" y2="4"/>
+                </svg>
+              </div>
+              <span class="iron-card__badge">Don’t</span>
+              <h4>Never spray water</h4>
+              <p>Spraying water to dampen silk before ironing causes water spots on the fabric.</p>
+            </div>
+
+            <div class="iron-card iron-card--do" data-care-reveal>
+              <div class="iron-card__art" aria-hidden="true">
+                <svg viewBox="0 0 160 70">
+                  <g class="iron-card__flip">
+                    <rect x="40" y="16" width="80" height="44" rx="3" class="iron-card__face"/>
+                    <rect x="40" y="16" width="80" height="44" rx="3" class="iron-card__back"/>
+                  </g>
+                </svg>
+              </div>
+              <span class="iron-card__badge">Do</span>
+              <h4>Reverse side if damp</h4>
+              <p>If the silk is still damp, always iron it on the reverse side.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SHOWROOMS -->
+    <section class="showrooms section" id="showrooms" data-wayfind="Showrooms">
+      <div class="container showrooms__grid">
+        <div>
+          <p class="eyebrow">Visit us</p>
+          <h2 class="section-title">Feel the silk<br><em>in person</em></h2>
+          <p class="muted">Our showrooms across Karnataka and beyond carry the full range of articles and designs.</p>
+          <a href="https://www.ksicsilk.com/Home/showrooms?s=Bengaluru" class="btn btn--dark" target="_blank" rel="noopener">All showrooms</a>
+        </div>
+        <ul class="showrooms__list" data-showrooms></ul>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter">
+      <div class="container newsletter__inner">
+        <h2>First look at new weaves</h2>
+        <p>Sign up for new arrivals, festive collections and showroom events.</p>
+        <form class="newsletter__form" data-newsletter>
+          <label for="nl-email" class="sr-only">Email address</label>
+          <input id="nl-email" type="email" placeholder="Your email address" required>
+          <button class="btn btn--dark" type="submit">Subscribe</button>
+        </form>
+        <p class="newsletter__msg" data-newsletter-msg role="status"></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="assets/images/brand/ksiclogo.png" alt="KSIC Mysore Silk">
+        <p>Karnataka Silk Industries Corporation Ltd.<br>A Government of Karnataka enterprise.</p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <a href="#sarees">Sarees</a>
+        <a href="#menswear">Shirts &amp; Kurtas</a>
+        <a href="#menswear">Ties &amp; Gift sets</a>
+        <a href="#silk-guide">Identify pure silk</a>
+        <a href="#silk-care">Silk care</a>
+        <a href="https://www.ksicsilk.com/Home/how_to_wear_saree" target="_blank" rel="noopener">How to wear a saree</a>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="https://www.ksicsilk.com/Home/About" target="_blank" rel="noopener">About us</a>
+        <a href="https://www.ksicsilk.com/Home/bod" target="_blank" rel="noopener">Board of Directors</a>
+        <a href="https://www.ksicsilk.com/Home/careers" target="_blank" rel="noopener">Careers</a>
+        <a href="https://www.ksicsilk.com/Home/Contact" target="_blank" rel="noopener">Contact</a>
+      </div>
+      <div>
+        <h4>Head office</h4>
+        <p>3rd &amp; 4th Floor, Public Utility Building, M.G Road, Mayo Hall, Bengaluru 560 001</p>
+        <p><a href="mailto:info@ksicsilk.com">info@ksicsilk.com</a><br><a href="tel:+918025586402">+91 80 2558 6402</a></p>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span data-year></span> KSIC. All rights reserved.</span>
+      <a href="https://www.facebook.com/MysoreSilks/" target="_blank" rel="noopener">Facebook</a>
+    </div>
+    <div class="footer__word" aria-hidden="true">Mysore Silk</div>
+  </footer>
+
+  <!-- Quick view modal -->
+  <div class="modal" data-modal aria-hidden="true">
+    <div class="modal__backdrop" data-modal-close></div>
+    <div class="modal__panel" data-lenis-prevent role="dialog" aria-modal="true" aria-labelledby="qv-title">
+      <button class="icon-btn modal__close" data-modal-close aria-label="Close">&times;</button>
+      <div class="qv" data-qv></div>
+    </div>
+  </div>
+
+  <!-- Cart drawer -->
+  <aside class="drawer" data-drawer aria-hidden="true">
+    <div class="drawer__backdrop" data-cart-close></div>
+    <div class="drawer__panel" data-lenis-prevent role="dialog" aria-modal="true" aria-label="Shopping bag">
+      <div class="drawer__head">
+        <h3>Your bag</h3>
+        <button class="icon-btn" data-cart-close aria-label="Close bag">&times;</button>
+      </div>
+      <div class="drawer__items" data-cart-items></div>
+      <div class="drawer__foot">
+        <div class="drawer__total"><span>Subtotal</span><strong data-cart-total>₹0</strong></div>
+        <p class="muted small">Shipping &amp; taxes calculated at checkout.</p>
+        <button class="btn btn--dark btn--block" data-checkout>Checkout</button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Wayfinding: where am I on the page + jump anywhere, and back to top -->
+  <div class="wayfind" data-wayfind-ui>
+    <nav class="wayfind__menu" id="wayfind-menu" aria-label="Page sections" data-wayfind-menu data-lenis-prevent hidden>
+      <p class="wayfind__title">On this page</p>
+      <ol class="wayfind__list" data-wayfind-list></ol>
+    </nav>
+    <button class="wayfind__pill" type="button" aria-expanded="false" aria-controls="wayfind-menu" data-wayfind-toggle>
+      <span class="wayfind__index"><b data-wayfind-num>01</b><span data-wayfind-total>/ 09</span></span>
+      <span class="wayfind__label"><span class="sr-only">You are in: </span><span data-wayfind-label>Home</span></span>
+      <svg class="wayfind__chev" viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"><path d="M2.5 7.5 6 4l3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="wayfind__bar" aria-hidden="true"><i data-wayfind-bar></i></span>
+    </button>
+  </div>
+  <button class="to-top" type="button" aria-label="Back to top" data-to-top>
+    <svg class="to-top__ring" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="24" pathLength="100"/><circle class="to-top__fill" cx="26" cy="26" r="24" pathLength="100" data-to-top-ring/></svg>
+    <svg class="to-top__arrow" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <div class="toast" data-toast role="status" aria-live="polite"></div>
+  <div class="cursor" aria-hidden="true" data-cursor><span>View</span></div>
+
+  <script src="assets/data/products.js?v=2"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="js/main.js?v=13"></script>
+</body>
+</html>

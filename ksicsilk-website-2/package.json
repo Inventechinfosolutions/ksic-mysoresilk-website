@@ -1,0 +1,10 @@
+{
+  "name": "ksicsilk-home",
+  "version": "1.0.0",
+  "private": true,
+  "description": "KSIC Mysore Silk — redesigned dynamic home page",
+  "scripts": {
+    "start": "python3 -m http.server 5180",
+    "serve": "npx --yes serve -l 5180 ."
+  }
+}

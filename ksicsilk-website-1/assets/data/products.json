@@ -1,0 +1,1081 @@
+{
+ "policies": {
+  "saree": {
+   "shipping": "Delivery takes 30–45 days depending on the country of shipment.",
+   "colour": "The colour you receive may vary by 10–20% from the swatch shown.",
+   "returns": "Return/exchange is not available on sarees."
+  },
+  "menswear": {
+   "shipping": "Delivery takes 30–45 days depending on the country of shipment.",
+   "returns": "Return/exchange is not available."
+  }
+ },
+ "palettes": {
+  "uni": [
+   {
+    "id": "118",
+    "hex": "#9E1E66",
+    "name": "Burgundy"
+   },
+   {
+    "id": "119",
+    "hex": "#00AD9F",
+    "name": "Turquoise"
+   },
+   {
+    "id": "120",
+    "hex": "#471D7C",
+    "name": "Purple"
+   },
+   {
+    "id": "121",
+    "hex": "#00B8DE",
+    "name": "Turquoise"
+   },
+   {
+    "id": "140",
+    "hex": "#DAAA00",
+    "name": "Mustard"
+   },
+   {
+    "id": "141",
+    "hex": "#F2A900",
+    "name": "Saffron"
+   },
+   {
+    "id": "142",
+    "hex": "#FFBF3F",
+    "name": "Mango"
+   },
+   {
+    "id": "143",
+    "hex": "#FFA300",
+    "name": "Saffron"
+   },
+   {
+    "id": "144",
+    "hex": "#DE7C00",
+    "name": "Orange"
+   },
+   {
+    "id": "145",
+    "hex": "#CB6015",
+    "name": "Rust"
+   },
+   {
+    "id": "146",
+    "hex": "#E35205",
+    "name": "Orange"
+   },
+   {
+    "id": "147",
+    "hex": "#BE3A34",
+    "name": "Rust"
+   },
+   {
+    "id": "148",
+    "hex": "#E40046",
+    "name": "Scarlet"
+   },
+   {
+    "id": "149",
+    "hex": "#9D2235",
+    "name": "Burgundy"
+   },
+   {
+    "id": "150",
+    "hex": "#862633",
+    "name": "Burgundy"
+   },
+   {
+    "id": "151",
+    "hex": "#EB6FBD",
+    "name": "Pink"
+   },
+   {
+    "id": "152",
+    "hex": "#DF1995",
+    "name": "Rani Pink"
+   },
+   {
+    "id": "153",
+    "hex": "#A20067",
+    "name": "Magenta"
+   },
+   {
+    "id": "154",
+    "hex": "#5D285F",
+    "name": "Purple"
+   },
+   {
+    "id": "155",
+    "hex": "#546223",
+    "name": "Olive"
+   },
+   {
+    "id": "156",
+    "hex": "#D7B9E4",
+    "name": "Beige"
+   },
+   {
+    "id": "157",
+    "hex": "#284734",
+    "name": "Bottle Green"
+   },
+   {
+    "id": "158",
+    "hex": "#A9431E",
+    "name": "Rust"
+   },
+   {
+    "id": "159",
+    "hex": "#489FDF",
+    "name": "Sky Blue"
+   },
+   {
+    "id": "160",
+    "hex": "#006AC6",
+    "name": "Blue"
+   },
+   {
+    "id": "161",
+    "hex": "#4E5B73",
+    "name": "Ink Blue"
+   },
+   {
+    "id": "162",
+    "hex": "#384967",
+    "name": "Ink Blue"
+   },
+   {
+    "id": "163",
+    "hex": "#956C58",
+    "name": "Mauve"
+   },
+   {
+    "id": "164",
+    "hex": "#AC9F3C",
+    "name": "Gold"
+   },
+   {
+    "id": "165",
+    "hex": "#EEDC00",
+    "name": "Yellow"
+   },
+   {
+    "id": "166",
+    "hex": "#6CC24A",
+    "name": "Parrot Green"
+   },
+   {
+    "id": "167",
+    "hex": "#48A9C5",
+    "name": "Sky Blue"
+   },
+   {
+    "id": "168",
+    "hex": "#005EB8",
+    "name": "Blue"
+   },
+   {
+    "id": "169",
+    "hex": "#AC4FC6",
+    "name": "Mauve"
+   },
+   {
+    "id": "170",
+    "hex": "#8E2C48",
+    "name": "Burgundy"
+   },
+   {
+    "id": "171",
+    "hex": "#EE2737",
+    "name": "Red"
+   },
+   {
+    "id": "172",
+    "hex": "#FF7F32",
+    "name": "Orange"
+   },
+   {
+    "id": "173",
+    "hex": "#F6BE00",
+    "name": "Yellow"
+   },
+   {
+    "id": "174",
+    "hex": "#ADCB00",
+    "name": "Mustard"
+   },
+   {
+    "id": "175",
+    "hex": "#283266",
+    "name": "Ink Blue"
+   },
+   {
+    "id": "176",
+    "hex": "#D64388",
+    "name": "Rani Pink"
+   },
+   {
+    "id": "177",
+    "hex": "#BA0020",
+    "name": "Crimson"
+   },
+   {
+    "id": "178",
+    "hex": "#F1B300",
+    "name": "Saffron"
+   },
+   {
+    "id": "179",
+    "hex": "#87027B",
+    "name": "Violet"
+   },
+   {
+    "id": "181",
+    "hex": "#FA4616",
+    "name": "Red"
+   },
+   {
+    "id": "182",
+    "hex": "#CE0037",
+    "name": "Crimson"
+   },
+   {
+    "id": "183",
+    "hex": "#C6007E",
+    "name": "Magenta"
+   },
+   {
+    "id": "184",
+    "hex": "#00B140",
+    "name": "Green"
+   }
+  ],
+  "contrast": [
+   {
+    "id": "122",
+    "hex": "#97D700",
+    "border": "#0047BB",
+    "name": "Parrot Green / Blue border"
+   },
+   {
+    "id": "123",
+    "hex": "#E45DBF",
+    "border": "#1E22AA",
+    "name": "Pink / Royal Blue border"
+   },
+   {
+    "id": "124",
+    "hex": "#FF671F",
+    "border": "#006A52",
+    "name": "Orange / Bottle Green border"
+   },
+   {
+    "id": "125",
+    "hex": "#FFC72C",
+    "border": "#672E45",
+    "name": "Mango / Wine border"
+   },
+   {
+    "id": "126",
+    "hex": "#A0867F",
+    "border": "#008330",
+    "name": "Grey / Bottle Green border"
+   },
+   {
+    "id": "127",
+    "hex": "#008330",
+    "border": "#171C8F",
+    "name": "Bottle Green / Royal Blue border"
+   },
+   {
+    "id": "128",
+    "hex": "#D64388",
+    "border": "#002855",
+    "name": "Rani Pink / Navy border"
+   },
+   {
+    "id": "129",
+    "hex": "#BA0020",
+    "border": "#009A44",
+    "name": "Crimson / Green border"
+   },
+   {
+    "id": "130",
+    "hex": "#008BCD",
+    "border": "#9B26B6",
+    "name": "Turquoise / Violet border"
+   },
+   {
+    "id": "131",
+    "hex": "#1D6E2F",
+    "border": "#BA0020",
+    "name": "Bottle Green / Crimson border"
+   },
+   {
+    "id": "132",
+    "hex": "#C5A900",
+    "border": "#BB16A3",
+    "name": "Mustard / Rani Pink border"
+   },
+   {
+    "id": "133",
+    "hex": "#98A4AE",
+    "border": "#003D4C",
+    "name": "Lavender / Navy border"
+   },
+   {
+    "id": "134",
+    "hex": "#485CC7",
+    "border": "#8A1B61",
+    "name": "Royal Blue / Burgundy border"
+   },
+   {
+    "id": "135",
+    "hex": "#00A3E0",
+    "border": "#003B5C",
+    "name": "Turquoise / Navy border"
+   },
+   {
+    "id": "136",
+    "hex": "#71CC98",
+    "border": "#2C5234",
+    "name": "Mint / Bottle Green border"
+   },
+   {
+    "id": "137",
+    "hex": "#6BA539",
+    "border": "#991E66",
+    "name": "Parrot Green / Burgundy border"
+   },
+   {
+    "id": "138",
+    "hex": "#D2CE9E",
+    "border": "#AC4FC6",
+    "name": "Beige / Mauve border"
+   },
+   {
+    "id": "139",
+    "hex": "#F3CFB3",
+    "border": "#A83D72",
+    "name": "Cream / Mauve border"
+   },
+   {
+    "id": "180",
+    "hex": "#FFA300",
+    "border": "#006A52",
+    "name": "Saffron / Bottle Green border"
+   }
+  ]
+ },
+ "products": [
+  {
+   "id": "29",
+   "category": "saree",
+   "name": "550/2 AP UNI",
+   "title": "Mysore Silk Saree 550/2 AP UNI",
+   "price": 30958.0,
+   "palette": "uni",
+   "designs": [
+    {
+     "designId": "45",
+     "design": "360",
+     "images": [
+      "assets/images/sarees/550-2-ap-uni-29-1.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/45"
+    }
+   ],
+   "source": "https://www.ksicsilk.com/product/getArticle/29"
+  },
+  {
+   "id": "33",
+   "category": "saree",
+   "name": "550/2 SPC CD",
+   "title": "Mysore Silk Saree 550/2 SPC CD",
+   "price": 66647.0,
+   "palette": "contrast",
+   "designs": [
+    {
+     "designId": "66",
+     "design": "441",
+     "images": [
+      "assets/images/sarees/550-2-spc-cd-33-1.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/66"
+    },
+    {
+     "designId": "65",
+     "design": "236",
+     "images": [
+      "assets/images/sarees/550-2-spc-cd-33-2.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/65"
+    }
+   ],
+   "source": "https://www.ksicsilk.com/product/getArticle/33"
+  },
+  {
+   "id": "34",
+   "category": "saree",
+   "name": "550/2 SPC UNI",
+   "title": "Mysore Silk Saree 550/2 SPC UNI",
+   "price": 63459.0,
+   "palette": "uni",
+   "designs": [
+    {
+     "designId": "67",
+     "design": "462",
+     "images": [
+      "assets/images/sarees/550-2-spc-uni-34-1.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/67"
+    }
+   ],
+   "source": "https://www.ksicsilk.com/product/getArticle/34"
+  },
+  {
+   "id": "35",
+   "category": "saree",
+   "name": "550/2 UNI",
+   "title": "Mysore Silk Saree 550/2 UNI",
+   "price": 31134.0,
+   "palette": "uni",
+   "designs": [
+    {
+     "designId": "100",
+     "design": "435",
+     "images": [
+      "assets/images/sarees/550-2-uni-35-1.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/100"
+    }
+   ],
+   "source": "https://www.ksicsilk.com/product/getArticle/35"
+  },
+  {
+   "id": "38",
+   "category": "saree",
+   "name": "550/2/8 CD",
+   "title": "Mysore Silk Saree 550/2/8 CD",
+   "price": 60412.0,
+   "palette": "contrast",
+   "designs": [
+    {
+     "designId": "51",
+     "design": "116A",
+     "images": [
+      "assets/images/sarees/550-2-8-cd-38-1.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/51"
+    },
+    {
+     "designId": "50",
+     "design": "433",
+     "images": [
+      "assets/images/sarees/550-2-8-cd-38-2.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/50"
+    },
+    {
+     "designId": "49",
+     "design": "116",
+     "images": [
+      "assets/images/sarees/550-2-8-cd-38-1.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/49"
+    },
+    {
+     "designId": "48",
+     "design": "116",
+     "images": [
+      "assets/images/sarees/550-2-8-cd-38-4.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/48"
+    }
+   ],
+   "source": "https://www.ksicsilk.com/product/getArticle/38"
+  },
+  {
+   "id": "39",
+   "category": "saree",
+   "name": "550/2G 1018",
+   "title": "Mysore Silk Saree 550/2G 1018",
+   "price": 57360.0,
+   "palette": "uni",
+   "designs": [
+    {
+     "designId": "58",
+     "design": "162A",
+     "images": [
+      "assets/images/sarees/550-2g-1018-39-1.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/58"
+    },
+    {
+     "designId": "57",
+     "design": "108",
+     "images": [
+      "assets/images/sarees/550-2g-1018-39-2.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/57"
+    },
+    {
+     "designId": "56",
+     "design": "162",
+     "images": [
+      "assets/images/sarees/550-2g-1018-39-3.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/56"
+    }
+   ],
+   "source": "https://www.ksicsilk.com/product/getArticle/39"
+  },
+  {
+   "id": "40",
+   "category": "saree",
+   "name": "550/4 CD",
+   "title": "Mysore Silk Saree 550/4 CD",
+   "price": 44278.0,
+   "palette": "contrast",
+   "designs": [
+    {
+     "designId": "63",
+     "design": "380",
+     "images": [
+      "assets/images/sarees/550-4-cd-40-1.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/63"
+    }
+   ],
+   "source": "https://www.ksicsilk.com/product/getArticle/40"
+  },
+  {
+   "id": "42",
+   "category": "saree",
+   "name": "550/4 UNI",
+   "title": "Mysore Silk Saree 550/4 UNI",
+   "price": 40307.0,
+   "palette": "uni",
+   "designs": [
+    {
+     "designId": "111",
+     "design": "376",
+     "images": [
+      "assets/images/sarees/550-4-uni-42-2.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/111"
+    },
+    {
+     "designId": "62",
+     "design": "174",
+     "images": [
+      "assets/images/sarees/550-4-uni-42-3.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/62"
+    },
+    {
+     "designId": "61",
+     "design": "355",
+     "images": [
+      "assets/images/sarees/550-4-uni-42-4.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/61"
+    }
+   ],
+   "source": "https://www.ksicsilk.com/product/getArticle/42"
+  },
+  {
+   "id": "43",
+   "category": "saree",
+   "name": "550/4B UNI",
+   "title": "Mysore Silk Saree 550/4B UNI",
+   "price": 54130.0,
+   "palette": "uni",
+   "designs": [
+    {
+     "designId": "60",
+     "design": "78",
+     "images": [
+      "assets/images/sarees/550-4b-uni-43-1.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/60"
+    }
+   ],
+   "source": "https://www.ksicsilk.com/product/getArticle/43"
+  },
+  {
+   "id": "44",
+   "category": "saree",
+   "name": "550/4G 1018 CD",
+   "title": "Mysore Silk Saree 550/4G 1018 CD",
+   "price": 67395.0,
+   "palette": "contrast",
+   "designs": [
+    {
+     "designId": "40",
+     "design": "100",
+     "images": [
+      "assets/images/sarees/550-4g-1018-cd-44-1.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/40"
+    }
+   ],
+   "source": "https://www.ksicsilk.com/product/getArticle/44"
+  },
+  {
+   "id": "45",
+   "category": "saree",
+   "name": "550/4G 1018 UNI",
+   "title": "Mysore Silk Saree 550/4G 1018 UNI",
+   "price": 64152.0,
+   "palette": "uni",
+   "designs": [
+    {
+     "designId": "44",
+     "design": "100UNIA",
+     "images": [
+      "assets/images/sarees/550-4g-1018-uni-45-1.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/44"
+    },
+    {
+     "designId": "43",
+     "design": "100UNI",
+     "images": [
+      "assets/images/sarees/550-4g-1018-uni-45-1.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/43"
+    },
+    {
+     "designId": "41",
+     "design": "100UNI",
+     "images": [
+      "assets/images/sarees/550-4g-1018-uni-45-3.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/41"
+    }
+   ],
+   "source": "https://www.ksicsilk.com/product/getArticle/45"
+  },
+  {
+   "id": "46",
+   "category": "saree",
+   "name": "550/6 CD",
+   "title": "Mysore Silk Saree 550/6 CD",
+   "price": 59304.0,
+   "palette": "contrast",
+   "designs": [
+    {
+     "designId": "68",
+     "design": "447",
+     "images": [
+      "assets/images/sarees/550-6-cd-46-1.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/68"
+    }
+   ],
+   "source": "https://www.ksicsilk.com/product/getArticle/46"
+  },
+  {
+   "id": "47",
+   "category": "saree",
+   "name": "550/6 K2 UNI",
+   "title": "Mysore Silk Saree 550/6 K2 UNI",
+   "price": 144412.0,
+   "palette": "uni",
+   "designs": [
+    {
+     "designId": "72",
+     "design": "91",
+     "images": [
+      "assets/images/sarees/550-6-k2-uni-47-1.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/72"
+    }
+   ],
+   "source": "https://www.ksicsilk.com/product/getArticle/47"
+  },
+  {
+   "id": "48",
+   "category": "saree",
+   "name": "550/6 K3 UNI",
+   "title": "Mysore Silk Saree 550/6 K3 UNI",
+   "price": 128726.0,
+   "palette": "uni",
+   "designs": [
+    {
+     "designId": "73",
+     "design": "399",
+     "images": [
+      "assets/images/sarees/550-6-k3-uni-48-1.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/73"
+    }
+   ],
+   "source": "https://www.ksicsilk.com/product/getArticle/48"
+  },
+  {
+   "id": "49",
+   "category": "saree",
+   "name": "550/6 UNI",
+   "title": "Mysore Silk Saree 550/6 UNI",
+   "price": 56102.0,
+   "palette": "uni",
+   "designs": [
+    {
+     "designId": "71",
+     "design": "423",
+     "images": [
+      "assets/images/sarees/550-6-uni-49-1.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/71"
+    }
+   ],
+   "source": "https://www.ksicsilk.com/product/getArticle/49"
+  },
+  {
+   "id": "51",
+   "category": "saree",
+   "name": "560/2 UNI",
+   "title": "Mysore Silk Saree 560/2 UNI",
+   "price": 28326.0,
+   "palette": "uni",
+   "designs": [
+    {
+     "designId": "82",
+     "design": "281",
+     "images": [
+      "assets/images/sarees/560-2-uni-51-1.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/82"
+    },
+    {
+     "designId": "81",
+     "design": "214",
+     "images": [
+      "assets/images/sarees/560-2-uni-51-2.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/81"
+    },
+    {
+     "designId": "80",
+     "design": "354",
+     "images": [
+      "assets/images/sarees/560-2-uni-51-3.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/80"
+    }
+   ],
+   "source": "https://www.ksicsilk.com/product/getArticle/51"
+  },
+  {
+   "id": "52",
+   "category": "saree",
+   "name": "2550/2G1018 UNI (Georgette)",
+   "title": "Mysore Silk Saree 2550/2G1018 UNI (Georgette)",
+   "price": 62568.0,
+   "palette": "uni",
+   "designs": [
+    {
+     "designId": "86",
+     "design": "381",
+     "images": [
+      "assets/images/sarees/2550-2g1018-uni-georgette-saree-52-1.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/86"
+    }
+   ],
+   "source": "https://www.ksicsilk.com/product/getArticle/52"
+  },
+  {
+   "id": "62",
+   "category": "saree",
+   "name": "550/8K8 UNI",
+   "title": "Mysore Silk Saree 550/8K8 UNI",
+   "price": 153877.0,
+   "palette": "uni",
+   "designs": [
+    {
+     "designId": "107",
+     "design": "529",
+     "images": [
+      "assets/images/sarees/550-8k8-uni-62-1.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/107"
+    }
+   ],
+   "source": "https://www.ksicsilk.com/product/getArticle/62"
+  },
+  {
+   "id": "84",
+   "category": "saree",
+   "name": "550/6 (Gandaberunda)",
+   "title": "Mysore Silk Saree 550/6 (Gandaberunda)",
+   "price": 56102.0,
+   "palette": "uni",
+   "designs": [
+    {
+     "designId": "114",
+     "design": "Gandaberunda",
+     "images": [
+      "assets/images/sarees/550-6-gandaberunda-84-1.jpg",
+      "assets/images/sarees/550-6-gandaberunda-84-dgandaberunda-114-2.jpg"
+     ],
+     "source": "https://www.ksicsilk.com/product/getDesign/114"
+    }
+   ],
+   "source": "https://www.ksicsilk.com/product/getArticle/84"
+  },
+  {
+   "id": "58",
+   "category": "shirts",
+   "name": "Colour Silk Shirts",
+   "title": "Pure Silk Shirt",
+   "price": 5001.0,
+   "option": "size",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    "assets/images/mens/colour-silk-shirts-58-1.jpg"
+   ],
+   "source": "https://www.ksicsilk.com/product/getDetails/58"
+  },
+  {
+   "id": "63",
+   "category": "ties",
+   "name": "Tie",
+   "title": "Silk Tie",
+   "price": 2570.0,
+   "option": "none",
+   "sizes": [],
+   "images": [
+    "assets/images/mens/tie-63-1.jpg"
+   ],
+   "source": "https://www.ksicsilk.com/product/getDetails/63"
+  },
+  {
+   "id": "66",
+   "category": "ties",
+   "name": "Tie",
+   "title": "Silk Tie",
+   "price": 2570.0,
+   "option": "none",
+   "sizes": [],
+   "images": [
+    "assets/images/mens/tie-66-1.jpg"
+   ],
+   "source": "https://www.ksicsilk.com/product/getDetails/66"
+  },
+  {
+   "id": "67",
+   "category": "ties",
+   "name": "Tie",
+   "title": "Silk Tie",
+   "price": 2570.0,
+   "option": "none",
+   "sizes": [],
+   "images": [
+    "assets/images/mens/tie-67-1.jpg"
+   ],
+   "source": "https://www.ksicsilk.com/product/getDetails/67"
+  },
+  {
+   "id": "68",
+   "category": "ties",
+   "name": "Tie",
+   "title": "Silk Tie",
+   "price": 2570.0,
+   "option": "none",
+   "sizes": [],
+   "images": [
+    "assets/images/mens/tie-68-1.jpg"
+   ],
+   "source": "https://www.ksicsilk.com/product/getDetails/68"
+  },
+  {
+   "id": "69",
+   "category": "ties",
+   "name": "Tie",
+   "title": "Silk Tie",
+   "price": 2570.0,
+   "option": "none",
+   "sizes": [],
+   "images": [
+    "assets/images/mens/tie-69-1.jpg"
+   ],
+   "source": "https://www.ksicsilk.com/product/getDetails/69"
+  },
+  {
+   "id": "70",
+   "category": "shirts",
+   "name": "Colour Silk Shirts",
+   "title": "Pure Silk Shirt",
+   "price": 5001.0,
+   "option": "size",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    "assets/images/mens/colour-silk-shirts-70-1.jpg"
+   ],
+   "source": "https://www.ksicsilk.com/product/getDetails/70"
+  },
+  {
+   "id": "71",
+   "category": "shirts",
+   "name": "Colour Silk Shirts",
+   "title": "Pure Silk Shirt",
+   "price": 5001.0,
+   "option": "size",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    "assets/images/mens/colour-silk-shirts-71-1.jpg"
+   ],
+   "source": "https://www.ksicsilk.com/product/getDetails/71"
+  },
+  {
+   "id": "72",
+   "category": "kurtas",
+   "name": "Silk Kurta",
+   "title": "Pure Silk Kurta",
+   "price": 6342.0,
+   "option": "size",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    "assets/images/mens/silk-kurta-73-1.jpg"
+   ],
+   "source": "https://www.ksicsilk.com/product/getDetails/72"
+  },
+  {
+   "id": "73",
+   "category": "kurtas",
+   "name": "Silk Kurta",
+   "title": "Pure Silk Kurta",
+   "price": 6342.0,
+   "option": "size",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    "assets/images/mens/silk-kurta-73-1.jpg"
+   ],
+   "source": "https://www.ksicsilk.com/product/getDetails/73"
+  },
+  {
+   "id": "74",
+   "category": "kurtas",
+   "name": "Silk Kurta",
+   "title": "Pure Silk Kurta",
+   "price": 6342.0,
+   "option": "size",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    "assets/images/mens/silk-kurta-74-1.jpg"
+   ],
+   "source": "https://www.ksicsilk.com/product/getDetails/74"
+  },
+  {
+   "id": "75",
+   "category": "kurtas",
+   "name": "Silk Kurta",
+   "title": "Pure Silk Kurta",
+   "price": 6342.0,
+   "option": "size",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    "assets/images/mens/silk-kurta-75-1.jpg"
+   ],
+   "source": "https://www.ksicsilk.com/product/getDetails/75"
+  },
+  {
+   "id": "76",
+   "category": "kurtas",
+   "name": "Silk Kurta",
+   "title": "Pure Silk Kurta",
+   "price": 6342.0,
+   "option": "size",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "images": [
+    "assets/images/mens/silk-kurta-76-1.jpg"
+   ],
+   "source": "https://www.ksicsilk.com/product/getDetails/76"
+  },
+  {
+   "id": "77",
+   "category": "gift-sets",
+   "name": "Tie-Pocket sq Gift Set Box",
+   "title": "Tie & Pocket Square Gift Box",
+   "price": 3772.0,
+   "option": "none",
+   "sizes": [],
+   "images": [
+    "assets/images/mens/tie-pocket-sq-gift-set-box-77-1.jpg"
+   ],
+   "source": "https://www.ksicsilk.com/product/getDetails/77"
+  },
+  {
+   "id": "78",
+   "category": "gift-sets",
+   "name": "Tie-Pocket sq Gift Set Box",
+   "title": "Tie & Pocket Square Gift Box",
+   "price": 3772.0,
+   "option": "none",
+   "sizes": [],
+   "images": [
+    "assets/images/mens/tie-pocket-sq-gift-set-box-78-1.jpg"
+   ],
+   "source": "https://www.ksicsilk.com/product/getDetails/78"
+  },
+  {
+   "id": "80",
+   "category": "gift-sets",
+   "name": "Tie-Pocket sq Gift Set Box",
+   "title": "Tie & Pocket Square Gift Box",
+   "price": 3772.0,
+   "option": "none",
+   "sizes": [],
+   "images": [
+    "assets/images/mens/tie-pocket-sq-gift-set-box-80-1.jpg"
+   ],
+   "source": "https://www.ksicsilk.com/product/getDetails/80"
+  }
+ ]
+}
