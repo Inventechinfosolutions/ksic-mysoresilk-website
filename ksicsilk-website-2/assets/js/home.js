@@ -130,6 +130,64 @@
     mo.observe(document.body, { attributes: true, attributeFilter: ["class"] });
   }
 
+  /* ---------------------------------- section backdrops: rippling dot field */
+  // A dense grid of gold dots. Soft rings spread out from behind the heading;
+  // as a ring passes, its dots swell and brighten, then settle back.
+  // Put <canvas class="weave-dots"> in a .sec--weave section; add
+  // data-origin="left" when the section heading is left-aligned.
+  $$(".weave-dots").forEach(function weaveDots(canvas) {
+    const ctx = canvas.getContext("2d");
+    const GAP = 16;          // px between dot centres
+    const R = 1.5;           // resting dot radius
+    const SWELL = 1;         // extra radius on a ring's crest
+    const WAVE = 260;        // px between rings
+    const SPEED = 34;        // px per second the rings travel
+    let w = 0, h = 0, dots = [], raf = 0, onScreen = false;
+
+    function layout() {
+      const dpr = Math.min(devicePixelRatio || 1, 2);
+      w = canvas.clientWidth; h = canvas.clientHeight;
+      canvas.width = Math.round(w * dpr); canvas.height = Math.round(h * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      // ripple source sits just under the heading
+      const cx = canvas.dataset.origin === "left" ? Math.min(w * 0.18, 260) : w / 2;
+      const cy = Math.min(140, h * 0.12);
+      const offX = (w % GAP) / 2 + GAP / 2, offY = (h % GAP) / 2 + GAP / 2;
+      dots = [];
+      for (let y = offY; y < h; y += GAP) {
+        for (let x = offX; x < w; x += GAP) dots.push(x, y, Math.hypot(x - cx, y - cy));
+      }
+    }
+    function draw(t) {
+      ctx.clearRect(0, 0, w, h);
+      ctx.fillStyle = "#f2c94c";
+      const shift = (t / 1000) * SPEED;
+      for (let i = 0; i < dots.length; i += 3) {
+        // 0..1 position within the current ring; crest is a smooth bump
+        const phase = (((dots[i + 2] - shift) % WAVE) + WAVE) % WAVE / WAVE;
+        const crest = Math.pow(0.5 - 0.5 * Math.cos(phase * Math.PI * 2), 4);
+        ctx.globalAlpha = 0.06 + crest * 0.14;
+        ctx.beginPath();
+        ctx.arc(dots[i], dots[i + 1], R + crest * SWELL, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
+    function loop(t) { draw(t); raf = requestAnimationFrame(loop); }
+    function run() {
+      cancelAnimationFrame(raf);
+      if (reduced) { draw(0); return; }
+      if (onScreen && !document.hidden) raf = requestAnimationFrame(loop);
+    }
+
+    layout();
+    draw(0);
+    new ResizeObserver(() => { layout(); draw(performance.now()); }).observe(canvas);
+    if ("IntersectionObserver" in window) {
+      new IntersectionObserver(([e]) => { onScreen = e.isIntersecting; run(); }).observe(canvas);
+    } else { onScreen = true; run(); }
+    document.addEventListener("visibilitychange", run);
+  });
+
   /* ------------------------------------------------------------- USPs */
   const usps = [
     ["silk", "100% pure silk", "Mulberry silk, warp and weft"],

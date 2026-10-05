@@ -737,6 +737,22 @@ button.nav__link { cursor: pointer; }
 .dropdown small { font-size: 12px; color: var(--muted); letter-spacing: .06em; }
 .dropdown hr { border: 0; border-top: 1px solid var(--line); margin: 6px 0; }
 
+/* ---- section backdrop (.sec--weave): zari dots and a warm glow.
+   Kept faint and behind the content so it stays the focus. */
+.sec--weave { position: relative; overflow: hidden; isolation: isolate; }
+.sec--weave > .container { position: relative; z-index: 1; }
+.sec--weave::before { /* soft warm glow behind the heading */
+  content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background: radial-gradient(50% 38% at 50% 12%, rgba(212, 160, 23, .10), transparent 70%);
+}
+.sec--weave:has(> .weave-dots[data-origin="left"])::before { background: radial-gradient(45% 38% at 18% 12%, rgba(212, 160, 23, .10), transparent 70%); }
+/* zari dot field with slow ripples, drawn by home.js; fades out toward the edges */
+.weave-dots {
+  position: absolute; inset: 0; z-index: -1; width: 100%; height: 100%; pointer-events: none;
+  -webkit-mask: radial-gradient(ellipse 80% 75% at 50% 45%, #000 25%, transparent 85%);
+  mask: radial-gradient(ellipse 80% 75% at 50% 45%, #000 25%, transparent 85%);
+}
+
 /* ============================================ Ornate category frames --- */
 .frames { display: grid; grid-template-columns: repeat(6, 1fr); gap: clamp(12px, 2.2vw, 30px); }
 .frame { display: block; text-align: center; }
