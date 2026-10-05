@@ -11,8 +11,14 @@
   const playBtn = $("#heroPlay");
   const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
   const DURATION = 6000;
+  // hovering these (buttons, swatches, cards, controls) holds the slide;
+  // resting the pointer on the picture itself does not
+  const HOLD = ".slide__ctas, .cs__swatches, .cs__stage, .dots, .hero__arrows";
   let index = 0;
   let timer;
+  let remaining = 0;   // ms left on the current slide
+  let startedAt = 0;   // when the running countdown began (0 = not running)
+  let held = false;
   let userPaused = reduced;
 
   // the video slide stays up for the length of the clip
@@ -43,8 +49,14 @@
       video.pause();
     }
   }
+  function stopClock() {
+    clearTimeout(timer);
+    if (startedAt) { remaining -= performance.now() - startedAt; startedAt = 0; }
+  }
   function go(n) {
+    stopClock();
     index = (n + slides.length) % slides.length;
+    remaining = durationOf(slides[index]);
     slides.forEach((s, i) => { s.classList.toggle("is-active", i === index); s.setAttribute("aria-hidden", i !== index); });
     dotEls.forEach((d, i) => {
       d.classList.remove("is-active");
@@ -55,17 +67,25 @@
     syncVideo();
     restart();
   }
+  // (re)start the countdown for whatever time is left on this slide, so the
+  // progress dot and the slide change stay in step after a pause
   function restart() {
-    clearTimeout(timer);
-    const holdForVideo = slides[index].hasAttribute("data-video") && userPaused;
-    hero.classList.toggle("is-paused", hero.matches(":hover") || holdForVideo);
-    if (!hero.classList.contains("is-paused")) timer = setTimeout(() => go(index + 1), durationOf(slides[index]));
+    stopClock();
+    const onVideo = slides[index].hasAttribute("data-video");
+    const paused = held || (onVideo && userPaused);
+    hero.classList.toggle("is-paused", paused);
+    // the clip is the slide's clock: hold it while the slide is held
+    if (video && onVideo && !userPaused) {
+      if (held) video.pause(); else video.play().catch(() => {});
+    }
+    if (!paused) { startedAt = performance.now(); timer = setTimeout(() => go(index + 1), Math.max(remaining, 0)); }
   }
+  function setHeld(on) { if (on !== held) { held = on; restart(); } }
   dots.addEventListener("click", (e) => { const b = e.target.closest("button"); if (b) go(dotEls.indexOf(b)); });
   $("#heroPrev").addEventListener("click", () => go(index - 1));
   $("#heroNext").addEventListener("click", () => go(index + 1));
-  hero.addEventListener("mouseenter", () => { hero.classList.add("is-paused"); clearTimeout(timer); });
-  hero.addEventListener("mouseleave", () => { hero.classList.remove("is-paused"); restart(); });
+  hero.addEventListener("pointerover", (e) => { if (e.pointerType === "mouse") setHeld(!!e.target.closest(HOLD)); });
+  hero.addEventListener("pointerleave", () => setHeld(false));
   let startX = null;
   hero.addEventListener("pointerdown", (e) => { if (e.pointerType === "touch") startX = e.clientX; });
   hero.addEventListener("pointerup", (e) => {
@@ -94,7 +114,7 @@
     // save battery: pause when the hero scrolls out of view
     if ("IntersectionObserver" in window) {
       new IntersectionObserver(([e]) => {
-        if (!slides[index].hasAttribute("data-video") || userPaused) return;
+        if (!slides[index].hasAttribute("data-video") || userPaused || held) return;
         e.isIntersecting ? video.play().catch(() => {}) : video.pause();
       }, { threshold: 0.2 }).observe(hero);
     }
