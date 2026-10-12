@@ -266,6 +266,22 @@
     tile("b-side", "shop.html?cat=all&price=15to30", [51], "Sarees", "₹15,001 – ₹30,000", band(15000, 30000)) +
     tile("b-side", "shop.html?cat=all&price=0to15", [72], "Menswear & gifts", "Up to ₹15,000", band(0, 15000));
 
+  // menswear products — a mix of kurtas, shirts and ties, filterable by tab
+  const men = products.filter((p) => p.gender === "men");
+  const byType = (t) => men.filter((p) => p.type === t);
+  const mixed = [];
+  const queues = [byType("kurta"), byType("shirt"), byType("tie"), byType("gift-set")];
+  while (queues.some((q) => q.length)) queues.forEach((q) => q.length && mixed.push(q.shift()));
+  function showMen(type) {
+    $$("#menTabs button").forEach((b) => { const on = b.dataset.type === type; b.classList.toggle("is-active", on); b.setAttribute("aria-selected", on); });
+    const list = type === "all" ? mixed : men.filter((p) => p.type === type || (type === "tie" && p.type === "gift-set"));
+    $("#menGrid").innerHTML = list.slice(0, 8).map(card).join("");
+    $("#menAll").href = type === "all" ? "shop.html?cat=menswear" : `shop.html?cat=menswear&type=${type === "tie" ? "tie,gift-set" : type}`;
+    window.KSIC.replay($("#menGrid"));
+  }
+  $("#menTabs").addEventListener("click", (e) => { const b = e.target.closest("button"); if (b) showMen(b.dataset.type); });
+  showMen("all");
+
   // heirloom
   $("#heirloomGrid").innerHTML = products.filter((p) => p.category === "saree").sort((a, b) => b.price - a.price).slice(0, 4).map(card).join("");
 

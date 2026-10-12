@@ -46,6 +46,8 @@
     check: '<path d="m5 12 5 5 9-10"/>',
     truck: '<path d="M3 6h11v10H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/>',
     filter: '<path d="M4 6h16M7 12h10M10 18h4"/>',
+    moon: '<path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/>',
+    sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
   };
   const icon = (name, cls = "ico") => `<svg class="${cls}" viewBox="0 0 24 24" aria-hidden="true">${ICONS[name] || ""}</svg>`;
 
@@ -81,7 +83,7 @@
     red: "#c8102e", maroon: "#7a1a2b", pink: "#e0337a", orange: "#ea5a10", yellow: "#e2b007", green: "#2f7d4f",
     blue: "#2a3fd6", purple: "#5b1f8f", black: "#1d1710", grey: "#7a7f86", white: "#efe7d6",
   };
-  const title = (p) => `${p.color} ${TYPE_LABEL[p.type]}`;
+  const title = (p) => `${p.color.replace(/ Gift Set$/, "")} ${TYPE_LABEL[p.type]}`;
   const subtitle = (p) => (p.article ? `Article ${p.article}` : p.gender === "men" ? "Menswear" : "Pure silk");
   const productUrl = (p, designId) => `product.html?id=${p.id}${designId ? `&design=${designId}` : ""}`;
 
@@ -405,6 +407,9 @@
             <div class="suggest" id="suggest" role="listbox"></div>
           </form>
           <div class="actions">
+            <button class="act theme-toggle" id="themeToggle" type="button" aria-label="Switch to light mode" aria-pressed="false">
+              <span class="tt-ico">${icon("moon", "ico ico-moon")}${icon("sun", "ico ico-sun")}</span><span class="lbl" id="themeLbl">Dark</span>
+            </button>
             <a class="act act--account" href="https://www.ksicsilk.com/Identity/Account/Login" target="_blank" rel="noopener">${icon("user")}<span class="lbl">Account</span></a>
             <a class="act" href="wishlist.html">${icon("heart")}<span class="lbl">Wishlist</span><span class="count" id="wishCount">0</span></a>
             <a class="act" href="cart.html">${icon("bag")}<span class="lbl">Bag</span><span class="count" id="bagCount">0</span></a>
@@ -485,6 +490,41 @@
         </div></div>
       </footer>
       <button class="to-top" id="toTop" aria-label="Back to top">${icon("up")}</button>`;
+  }
+
+  /* -------------------------------------------------------------- theme */
+  // dark is the default; light is opt-in and remembered per browser
+  function bindTheme() {
+    const btn = $("#themeToggle");
+    if (!btn) return;
+    const meta = $('meta[name="theme-color"]');
+    const sync = () => {
+      const light = document.documentElement.dataset.theme === "light";
+      btn.setAttribute("aria-pressed", light);
+      btn.setAttribute("aria-label", light ? "Switch to dark mode" : "Switch to light mode");
+      $("#themeLbl").textContent = light ? "Light" : "Dark";
+      if (meta) meta.content = light ? "#fcf8f0" : "#0e0a06";
+    };
+    const apply = (light) => {
+      if (light) document.documentElement.dataset.theme = "light";
+      else delete document.documentElement.dataset.theme;
+      try { localStorage.setItem("ksic.theme", light ? "light" : "dark"); } catch { /* storage blocked */ }
+      sync();
+    };
+    btn.addEventListener("click", (e) => {
+      const next = document.documentElement.dataset.theme !== "light";
+      const r = btn.getBoundingClientRect();
+      document.documentElement.style.setProperty("--tx", `${r.left + r.width / 2}px`);
+      document.documentElement.style.setProperty("--ty", `${r.top + r.height / 2}px`);
+      if (document.startViewTransition && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        document.startViewTransition(() => apply(next));
+      } else {
+        document.documentElement.classList.add("theme-fade");
+        apply(next);
+        setTimeout(() => document.documentElement.classList.remove("theme-fade"), 500);
+      }
+    });
+    sync();
   }
 
   /* ---------------------------------------------------------- behaviour */
@@ -594,6 +634,7 @@
   renderHeader();
   renderFooter();
   bindHeader();
+  bindTheme();
   updateCounts();
   progressBar();
   reveal();

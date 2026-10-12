@@ -11,6 +11,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Jost:wght@400;500;600&family=Noto+Serif+Kannada:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script>/* apply saved theme before paint (dark is default) */try{if(localStorage.getItem("ksic.theme")==="light"){document.documentElement.dataset.theme="light";var m=document.querySelector('meta[name="theme-color"]');if(m)m.content="#fcf8f0"}}catch(e){}</script>
+
 </head>
 <body data-page="home" data-preload>
   <div id="site-header"></div>
@@ -142,7 +144,7 @@
     <section class="sec" style="padding-top:0">
       <div class="container">
         <div class="split" data-anim="split">
-          <div class="split__img split__img--fit"><img src="assets/images/web/site/model-royal-blue.webp" alt="Model in a royal blue Mysore silk saree with a broad gold zari border and pallu" loading="lazy" width="482" height="1035"></div>
+          <div class="split__img split__img--scene"><img src="assets/images/web/site/wedding-royal-blue.webp" alt="Model in a royal blue Mysore silk saree with a broad gold zari border, standing beside a carved stone pillar and brass lamp" loading="lazy" width="1400" height="1050"></div>
           <div class="split__copy">
             <p class="kicker">Weddings &amp; festivals</p>
             <h2 class="h-display">Silk for every <em>ceremony</em></h2>
@@ -188,6 +190,26 @@
           </div>
           <div class="promo__img"><img src="assets/images/web/products/78-tie-pocket-sq-gift-set-box.webp" alt="Royal blue silk tie and pocket square in gift box" loading="lazy"></div>
         </a>
+      </div>
+    </section>
+
+    <!-- Menswear products -->
+    <section class="sec" style="padding-top:0">
+      <div class="container">
+        <div class="sec__head" data-anim="head">
+          <div>
+            <p class="kicker">For him</p>
+            <h2 class="h-section">Silk <em>menswear</em></h2>
+          </div>
+          <div class="tabs" id="menTabs" role="tablist">
+            <button class="is-active" data-type="all" role="tab" aria-selected="true">All</button>
+            <button data-type="kurta" role="tab" aria-selected="false">Kurtas</button>
+            <button data-type="shirt" role="tab" aria-selected="false">Shirts</button>
+            <button data-type="tie" role="tab" aria-selected="false">Ties &amp; gifts</button>
+          </div>
+        </div>
+        <div class="grid" id="menGrid" data-anim="wipe"></div>
+        <div style="text-align:center;margin-top:40px"><a class="btn btn--line" id="menAll" href="shop.html?cat=menswear">View all menswear</a></div>
       </div>
     </section>
 

@@ -1497,3 +1497,63 @@ input, select, textarea { font-size: 16px !important; } /* also stops iOS zoom-o
     filter: drop-shadow(0 2px 10px rgba(212, 160, 23, .35));
   }
 }
+
+/* =====================================================================
+   LIGHT THEME — opt-in via <html data-theme="light"> (dark is default)
+   APCA on ivory: text Lc 100 · secondary 95 · muted 82 · gold accent 79
+   ===================================================================== */
+:root[data-theme="light"] {
+  color-scheme: light;
+  --ivory: #fcf8f0;
+  --cream: #f6efe0;
+  --sand: #ece0c6;
+  --surface: #ffffff;
+  --surface-2: #fbf5e8;
+  --field: #ffffff;
+  --gold-wash: rgba(212, 160, 23, .12);
+  --gold-deep: #7a5600;
+  --fg: #1d1710;
+  --ink-2: #3a3024;
+  --muted: #5f5240;
+  --line: #dcc282;
+  --line-2: #c4a24a;
+  --maroon: #7a1a2b;
+  --ok: #2f7d4f;
+}
+/* panels that stay dark in both themes keep light text */
+:root[data-theme="light"] :is(.topbar, .footer, .hero, .preloader, .b-ink, .b-dark, .step, .split__copy, .promo--ink, .drawer-nav__foot--dark) {
+  --fg: #f5ecd8; --ink-2: #e3d7bf; --muted: #d2c5aa; --gold-deep: #f0c862; --line: #4d3b1b;
+  --ivory: #0e0a06; --cream: #15100a; --surface: #1a130b; --surface-2: #231a0e; --field: #120d08; --gold-wash: rgba(212, 160, 23, .13);
+}
+:root[data-theme="light"] .header { background: rgba(252, 248, 240, .94); }
+:root[data-theme="light"] .header.is-stuck { box-shadow: 0 6px 24px -16px rgba(29, 23, 16, .3); }
+:root[data-theme="light"] :is(.mega, .dropdown, .suggest) { background: #fff; box-shadow: 0 24px 48px -24px rgba(29, 23, 16, .3); }
+:root[data-theme="light"] .usp { background: #fff; }
+:root[data-theme="light"] .b-price:not(.b-dark) { background: linear-gradient(160deg, #fffaf0 0%, var(--gold-wash) 55%, #f7e3a5 100%); }
+:root[data-theme="light"] .b-price:not(.b-dark) .b-label { background: rgba(255, 255, 255, .94); }
+:root[data-theme="light"] .b-price:not(.b-dark) .b-label strong { color: var(--fg); }
+:root[data-theme="light"] .wish { background: #fff; color: var(--ink); }
+:root[data-theme="light"] .newsletter input { background: linear-gradient(#fff, #fff) padding-box, var(--gold-border) border-box !important; color: var(--ink); }
+:root[data-theme="light"] .to-top { box-shadow: 0 0 0 1.5px var(--gold), 0 12px 24px -12px rgba(29, 23, 16, .35); }
+:root[data-theme="light"] .pagehead { background: linear-gradient(180deg, rgba(212, 160, 23, .16), var(--ivory)); }
+:root[data-theme="light"] .scroll-thread { box-shadow: none; }
+:root[data-theme="light"] .cs__swatches button:not(.is-on) { color: var(--ink-2); }
+
+/* ------------------------------------------------ Theme toggle */
+.theme-toggle { position: relative; }
+.theme-toggle .tt-ico { position: relative; width: 22px; height: 22px; }
+.theme-toggle .ico { position: absolute; inset: 0; transition: transform .6s var(--spring, ease), opacity .4s; }
+.theme-toggle .ico-sun { opacity: 0; transform: rotate(-90deg) scale(.4); }
+:root[data-theme="light"] .theme-toggle .ico-sun { opacity: 1; transform: none; }
+:root[data-theme="light"] .theme-toggle .ico-moon { opacity: 0; transform: rotate(90deg) scale(.4); }
+@media (max-width: 960px) { .theme-toggle { order: -1; } }
+
+/* circular reveal from the toggle when switching (View Transitions API) */
+::view-transition-old(root), ::view-transition-new(root) { animation: none; mix-blend-mode: normal; }
+::view-transition-new(root) { animation: themeReveal .7s cubic-bezier(.65, 0, .35, 1); }
+@keyframes themeReveal { from { clip-path: circle(0 at var(--tx, 90%) var(--ty, 6%)); } to { clip-path: circle(150% at var(--tx, 90%) var(--ty, 6%)); } }
+/* fallback cross-fade for browsers without view transitions */
+.theme-fade, .theme-fade * { transition: background-color .45s ease, color .45s ease, border-color .45s ease !important; }
+/* Weddings & festivals: full scene photo — keep the model in frame */
+.split__img--scene img { object-fit: cover; object-position: 34% 30%; }
+@media (max-width: 960px) { .split__img--scene { min-height: 420px; } .split__img--scene img { object-position: 38% 25%; } }

@@ -1,0 +1,14 @@
+# Files Cloudflare must NOT serve as website assets (gitignore syntax).
+.git
+.wrangler
+.claude
+.vscode
+node_modules
+design
+**/.DS_Store
+.gitignore
+.assetsignore
+README.md
+wrangler.jsonc
+package.json
+package-lock.json

@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KSIC Mysore Silk — Pure Silk, Real Zari, Since 1912</title>
+  <meta name="description" content="Pure Mysore silk sarees woven with real gold zari, silk shirts, kurtas, ties and gift boxes from Karnataka Silk Industries Corporation, Mysuru — since 1912.">
+  <meta name="theme-color" content="#16120f">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    // Apply the saved (or OS) theme before first paint so the page never flashes the wrong colours.
+    (function () {
+      var t;
+      try { t = JSON.parse(localStorage.getItem("ksic5-theme")); } catch (e) {}
+      if (t !== "light" && t !== "dark") t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.dataset.theme = t;
+    })();
+  </script>
+  <link rel="icon" href="assets/img/site/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css?v=9">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <button class="icon-btn header__burger" id="menuOpen" aria-label="Open menu" aria-controls="mobileNav" aria-expanded="false">
+        <svg viewBox="0 0 24 24"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+      </button>
+      <a class="brand" href="#top" aria-label="KSIC Mysore Silk — home">
+        <img src="assets/img/site/ksiclogo.png" alt="KSIC Mysore Silk — heritage weaves, 100% pure silk since 1912" width="210" height="77">
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#trending" data-filter="sarees">Sarees</a>
+        <a href="#trending" data-filter="men">Men</a>
+        <a href="#trending" data-filter="gifting">Gifting</a>
+        <div class="nav__drop">
+          <button class="nav__drop-btn" aria-expanded="false" aria-controls="collections">Collections
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+          <div class="nav__panel" id="collections">
+            <div>
+              <p class="nav__label">Edits</p>
+              <a href="#featured">Dasara 2026</a>
+              <a href="#lookbook">Colour Stories</a>
+              <a href="#look">Shop the Look</a>
+              <a href="#craft">The Zari Story</a>
+            </div>
+            <div>
+              <p class="nav__label">Shop by budget</p>
+              <a href="https://www.ksicsilk.com/product/getArticleList?l=0&amp;h=15000" target="_blank" rel="noopener">Under ₹15,000</a>
+              <a href="https://www.ksicsilk.com/product/getArticleList?l=15000&amp;h=30000" target="_blank" rel="noopener">₹15,000 – ₹30,000</a>
+              <a href="https://www.ksicsilk.com/product/getArticleList?l=30000&amp;h=40000" target="_blank" rel="noopener">₹30,000 – ₹40,000</a>
+              <a href="https://www.ksicsilk.com/product/getArticleList?l=40000&amp;h=1000000" target="_blank" rel="noopener">Above ₹40,000</a>
+            </div>
+          </div>
+        </div>
+        <a href="#journal">Journal</a>
+      </nav>
+      <div class="header__tools">
+        <button class="icon-btn theme-btn" id="themeToggle" aria-label="Switch to dark mode" aria-pressed="false" title="Toggle dark mode">
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/></svg>
+        </button>
+        <button class="icon-btn" id="searchOpen" aria-label="Search">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg>
+        </button>
+        <button class="icon-btn" id="wishOpen" aria-label="Wishlist">
+          <svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>
+          <span class="badge" id="wishCount" hidden>0</span>
+        </button>
+        <button class="bag-btn" id="bagOpen" aria-label="Bag">
+          <svg viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+          <span>Bag (<span id="bagCount">0</span>)</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile navigation -->
+  <div class="mnav" id="mobileNav" hidden>
+    <div class="mnav__panel">
+      <div class="mnav__top">
+        <img class="mnav__logo" src="assets/img/site/ksiclogo.png" alt="KSIC Mysore Silk" width="210" height="77">
+        <button class="icon-btn" id="menuClose" aria-label="Close menu"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      </div>
+      <a href="#trending" data-filter="sarees">Sarees</a>
+      <a href="#trending" data-filter="men">Men</a>
+      <a href="#trending" data-filter="gifting">Gifting</a>
+      <a href="#featured">Dasara 2026</a>
+      <a href="#lookbook">Colour Stories</a>
+      <a href="#look">Shop the Look</a>
+      <a href="#journal">Journal</a>
+      <a href="https://www.ksicsilk.com/Home/showrooms?s=Bengaluru" target="_blank" rel="noopener">Showrooms</a>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="top" aria-roledescription="carousel" aria-label="Featured stories">
+      <div class="hero__slides">
+        <article class="slide is-active" style="--pos:66% 50%" aria-roledescription="slide" aria-label="1 of 3">
+          <picture class="slide__media slide__media--dark">
+            <source media="(max-width: 720px)" data-srcset="assets/img/hero/hero-palace-green-mobile.webp">
+            <img data-src="assets/img/hero/hero-palace-green-2560.webp" data-srcset="assets/img/hero/hero-palace-green-1440.webp 1440w, assets/img/hero/hero-palace-green-2560.webp 2560w" sizes="100vw" alt="Woman in a bottle-green Mysore silk saree with gold zari checks in a carved palace corridor" width="2560" height="1086">
+          </picture>
+          <picture class="slide__media slide__media--light" style="--pos:74% 50%">
+            <source media="(max-width: 720px)" data-srcset="assets/img/hero/hero-palace-green-light-mobile.webp">
+            <img data-src="assets/img/hero/hero-palace-green-light-2560.webp" data-srcset="assets/img/hero/hero-palace-green-light-1440.webp 1440w, assets/img/hero/hero-palace-green-light-2560.webp 2560w" sizes="100vw" alt="Woman in a bottle-green Mysore silk saree with gold zari checks in a sunlit ivory palace corridor" width="2560" height="1086">
+          </picture>
+          <div class="slide__copy wrap">
+            <p class="eyebrow">Dasara 2026 Collection</p>
+            <h1 class="slide__title"><span>The silk</span><span>of kings</span></h1>
+            <p class="slide__lede">Pure. Royal. Woven in Mysuru.</p>
+            <div class="slide__cta">
+              <a class="btn btn--light" href="#trending" data-filter="sarees">Shop sarees <i class="arrow"></i></a>
+              <a class="btn btn--ghost" href="#trending" data-filter="men">Shop men <i class="arrow"></i></a>
+            </div>
+          </div>
+        </article>
+        <article class="slide" style="--pos:80% 40%" aria-roledescription="slide" aria-label="2 of 3">
+          <picture class="slide__media slide__media--dark">
+            <source media="(max-width: 720px)" data-srcset="assets/img/hero/hero-dasara-night-mobile.webp">
+            <img data-src="assets/img/hero/hero-dasara-night-2560.webp" data-srcset="assets/img/hero/hero-dasara-night-1440.webp 1440w, assets/img/hero/hero-dasara-night-2560.webp 2560w" sizes="100vw" alt="Two women in rani-pink and navy Mysore silk sarees before the illuminated Mysore Palace at night" width="2560" height="1086">
+          </picture>
+          <picture class="slide__media slide__media--light" style="--pos:78% 45%">
+            <source media="(max-width: 720px)" data-srcset="assets/img/hero/hero-dasara-day-light-mobile.webp">
+            <img data-src="assets/img/hero/hero-dasara-day-light-2560.webp" data-srcset="assets/img/hero/hero-dasara-day-light-1440.webp 1440w, assets/img/hero/hero-dasara-day-light-2560.webp 2560w" sizes="100vw" alt="Two women in rani-pink and navy Mysore silk sarees on a sunlit terrace before the Mysore Palace" width="2560" height="1086">
+          </picture>
+          <div class="slide__copy wrap">
+            <p class="eyebrow">Mysuru Dasara 2026</p>
+            <h2 class="slide__title"><span>Made for</span><span>Dasara</span></h2>
+            <p class="slide__lede">Rani-pink brocade and Gandaberunda navy, in pure Mysore silk.</p>
+            <div class="slide__cta">
+              <a class="btn btn--light" href="#lookbook">Colour stories <i class="arrow"></i></a>
+              <a class="btn btn--ghost" href="#trending" data-filter="sarees">Shop sarees <i class="arrow"></i></a>
+            </div>
+          </div>
+        </article>
+        <article class="slide" style="--pos:62% 50%" aria-roledescription="slide" aria-label="3 of 3">
+          <picture class="slide__media slide__media--dark">
+            <source media="(max-width: 720px)" data-srcset="assets/img/hero/hero-zari-loom-mobile.webp">
+            <img data-src="assets/img/hero/hero-zari-loom-2560.webp" data-srcset="assets/img/hero/hero-zari-loom-1440.webp 1440w, assets/img/hero/hero-zari-loom-2560.webp 2560w" sizes="100vw" alt="A purple Mysore silk saree with gold zari checks on a wooden handloom beside a folded ivory and gold saree" width="2560" height="1086">
+          </picture>
+          <picture class="slide__media slide__media--light" style="--pos:96% 50%">
+            <source media="(max-width: 720px)" data-srcset="assets/img/hero/hero-zari-loom-light-mobile.webp">
+            <img data-src="assets/img/hero/hero-zari-loom-light-2560.webp" data-srcset="assets/img/hero/hero-zari-loom-light-1440.webp 1440w, assets/img/hero/hero-zari-loom-light-2560.webp 2560w" sizes="100vw" alt="A purple Mysore silk saree with gold zari on a wooden handloom in a bright whitewashed workshop, an ivory saree folded beside it" width="2560" height="1086">
+          </picture>
+          <div class="slide__copy wrap">
+            <p class="eyebrow">Since 1912 · Real gold zari</p>
+            <h2 class="slide__title"><span>A century</span><span>on the loom</span></h2>
+            <p class="slide__lede">0.65% gold. 65% silver. 100% Mysore silk.</p>
+            <div class="slide__cta">
+              <a class="btn btn--light" href="#craft">The zari story <i class="arrow"></i></a>
+              <a class="btn btn--ghost" href="#journal">Our story <i class="arrow"></i></a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <script>
+        // Only download the hero banners for the active theme; the other set loads on first toggle.
+        window.ksicHeroImages = function (theme) {
+          document.querySelectorAll(".slide__media--" + theme + " [data-srcset]").forEach(function (el) {
+            el.srcset = el.dataset.srcset;
+            el.removeAttribute("data-srcset");
+            if (el.dataset.src) { el.src = el.dataset.src; el.removeAttribute("data-src"); }
+          });
+        };
+        ksicHeroImages(document.documentElement.dataset.theme === "dark" ? "dark" : "light");
+      </script>
+      <div class="hero__count" role="tablist" aria-label="Choose slide">
+        <button role="tab" aria-selected="true" aria-label="Slide 1">01</button>
+        <button role="tab" aria-selected="false" aria-label="Slide 2">02</button>
+        <button role="tab" aria-selected="false" aria-label="Slide 3">03</button>
+      </div>
+      <div class="hero__progress" aria-hidden="true"><span id="heroBar"></span></div>
+      <a class="hero__scroll" href="#featured">Scroll<span></span></a>
+      <button class="hero__film" id="filmOpen">
+        <span class="hero__play"><svg viewBox="0 0 24 24"><path d="M9 7v10l8-5z"/></svg></span>
+        <span>Watch<br>the film</span>
+      </button>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee" aria-label="KSIC promises">
+      <div class="marquee__track">
+        <span>100% pure silk</span><span>Real gold zari</span><span>GI Tag 11 · Mysore Silk</span><span>Unique code &amp; hologram on every saree</span><span>Woven in Mysuru since 1912</span><span>A Government of Karnataka enterprise</span>
+        <span aria-hidden="true">100% pure silk</span><span aria-hidden="true">Real gold zari</span><span aria-hidden="true">GI Tag 11 · Mysore Silk</span><span aria-hidden="true">Unique code &amp; hologram on every saree</span><span aria-hidden="true">Woven in Mysuru since 1912</span><span aria-hidden="true">A Government of Karnataka enterprise</span>
+      </div>
+    </div>
+
+    <!-- Featured collection -->
+    <section class="featured wrap" id="featured">
+      <div class="featured__media" data-reveal>
+        <img src="assets/img/site/model-namaste.webp" alt="Woman in a saffron Mysore silk saree greeting with folded hands" loading="lazy">
+      </div>
+      <div class="featured__copy" data-reveal>
+        <p class="eyebrow eyebrow--muted">Featured</p>
+        <h2 class="display">Dasara 2026<br>Collection</h2>
+        <p>Woven for the ten nights Mysuru lights up. Pure crepe silk, real gold zari and borders drawn from the palace — made to be worn, handed down and worn again.</p>
+        <a class="link-arrow" href="#trending" data-filter="sarees">Explore collection <i class="arrow"></i></a>
+      </div>
+      <div class="featured__carousel" data-reveal>
+        <p class="featured__count"><span id="featIndex">01</span> / <span id="featTotal">04</span></p>
+        <div class="featured__stage" id="featStage"></div>
+        <div class="featured__info" id="featInfo"></div>
+        <div class="featured__nav">
+          <button class="circle-btn" id="featPrev" aria-label="Previous saree"><i class="arrow arrow--left"></i></button>
+          <button class="circle-btn" id="featNext" aria-label="Next saree"><i class="arrow"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shop the edit -->
+    <section class="section wrap" id="edit">
+      <div class="section__head">
+        <h2 class="display">Shop the edit</h2>
+        <a class="link-arrow" href="#trending" data-filter="all">Explore all <i class="arrow"></i></a>
+      </div>
+      <div class="edit-grid">
+        <a class="edit-card" href="#trending" data-filter="sarees" style="--a:#6a1f2b;--b:#2a0c11" data-reveal>
+          <div class="edit-card__art">
+            <img src="assets/img/products/cutout/48-550-6-k3-uni.webp" alt="" loading="lazy" class="edit-card__back">
+            <img src="assets/img/products/cutout/84-550-6-gandaberunda.webp" alt="" loading="lazy">
+          </div>
+          <div class="edit-card__copy"><h3>Sarees</h3><p>Pure crepe silk,<br>real gold zari</p></div>
+          <span class="circle-btn circle-btn--light" aria-hidden="true"><i class="arrow"></i></span>
+        </a>
+        <a class="edit-card" href="#trending" data-filter="men" style="--a:#24402f;--b:#0b1610" data-reveal>
+          <div class="edit-card__art">
+            <img src="assets/img/products/cutout/70-colour-silk-shirts.webp" alt="" loading="lazy" class="edit-card__back">
+            <img src="assets/img/products/cutout/72-silk-kurta.webp" alt="" loading="lazy">
+          </div>
+          <div class="edit-card__copy"><h3>Men</h3><p>Shirts, kurtas &amp; ties<br>in pure silk</p></div>
+          <span class="circle-btn circle-btn--light" aria-hidden="true"><i class="arrow"></i></span>
+        </a>
+        <a class="edit-card" href="#trending" data-filter="gifting" style="--a:#3b3129;--b:#120e0b" data-reveal>
+          <div class="edit-card__art edit-card__art--wide">
+            <img src="assets/img/products/cutout/77-tie-pocket-sq-gift-set-box.webp" alt="" loading="lazy">
+          </div>
+          <div class="edit-card__copy"><h3>Gifting</h3><p>Boxed silk,<br>ready to give</p></div>
+          <span class="circle-btn circle-btn--light" aria-hidden="true"><i class="arrow"></i></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Trending -->
+    <section class="section wrap" id="trending">
+      <div class="section__head">
+        <h2 class="display">Trending now</h2>
+        <div class="section__tools">
+          <div class="tabs" role="tablist" aria-label="Filter products" id="tabs">
+            <button role="tab" data-tab="all" aria-selected="true">All</button>
+            <button role="tab" data-tab="sarees" aria-selected="false">Sarees</button>
+            <button role="tab" data-tab="men" aria-selected="false">Men</button>
+            <button role="tab" data-tab="gifting" aria-selected="false">Gifting</button>
+          </div>
+          <a class="link-arrow" href="https://www.ksicsilk.com/product/getArticleList" target="_blank" rel="noopener">View all <i class="arrow"></i></a>
+        </div>
+      </div>
+      <p class="filter-note" id="filterNote" hidden></p>
+      <div class="rail">
+        <div class="rail__track" id="trendTrack" aria-live="polite"></div>
+        <button class="circle-btn rail__btn rail__btn--prev" data-rail="trendTrack" data-dir="-1" aria-label="Scroll left"><i class="arrow arrow--left"></i></button>
+        <button class="circle-btn rail__btn rail__btn--next" data-rail="trendTrack" data-dir="1" aria-label="Scroll right"><i class="arrow"></i></button>
+      </div>
+    </section>
+
+    <!-- Craft -->
+    <section class="craft" id="craft">
+      <div class="craft__inner wrap">
+        <div class="craft__list">
+          <h2 class="display display--light">Woven to endure</h2>
+          <ol id="craftList">
+            <li class="is-active" data-img="assets/img/site/pallu-zari.webp"><span class="num">01</span><div><h3>The silk —</h3><p>Pure mulberry silk, reeled and woven in our own Mysuru factory</p></div></li>
+            <li data-img="assets/img/site/brocade.webp"><span class="num">02</span><div><h3>The zari —</h3><p>Real gold zari: 0.65% gold and 65% silver in every thread</p></div></li>
+            <li data-img="assets/img/products/cutout/47-550-6-k2-uni.webp" data-fit="contain"><span class="num">03</span><div><h3>The mark —</h3><p>GI Tag 11, with a unique code and hologram on every saree</p></div></li>
+            <li data-img="assets/img/site/centenary-badge.svg" data-fit="contain"><span class="num">04</span><div><h3>The legacy —</h3><p>Founded in 1912 by Maharaja Krishnaraja Wadiyar IV</p></div></li>
+          </ol>
+        </div>
+        <figure class="craft__media">
+          <img id="craftImg" src="assets/img/site/pallu-zari.webp" alt="Close-up of a green Mysore silk pallu woven with gold zari" loading="lazy">
+        </figure>
+        <aside class="craft__note" data-reveal>
+          <img src="assets/img/site/brocade.webp" alt="Purple silk woven with gold zari motifs and a green border" loading="lazy">
+          <div>
+            <h3>Pure silk meets<br>pure zari</h3>
+            <p>Hand-checked, sealed with a hologram and backed by our purity promise. Made to outlast trends — and generations.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Lookbook -->
+    <section class="section wrap" id="lookbook">
+      <div class="section__head">
+        <div>
+          <h2 class="display">Colour stories</h2>
+          <p class="section__sub">Tap a story to see every saree in that palette.</p>
+        </div>
+        <div class="pair">
+          <button class="plain-btn" data-rail="lookTrack" data-dir="-1" aria-label="Previous story"><i class="arrow arrow--left"></i></button>
+          <button class="plain-btn" data-rail="lookTrack" data-dir="1" aria-label="Next story"><i class="arrow"></i></button>
+        </div>
+      </div>
+      <div class="look-rail" id="lookTrack"></div>
+    </section>
+
+    <!-- Shop the look -->
+    <section class="section wrap" id="look">
+      <div class="section__head">
+        <h2 class="display">Shop the look</h2>
+        <div class="pair">
+          <button class="plain-btn" id="lookPrev" aria-label="Previous look"><i class="arrow arrow--left"></i></button>
+          <button class="plain-btn" id="lookNext" aria-label="Next look"><i class="arrow"></i></button>
+        </div>
+      </div>
+      <div class="stl">
+        <ul class="stl__list" id="stlList"></ul>
+        <div class="stl__stage" id="stlStage"></div>
+        <div class="stl__copy">
+          <p class="eyebrow eyebrow--muted" id="stlKicker"></p>
+          <h3 class="display" id="stlTitle"></h3>
+          <p id="stlText"></p>
+          <p class="stl__total">Look total <strong id="stlTotal"></strong></p>
+          <button class="btn btn--dark" id="stlAdd">Add all to bag <i class="arrow"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Journal -->
+    <section class="section wrap" id="journal">
+      <div class="section__head">
+        <h2 class="display">The journal</h2>
+        <a class="link-arrow" href="https://www.ksicsilk.com/Home/About" target="_blank" rel="noopener">View all <i class="arrow"></i></a>
+      </div>
+      <div class="journal">
+        <a class="story" href="https://www.ksicsilk.com/Home/About" target="_blank" rel="noopener" data-reveal>
+          <div class="story__img" style="--a:#5e1a26;--b:#240a0f"><span class="story__num">01</span><img src="assets/img/site/centenary-badge.svg" alt="KSIC Mysore Silk 100 grand years badge" loading="lazy" class="story__badge"></div>
+          <p class="story__kicker">Our story</p>
+          <h3>A century at the Mysuru looms <i class="arrow"></i></h3>
+        </a>
+        <a class="story" href="https://www.ksicsilk.com/Home/how_to_wear_saree" target="_blank" rel="noopener" data-reveal>
+          <div class="story__img story__img--photo"><span class="story__num">02</span><img src="assets/img/site/pallu-zari.webp" alt="Folds of a green and gold silk pallu" loading="lazy"></div>
+          <p class="story__kicker">Style guide</p>
+          <h3>How to drape a Mysore silk saree <i class="arrow"></i></h3>
+        </a>
+        <a class="story" href="https://www.ksicsilk.com/Home/showrooms?s=Mysuru" target="_blank" rel="noopener" data-reveal>
+          <div class="story__img" style="--a:#1f2b45;--b:#0b101c"><span class="story__num">03</span><img src="assets/img/site/models-group.webp" alt="Five women in colourful Mysore silk sarees" loading="lazy" class="story__group"></div>
+          <p class="story__kicker">Showrooms</p>
+          <h3>Visit KSIC in Mysuru, Bengaluru &amp; beyond <i class="arrow"></i></h3>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__grid wrap">
+      <div class="footer__brand">
+        <span class="footer__logo"><img src="assets/img/site/ksiclogo.png" alt="KSIC Mysore Silk — heritage weaves" width="210" height="77" loading="lazy"></span>
+        <p>Karnataka Silk Industries Corporation Ltd. — 100% pure silk since 1912. A Government of Karnataka enterprise.</p>
+        <div class="socials">
+          <a href="https://www.facebook.com/MysoreSilks/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H7v4h3v6h4v-6h3l1-4h-4V8z"/></svg></a>
+          <a href="mailto:info@KsicSilks.com" aria-label="Email"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="m3 7 9 6 9-6"/></svg></a>
+          <a href="tel:+918025586550" aria-label="Call"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-3 2a11 11 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A17 17 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <a href="#trending" data-filter="sarees">Sarees</a>
+        <a href="#trending" data-filter="men">Men</a>
+        <a href="#trending" data-filter="gifting">Gifting</a>
+        <a href="#lookbook">Colour stories</a>
+        <a href="https://www.ksicsilk.com/product/getArticleList" target="_blank" rel="noopener">All articles</a>
+      </div>
+      <div>
+        <h4>About</h4>
+        <a href="https://www.ksicsilk.com/Home/About" target="_blank" rel="noopener">Our story</a>
+        <a href="https://www.ksicsilk.com/Home/how_to_wear_saree" target="_blank" rel="noopener">How to wear a saree</a>
+        <a href="#craft">The zari story</a>
+        <a href="https://www.ksicsilk.com/Home/Contact" target="_blank" rel="noopener">Contact</a>
+      </div>
+      <div>
+        <h4>Showrooms</h4>
+        <a href="https://www.ksicsilk.com/Home/showrooms?s=Mysuru" target="_blank" rel="noopener">Mysuru</a>
+        <a href="https://www.ksicsilk.com/Home/showrooms?s=Bengaluru" target="_blank" rel="noopener">Bengaluru</a>
+        <a href="https://www.ksicsilk.com/Home/showrooms?s=hyderabad" target="_blank" rel="noopener">Hyderabad</a>
+        <a href="https://www.ksicsilk.com/Home/showrooms?s=davangere" target="_blank" rel="noopener">Davangere</a>
+        <a href="https://www.ksicsilk.com/Home/showrooms?s=channapatna" target="_blank" rel="noopener">Channapatna</a>
+      </div>
+      <div class="footer__news">
+        <h4>Join our world</h4>
+        <p>New weaves, festive edits and showroom events — first.</p>
+        <form class="news" id="newsForm" novalidate>
+          <label class="sr" for="newsEmail">Email address</label>
+          <input id="newsEmail" type="email" placeholder="Your email" autocomplete="email" required>
+          <button aria-label="Subscribe"><i class="arrow"></i></button>
+        </form>
+        <p class="news__msg" id="newsMsg" role="status"></p>
+        <p class="footer__contact">+91 80 2558 6550 · info@KsicSilks.com</p>
+      </div>
+    </div>
+    <div class="footer__base wrap">
+      <span>© <span id="year">2026</span> KSIC Mysore Silk. All rights reserved.</span>
+      <span class="footer__legal"><a href="https://www.ksicsilk.com/Home/Contact" target="_blank" rel="noopener">Contact</a><a href="https://www.ksicsilk.com/Home/About" target="_blank" rel="noopener">About</a></span>
+    </div>
+  </footer>
+
+  <!-- Drawer: bag + wishlist -->
+  <div class="drawer" id="drawer" hidden>
+    <div class="drawer__scrim" data-close></div>
+    <aside class="drawer__panel" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
+      <div class="drawer__head">
+        <h2 id="drawerTitle">Your bag</h2>
+        <button class="icon-btn" data-close aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      </div>
+      <div class="drawer__body" id="drawerBody"></div>
+      <div class="drawer__foot" id="drawerFoot"></div>
+    </aside>
+  </div>
+
+  <!-- Search -->
+  <div class="search" id="search" hidden>
+    <div class="search__panel wrap" role="dialog" aria-modal="true" aria-label="Search">
+      <div class="search__bar">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg>
+        <input id="searchInput" type="search" placeholder="Search sarees, kurtas, colours…" autocomplete="off">
+        <button class="icon-btn" data-close aria-label="Close search"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      </div>
+      <div class="search__chips" id="searchChips"></div>
+      <div class="search__results" id="searchResults"></div>
+    </div>
+  </div>
+
+  <!-- Film -->
+  <div class="film" id="film" hidden>
+    <div class="film__scrim" data-close></div>
+    <div class="film__box" role="dialog" aria-modal="true" aria-label="KSIC brand film">
+      <button class="icon-btn icon-btn--light" data-close aria-label="Close film"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      <video id="filmVideo" controls playsinline preload="none" poster="assets/video/ksic-film-poster.webp">
+        <source src="assets/video/ksic-film.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/catalog.js?v=3"></script>
+  <script src="assets/js/app.js?v=10"></script>
+</body>
+</html>

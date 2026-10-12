@@ -1,0 +1,538 @@
+{
+ "products": [
+  {
+   "id": 84,
+   "kind": "saree",
+   "link": "https://www.ksicsilk.com/product/getArticle/84",
+   "img": "https://clusterzap1.blob.core.windows.net/ksicsilksnew/o9o8by33.jpg",
+   "title": "Article 550/6 (Gandaberunda)",
+   "slug": "84-550-6-gandaberunda",
+   "price": 56102
+  },
+  {
+   "id": 62,
+   "kind": "saree",
+   "link": "https://www.ksicsilk.com/product/getArticle/62",
+   "img": "https://clusterzap1.blob.core.windows.net/ksicsilksnew/n3rjwjhx.jpg",
+   "title": "Article 550/8K8 UNI",
+   "slug": "62-550-8k8-uni",
+   "price": 153877
+  },
+  {
+   "id": 52,
+   "kind": "saree",
+   "link": "https://www.ksicsilk.com/product/getArticle/52",
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/2550_2G1018 UNI.jpg",
+   "title": "Article 2550/2G1018 UNI (Georgette Saree )",
+   "slug": "52-2550-2g1018-uni-georgette-saree",
+   "price": 62568
+  },
+  {
+   "id": 51,
+   "kind": "saree",
+   "link": "https://www.ksicsilk.com/product/getArticle/51",
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/560_2 UNI.jpg",
+   "title": "Article 560/2 UNI",
+   "slug": "51-560-2-uni",
+   "price": 28326
+  },
+  {
+   "id": 49,
+   "kind": "saree",
+   "link": "https://www.ksicsilk.com/product/getArticle/49",
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/550_6 UNI.jpg",
+   "title": "Article 550/6 UNI",
+   "slug": "49-550-6-uni",
+   "price": 56102
+  },
+  {
+   "id": 48,
+   "kind": "saree",
+   "link": "https://www.ksicsilk.com/product/getArticle/48",
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/550_6 K3 UNI.jpg",
+   "title": "Article 550/6 K3 UNI",
+   "slug": "48-550-6-k3-uni",
+   "price": 128726
+  },
+  {
+   "id": 47,
+   "kind": "saree",
+   "link": "https://www.ksicsilk.com/product/getArticle/47",
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/550_6 K2 UNI.jpg",
+   "title": "Article 550/6 K2 UNI",
+   "slug": "47-550-6-k2-uni",
+   "price": 144412
+  },
+  {
+   "id": 46,
+   "kind": "saree",
+   "link": "https://www.ksicsilk.com/product/getArticle/46",
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/550_6 CD.jpg",
+   "title": "Article 550/6 CD",
+   "slug": "46-550-6-cd",
+   "price": 59304
+  },
+  {
+   "id": 45,
+   "kind": "saree",
+   "link": "https://www.ksicsilk.com/product/getArticle/45",
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/550_4G 1018 UNI.jpg",
+   "title": "Article 550/4G 1018 UNI",
+   "slug": "45-550-4g-1018-uni",
+   "price": 64152
+  },
+  {
+   "id": 44,
+   "kind": "saree",
+   "link": "https://www.ksicsilk.com/product/getArticle/44",
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/550_4G 1018 CD.jpg",
+   "title": "Article 550/4G 1018 CD",
+   "slug": "44-550-4g-1018-cd",
+   "price": 67395
+  },
+  {
+   "id": 43,
+   "kind": "saree",
+   "link": "https://www.ksicsilk.com/product/getArticle/43",
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/550_4B UNI.jpg",
+   "title": "Article 550/4B UNI",
+   "slug": "43-550-4b-uni",
+   "price": 54130
+  },
+  {
+   "id": 42,
+   "kind": "saree",
+   "link": "https://www.ksicsilk.com/product/getArticle/42",
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/550_4 UNI.jpg",
+   "title": "Article 550/4 UNI",
+   "slug": "42-550-4-uni",
+   "price": 40307
+  },
+  {
+   "id": 40,
+   "kind": "saree",
+   "link": "https://www.ksicsilk.com/product/getArticle/40",
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/550_4 CD.jpg",
+   "title": "Article 550/4 CD",
+   "slug": "40-550-4-cd",
+   "price": 44278
+  },
+  {
+   "id": 39,
+   "kind": "saree",
+   "link": "https://www.ksicsilk.com/product/getArticle/39",
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/550_2G 1018.jpg",
+   "title": "Article 550/2G 1018",
+   "slug": "39-550-2g-1018",
+   "price": 57360
+  },
+  {
+   "id": 38,
+   "kind": "saree",
+   "link": "https://www.ksicsilk.com/product/getArticle/38",
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/550_2_8 CD.jpg",
+   "title": "Article 550/2/8 CD",
+   "slug": "38-550-2-8-cd",
+   "price": 60412
+  },
+  {
+   "id": 35,
+   "kind": "saree",
+   "link": "https://www.ksicsilk.com/product/getArticle/35",
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/550-2-Uni (D.No.jpg",
+   "title": "Article 550/2 UNI",
+   "slug": "35-550-2-uni",
+   "price": 31134
+  },
+  {
+   "id": 34,
+   "kind": "saree",
+   "link": "https://www.ksicsilk.com/product/getArticle/34",
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/550_2 SPC UNI.jpg",
+   "title": "Article 550/2 SPC UNI",
+   "slug": "34-550-2-spc-uni",
+   "price": 63459
+  },
+  {
+   "id": 33,
+   "kind": "saree",
+   "link": "https://www.ksicsilk.com/product/getArticle/33",
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/550_2 SPC CD.jpg",
+   "title": "Article 550/2 SPC CD",
+   "slug": "33-550-2-spc-cd",
+   "price": 66647
+  },
+  {
+   "id": 29,
+   "kind": "saree",
+   "link": "https://www.ksicsilk.com/product/getArticle/29",
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/550_2APUNI.jpg",
+   "title": "Article 550/2 AP UNI",
+   "slug": "29-550-2-ap-uni",
+   "price": 30958
+  },
+  {
+   "id": 80,
+   "kind": "item",
+   "link": "https://www.ksicsilk.com/product/getDetails/80",
+   "img": "https://clusterzap1.blob.core.windows.net/ksicsilksnew/41huc1ri.jpg",
+   "title": "Article Tie-Pocket sq Gift Set Box",
+   "slug": "80-tie-pocket-sq-gift-set-box",
+   "price": 3772
+  },
+  {
+   "id": 78,
+   "kind": "item",
+   "link": "https://www.ksicsilk.com/product/getDetails/78",
+   "img": "https://clusterzap1.blob.core.windows.net/ksicsilksnew/njbqevgg.jpg",
+   "title": "Article Tie-Pocket sq Gift Set Box",
+   "slug": "78-tie-pocket-sq-gift-set-box",
+   "price": 3772
+  },
+  {
+   "id": 77,
+   "kind": "item",
+   "link": "https://www.ksicsilk.com/product/getDetails/77",
+   "img": "https://clusterzap1.blob.core.windows.net/ksicsilksnew/udmnbk7l.jpg",
+   "title": "Article Tie-Pocket sq Gift Set Box",
+   "slug": "77-tie-pocket-sq-gift-set-box",
+   "price": 3772
+  },
+  {
+   "id": 76,
+   "kind": "item",
+   "link": "https://www.ksicsilk.com/product/getDetails/76",
+   "img": "https://clusterzap1.blob.core.windows.net/ksicsilksnew/sbbg6qnf.jpg",
+   "title": "Article Silk Kurta",
+   "slug": "76-silk-kurta",
+   "price": 6342
+  },
+  {
+   "id": 75,
+   "kind": "item",
+   "link": "https://www.ksicsilk.com/product/getDetails/75",
+   "img": "https://clusterzap1.blob.core.windows.net/ksicsilksnew/rdtwf6ni.jpg",
+   "title": "Article Silk Kurta",
+   "slug": "75-silk-kurta",
+   "price": 6342
+  },
+  {
+   "id": 74,
+   "kind": "item",
+   "link": "https://www.ksicsilk.com/product/getDetails/74",
+   "img": "https://clusterzap1.blob.core.windows.net/ksicsilksnew/vrsme2ok.jpg",
+   "title": "Article Silk Kurta",
+   "slug": "74-silk-kurta",
+   "price": 6342
+  },
+  {
+   "id": 73,
+   "kind": "item",
+   "link": "https://www.ksicsilk.com/product/getDetails/73",
+   "img": "https://clusterzap1.blob.core.windows.net/ksicsilksnew/zbuu9xut.jpg",
+   "title": "Article Silk Kurta",
+   "slug": "73-silk-kurta",
+   "price": 6342
+  },
+  {
+   "id": 72,
+   "kind": "item",
+   "link": "https://www.ksicsilk.com/product/getDetails/72",
+   "img": "https://clusterzap1.blob.core.windows.net/ksicsilksnew/q16davcp.jpg",
+   "title": "Article Silk Kurta",
+   "slug": "72-silk-kurta",
+   "price": 6342
+  },
+  {
+   "id": 71,
+   "kind": "item",
+   "link": "https://www.ksicsilk.com/product/getDetails/71",
+   "img": "https://clusterzap1.blob.core.windows.net/ksicsilksnew/yhvqa776.jpg",
+   "title": "Article Colour Silk Shirts",
+   "slug": "71-colour-silk-shirts",
+   "price": 5001
+  },
+  {
+   "id": 70,
+   "kind": "item",
+   "link": "https://www.ksicsilk.com/product/getDetails/70",
+   "img": "https://clusterzap1.blob.core.windows.net/ksicsilksnew/7nui9xfo.jpg",
+   "title": "Article Colour Silk Shirts",
+   "slug": "70-colour-silk-shirts",
+   "price": 5001
+  },
+  {
+   "id": 69,
+   "kind": "item",
+   "link": "https://www.ksicsilk.com/product/getDetails/69",
+   "img": "https://clusterzap1.blob.core.windows.net/ksicsilksnew/8ryfysmi.jpg",
+   "title": "Article Tie",
+   "slug": "69-tie",
+   "price": 2570
+  },
+  {
+   "id": 68,
+   "kind": "item",
+   "link": "https://www.ksicsilk.com/product/getDetails/68",
+   "img": "https://clusterzap1.blob.core.windows.net/ksicsilksnew/ue2yw0ro.jpg",
+   "title": "Article Tie",
+   "slug": "68-tie",
+   "price": 2570
+  },
+  {
+   "id": 67,
+   "kind": "item",
+   "link": "https://www.ksicsilk.com/product/getDetails/67",
+   "img": "https://clusterzap1.blob.core.windows.net/ksicsilksnew/ddsjf1k1.jpg",
+   "title": "Article Tie",
+   "slug": "67-tie",
+   "price": 2570
+  },
+  {
+   "id": 66,
+   "kind": "item",
+   "link": "https://www.ksicsilk.com/product/getDetails/66",
+   "img": "https://clusterzap1.blob.core.windows.net/ksicsilksnew/rtjd6lc8.jpg",
+   "title": "Article Tie",
+   "slug": "66-tie",
+   "price": 2570
+  },
+  {
+   "id": 63,
+   "kind": "item",
+   "link": "https://www.ksicsilk.com/product/getDetails/63",
+   "img": "https://clusterzap1.blob.core.windows.net/ksicsilksnew/abw3w3yq.jpg",
+   "title": "Article Tie",
+   "slug": "63-tie",
+   "price": 2570
+  },
+  {
+   "id": 58,
+   "kind": "item",
+   "link": "https://www.ksicsilk.com/product/getDetails/58",
+   "img": "https://clusterzap1.blob.core.windows.net/ksicsilksnew/y022znbu.jpg",
+   "title": "Article Colour Silk Shirts",
+   "slug": "58-colour-silk-shirts",
+   "price": 5001
+  }
+ ],
+ "designs": [
+  {
+   "id": 114,
+   "article": 84,
+   "img": "https://clusterzap1.blob.core.windows.net/ksicsilksnew/8ys809i5.jpg",
+   "name": "Design No Gandaberunda",
+   "link": "https://www.ksicsilk.com/product/getDesign/114"
+  },
+  {
+   "id": 107,
+   "article": 62,
+   "img": "https://clusterzap1.blob.core.windows.net/ksicsilksnew/vi3vi1jb.jpg",
+   "name": "Design No 529",
+   "link": "https://www.ksicsilk.com/product/getDesign/107"
+  },
+  {
+   "id": 86,
+   "article": 52,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/381.jpg",
+   "name": "Design No 381",
+   "link": "https://www.ksicsilk.com/product/getDesign/86"
+  },
+  {
+   "id": 82,
+   "article": 51,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/281.jpg",
+   "name": "Design No 281",
+   "link": "https://www.ksicsilk.com/product/getDesign/82"
+  },
+  {
+   "id": 81,
+   "article": 51,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/214.jpg",
+   "name": "Design No 214",
+   "link": "https://www.ksicsilk.com/product/getDesign/81"
+  },
+  {
+   "id": 80,
+   "article": 51,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/354.jpg",
+   "name": "Design No 354",
+   "link": "https://www.ksicsilk.com/product/getDesign/80"
+  },
+  {
+   "id": 71,
+   "article": 49,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/423.jpg",
+   "name": "Design No 423",
+   "link": "https://www.ksicsilk.com/product/getDesign/71"
+  },
+  {
+   "id": 73,
+   "article": 48,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/399.jpg",
+   "name": "Design No 399",
+   "link": "https://www.ksicsilk.com/product/getDesign/73"
+  },
+  {
+   "id": 72,
+   "article": 47,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/91.jpg",
+   "name": "Design No 91",
+   "link": "https://www.ksicsilk.com/product/getDesign/72"
+  },
+  {
+   "id": 68,
+   "article": 46,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/447.jpg",
+   "name": "Design No 447",
+   "link": "https://www.ksicsilk.com/product/getDesign/68"
+  },
+  {
+   "id": 44,
+   "article": 45,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/100UNI_A.jpg",
+   "name": "Design No 100UNIA",
+   "link": "https://www.ksicsilk.com/product/getDesign/44"
+  },
+  {
+   "id": 43,
+   "article": 45,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/100UNI_2.jpg",
+   "name": "Design No 100UNI",
+   "link": "https://www.ksicsilk.com/product/getDesign/43"
+  },
+  {
+   "id": 41,
+   "article": 45,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/100UNI_1.jpg",
+   "name": "Design No 100UNI",
+   "link": "https://www.ksicsilk.com/product/getDesign/41"
+  },
+  {
+   "id": 40,
+   "article": 44,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/100.jpg",
+   "name": "Design No 100",
+   "link": "https://www.ksicsilk.com/product/getDesign/40"
+  },
+  {
+   "id": 60,
+   "article": 43,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/78.jpg",
+   "name": "Design No 78",
+   "link": "https://www.ksicsilk.com/product/getDesign/60"
+  },
+  {
+   "id": 111,
+   "article": 42,
+   "img": "https://clusterzap1.blob.core.windows.net/ksicsilksnew/wvshafzi.jpg",
+   "name": "Design No 376",
+   "link": "https://www.ksicsilk.com/product/getDesign/111"
+  },
+  {
+   "id": 62,
+   "article": 42,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/174.jpg",
+   "name": "Design No 174",
+   "link": "https://www.ksicsilk.com/product/getDesign/62"
+  },
+  {
+   "id": 61,
+   "article": 42,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/355.jpg",
+   "name": "Design No 355",
+   "link": "https://www.ksicsilk.com/product/getDesign/61"
+  },
+  {
+   "id": 63,
+   "article": 40,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/380.jpg",
+   "name": "Design No 380",
+   "link": "https://www.ksicsilk.com/product/getDesign/63"
+  },
+  {
+   "id": 58,
+   "article": 39,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/162_A.jpg",
+   "name": "Design No 162A",
+   "link": "https://www.ksicsilk.com/product/getDesign/58"
+  },
+  {
+   "id": 57,
+   "article": 39,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/108.jpg",
+   "name": "Design No 108",
+   "link": "https://www.ksicsilk.com/product/getDesign/57"
+  },
+  {
+   "id": 56,
+   "article": 39,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/162.jpg",
+   "name": "Design No 162",
+   "link": "https://www.ksicsilk.com/product/getDesign/56"
+  },
+  {
+   "id": 51,
+   "article": 38,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/116_A.jpg",
+   "name": "Design No 116A",
+   "link": "https://www.ksicsilk.com/product/getDesign/51"
+  },
+  {
+   "id": 50,
+   "article": 38,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/433.jpg",
+   "name": "Design No 433",
+   "link": "https://www.ksicsilk.com/product/getDesign/50"
+  },
+  {
+   "id": 49,
+   "article": 38,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/116_2.jpg",
+   "name": "Design No 116",
+   "link": "https://www.ksicsilk.com/product/getDesign/49"
+  },
+  {
+   "id": 48,
+   "article": 38,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/116_1.jpg",
+   "name": "Design No 116",
+   "link": "https://www.ksicsilk.com/product/getDesign/48"
+  },
+  {
+   "id": 100,
+   "article": 35,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/550-2-Uni (D.No.jpg",
+   "name": "Design No 435",
+   "link": "https://www.ksicsilk.com/product/getDesign/100"
+  },
+  {
+   "id": 67,
+   "article": 34,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/462.jpg",
+   "name": "Design No 462",
+   "link": "https://www.ksicsilk.com/product/getDesign/67"
+  },
+  {
+   "id": 66,
+   "article": 33,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/441.jpg",
+   "name": "Design No 441",
+   "link": "https://www.ksicsilk.com/product/getDesign/66"
+  },
+  {
+   "id": 65,
+   "article": 33,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/236.jpg",
+   "name": "Design No 236",
+   "link": "https://www.ksicsilk.com/product/getDesign/65"
+  },
+  {
+   "id": 45,
+   "article": 29,
+   "img": "https://clusterzap1.blob.core.windows.net/legevakt/360.jpg",
+   "name": "Design No 360",
+   "link": "https://www.ksicsilk.com/product/getDesign/45"
+  }
+ ]
+}
