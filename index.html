@@ -59,13 +59,13 @@
     .pill { font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--gold-text); border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px; }
 
     /* ------------------------------------------------------------- hero */
-    .hero { position: relative; overflow: hidden; isolation: isolate; text-align: center; padding: clamp(36px, 7vw, 88px) 0 clamp(48px, 7vw, 88px); }
+    .hero { position: relative; overflow: hidden; isolation: isolate; text-align: center; padding: clamp(20px, 3.5vw, 40px) 0 clamp(36px, 5vw, 64px); }
     .hero::before { content: ""; position: absolute; inset: 0; z-index: -1; background: radial-gradient(55% 60% at 50% 18%, rgba(212, 160, 23, .13), transparent 70%); }
     .hero canvas { position: absolute; inset: 0; z-index: -1; width: 100%; height: 100%; pointer-events: none;
       -webkit-mask: radial-gradient(ellipse 85% 80% at 50% 40%, #000 25%, transparent 85%); mask: radial-gradient(ellipse 85% 80% at 50% 40%, #000 25%, transparent 85%); }
-    h1 { font-family: var(--serif); font-weight: 600; font-size: clamp(42px, 7.4vw, 92px); line-height: 1.02; letter-spacing: -.01em; margin: 18px auto 0; max-width: 15ch; text-wrap: balance; }
+    h1 { font-family: var(--serif); font-weight: 600; font-size: clamp(34px, 5vw, 64px); line-height: 1.05; letter-spacing: -.01em; margin: 12px auto 0; max-width: 22ch; text-wrap: balance; }
     .lede { max-width: 56ch; margin: 22px auto 0; color: var(--muted); font-size: clamp(17px, 1.6vw, 20px); text-wrap: pretty; }
-    .hero__ctas { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 32px; }
+    .hero__ctas { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 24px; }
 
     .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; padding: 0 26px; border-radius: 999px; font: 500 15px/1 var(--sans); letter-spacing: .05em; text-decoration: none; cursor: pointer; border: 1.5px solid transparent; transition: transform .4s var(--ease), background .3s, color .3s, border-color .3s; }
     .btn:hover { transform: translateY(-2px); }
@@ -74,7 +74,7 @@
     .btn--line:hover { border-color: var(--gold); color: var(--gold-text); }
 
     /* quick-jump thumbnails */
-    .jump { list-style: none; margin: clamp(40px, 6vw, 72px) 0 0; padding: 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: clamp(8px, 1.6vw, 18px); }
+    .jump { list-style: none; margin: clamp(28px, 4vw, 44px) 0 0; padding: 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: clamp(8px, 1.6vw, 18px); }
     .jump a { position: relative; display: block; aspect-ratio: 4 / 5; border-radius: 10px; overflow: hidden; border: 1px solid var(--line); text-decoration: none; transition: transform .5s var(--ease), border-color .3s; }
     .jump a:hover { transform: translateY(-6px); border-color: var(--gold); }
     .jump img { width: 100%; height: 100%; object-fit: cover; transition: transform .9s var(--ease); }
@@ -208,18 +208,17 @@
     <div class="wrap">
       <p class="kicker">Website redesign · Since 1912</p>
       <h1>Five ways to tell the <span class="gold">Mysore Silk</span> story</h1>
-      <p class="lede">Five complete design directions for the new KSIC website. Look through them here, then open any one live, or flip between them in a desktop, tablet and mobile preview.</p>
       <div class="hero__ctas">
         <a class="btn btn--gold" href="#designs">Explore the designs</a>
         <button class="btn btn--line js-preview" type="button" data-n="1">Start live preview</button>
       </div>
 
       <ul class="jump" aria-label="Jump to a design">
-        <li><a href="#v1"><img src="ksicsilk-website-1/assets/images/brand/hero-banner.jpg" alt="" width="1984" height="793" loading="eager" decoding="async" style="object-position: 38% 50%"><span><b>Version 1</b>Heritage Weaves</span></a></li>
-        <li><a href="#v2"><img src="assets/version-2-banner.jpg" alt="" width="1280" height="650" loading="eager" decoding="async" style="object-position: 70% 50%"><span><b>Version 2</b>Online Store</span></a></li>
-        <li><a href="#v3"><img src="ksicsilk-website-3/assets/img/hero-silk.webp" alt="" width="1840" height="1424" loading="eager" decoding="async" style="object-position: 62% 30%"><span><b>Version 3</b>Emerald &amp; Gold</span></a></li>
-        <li><a href="#v4"><img src="ksicsilk-website-4/assets/img/hero.webp" alt="" width="778" height="833" loading="eager" decoding="async" style="object-position: center 20%"><span><b>Version 4</b>Ivory &amp; Wine</span></a></li>
-        <li><a href="#v5"><img src="ksicsilk-website-5/assets/img/hero/hero-palace-green-1440.webp" alt="" width="1440" height="611" loading="eager" decoding="async" style="object-position: 66% 30%"><span><b>Version 5</b>Dasara Noir</span></a></li>
+        <li><a href="ksicsilk-website-1/index.html" target="_blank" rel="noopener" aria-label="Open Version 1 live (new tab)"><img src="ksicsilk-website-1/assets/images/brand/hero-banner.jpg" alt="" width="1984" height="793" loading="eager" decoding="async" style="object-position: 38% 50%"><span><b>Version 1</b>Heritage Weaves</span></a></li>
+        <li><a href="ksicsilk-website-2/index.html" target="_blank" rel="noopener" aria-label="Open Version 2 live (new tab)"><img src="assets/version-2-banner.jpg" alt="" width="1280" height="650" loading="eager" decoding="async" style="object-position: 70% 50%"><span><b>Version 2</b>Online Store</span></a></li>
+        <li><a href="ksicsilk-website-3/index.html" target="_blank" rel="noopener" aria-label="Open Version 3 live (new tab)"><img src="ksicsilk-website-3/assets/img/hero-silk.webp" alt="" width="1840" height="1424" loading="eager" decoding="async" style="object-position: 62% 30%"><span><b>Version 3</b>Emerald &amp; Gold</span></a></li>
+        <li><a href="ksicsilk-website-4/index.html" target="_blank" rel="noopener" aria-label="Open Version 4 live (new tab)"><img src="ksicsilk-website-4/assets/img/hero.webp" alt="" width="778" height="833" loading="eager" decoding="async" style="object-position: center 20%"><span><b>Version 4</b>Ivory &amp; Wine</span></a></li>
+        <li><a href="ksicsilk-website-5/index.html" target="_blank" rel="noopener" aria-label="Open Version 5 live (new tab)"><img src="ksicsilk-website-5/assets/img/hero/hero-palace-green-1440.webp" alt="" width="1440" height="611" loading="eager" decoding="async" style="object-position: 66% 30%"><span><b>Version 5</b>Dasara Noir</span></a></li>
       </ul>
     </div>
   </header>
